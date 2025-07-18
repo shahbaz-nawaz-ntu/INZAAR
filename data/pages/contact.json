@@ -1,0 +1,27 @@
+{
+  "contactOne": [
+    {
+      "title": "Contact Phone Number",
+      "numOne": "+92 334 1112454",
+      "numTwo": "",
+      "iconImage": "/images/icons/Number.png",
+      "address": ""
+    },
+    {
+      "title": "Our Email Address",
+      "mailOne": "admin@inzaar.org",
+      "mailTwo": "",
+      "iconImage": "/images/icons/email.png",
+      "numOne": "",
+      "address": "",
+      "numTwo": ""
+    },
+    {
+      "title": "Our Location",
+      "address": "5678 Bangla Main Road, cities 580 GBnagla, example 54786",
+      "iconImage": "/images/icons/Social.png",
+      "numOne": "",
+      "numTwo": ""
+    }
+  ]
+}
