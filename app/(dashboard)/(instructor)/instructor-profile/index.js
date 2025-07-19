@@ -1,5 +1,5 @@
 import BackToTop from "@/app/backToTop";
-import InstructorProfile from "./(profile)";
+import InstructorProfile from "@/components/pages/InstructorProfile";
 
 export const metadata = {
   title: "Instructor Profile - Online Courses & Education NEXTJS14 Template",

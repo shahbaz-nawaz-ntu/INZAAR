@@ -1,5 +1,5 @@
 import BackToTop from "@/app/backToTop";
-import OrderHistoryPage from "./(order-history)";
+import OrderHistoryPage from "@/components/pages/OrderHistoryPage";
 
 export const metadata = {
   title:

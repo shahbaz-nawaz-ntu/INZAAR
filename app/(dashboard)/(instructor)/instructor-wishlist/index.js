@@ -1,5 +1,5 @@
 import BackToTop from "@/app/backToTop";
-import WishlistPage from "./(wishlist)";
+import WishlistPage from "@/components/pages/WishlistPage";
 
 export const metadata = {
   title:

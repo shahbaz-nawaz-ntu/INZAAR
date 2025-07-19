@@ -1,5 +1,5 @@
 import BackToTop from "@/app/backToTop";
-import QuizAttemptsPage from "./(quiz-attempts)";
+import QuizAttemptsPage from "@/components/pages/QuizAttemptsPage";
 
 export const metadata = {
   title:

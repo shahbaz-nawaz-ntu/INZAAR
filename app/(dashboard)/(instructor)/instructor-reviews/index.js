@@ -1,5 +1,5 @@
 import BackToTop from "@/app/backToTop";
-import ReviewPage from "./(reviews)";
+import ReviewPage from "@/components/pages/ReviewPage";
 
 export const metadata = {
   title:

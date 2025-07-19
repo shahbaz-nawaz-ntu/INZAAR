@@ -1,5 +1,5 @@
 import BackToTop from "@/app/backToTop";
-import AssignmentsPage from "./(assignments)";
+import AssignmentsPage from "@/components/pages/AssignmentsPage";
 
 export const metadata = {
   title:

@@ -1,5 +1,5 @@
 import BackToTop from "@/app/backToTop";
-import PersonalCoursesPage from "./(personal-courses)";
+import PersonalCoursesPage from "@/components/pages/PersonalCoursesPage";
 
 export const metadata = {
   title:
@@ -11,7 +11,6 @@ const PersonalCoursesLayout = () => {
   return (
     <>
       <PersonalCoursesPage />
-
       <BackToTop />
     </>
   );

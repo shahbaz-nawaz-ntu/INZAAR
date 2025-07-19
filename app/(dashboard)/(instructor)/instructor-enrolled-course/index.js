@@ -1,5 +1,5 @@
 import BackToTop from "@/app/backToTop";
-import EnrolledCoursePage from "./(enrolled-course)";
+import EnrolledCoursePage from "./(enrolled-course)/abcd";
 
 export const metadata = {
   title: "Enrolled Course - Online Courses & Education NEXTJS14 Template",

@@ -1,5 +1,5 @@
 import BackToTop from "@/app/backToTop";
-import AnnouncementsPage from "./(announcements)";
+import AnnouncementsPage from "@/components/pages/AnnouncementsPage";
 
 export const metadata = {
   title:

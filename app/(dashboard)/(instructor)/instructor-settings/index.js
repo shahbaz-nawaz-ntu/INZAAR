@@ -1,5 +1,5 @@
 import BackToTop from "@/app/backToTop";
-import SettingPage from "./(settings)";
+import SettingPage from "@/components/pages/SettingPage";
 
 export const metadata = {
   title: "Instructor Settings - Online Courses & Education NEXTJS14 Template",
