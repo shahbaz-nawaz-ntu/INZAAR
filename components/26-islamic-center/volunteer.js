@@ -14,10 +14,10 @@ export default function VolunteerPage() {
               <p className="fs-5 fw-semibold text-dark mb-3">
                 Volunteer with us in Dawah activities:
               </p>
-              <Link href={"/Volunteer"} className="btn d-flex align-items-center gap-2 gradient-background text-white">
+              <a href={"/Volunteer"} className="btn d-flex align-items-center gap-2 gradient-background text-white">
                 Join Now
                 <ArrowRight size={16} />
-              </Link>
+              </a>
             </div>
           </div>
 
