@@ -99,10 +99,10 @@ const IslamicCenter = ({ blogdata }) => {
                     </div>
                     <div className="thumb-1">
                       <Image
-                        style={{marginLeft:"200px"}}
+                        style={{marginLeft:"0px"}}
                         data-parallax='{"x": 0, "y": -30}'
                         src={arabianImg}
-                        width={410}
+                        width={300}
                         height={372}
                         alt="Feature"
                       />

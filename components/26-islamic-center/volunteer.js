@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Link } from 'lucide-react';
 
 export default function VolunteerPage() {
   return (
@@ -10,13 +10,14 @@ export default function VolunteerPage() {
           {/* Header Card */}
           <div className="col-md-4 d-flex p-4">
             <div className="bg-white p-4 rounded shadow-sm w-100 h-100">
-              <h1 className="fs-5 fw-semibold text-dark mb-3">
+              <h3>Be a Part of Our Mission</h3>
+              <p className="fs-5 fw-semibold text-dark mb-3">
                 Volunteer with us in Dawah activities:
-              </h1>
-              <button className="btn d-flex align-items-center gap-2 gradient-background text-white">
+              </p>
+              <Link href={"/Volunteer"} className="btn d-flex align-items-center gap-2 gradient-background text-white">
                 Join Now
                 <ArrowRight size={16} />
-              </button>
+              </Link>
             </div>
           </div>
 
