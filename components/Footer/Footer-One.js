@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "../../public/images/logo/logo.png";
+import logo from "../../public/images/new/logo.png";
 import logoLight from "../../public/images/dark/logo/logo-light.png";
 import footerBg from "../../public/images/shape/islamic-footer-bg.png";
 import footerMoon from "../../public/images/shape/i-moon.png";
@@ -75,15 +75,15 @@ const FooterOne = ({ isBox, bgColor, newsletterBorder, islamic }) => {
                           {isLightTheme ? (
                             <Image
                               src={logo}
-                              width={152}
+                              // width={152}
                               height={50}
                               priority={true}
                               alt="Education Logo Images"
                             />
                           ) : (
                             <Image
-                              src={logoLight}
-                              width={152}
+                              src={logo}
+                              // width={152}
                               height={50}
                               priority={true}
                               alt="Education Logo Images"

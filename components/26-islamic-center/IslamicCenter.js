@@ -97,7 +97,7 @@ const IslamicCenter = ({ blogdata }) => {
                     <div className="stars">
                       <Image src={star} width={31} height={32} alt="image" />
                     </div>
-                    <div className="thumb-1">
+                    <div className="thumb-1 d-md-block d-none">
                       <Image
                         style={{marginLeft:"0px"}}
                         data-parallax='{"x": 0, "y": -30}'
@@ -107,7 +107,7 @@ const IslamicCenter = ({ blogdata }) => {
                         alt="Feature"
                       />
                     </div>
-                    <div className="thumb-2">
+                    <div className="thumb-2 ">
                       <Image
                         data-parallax='{"x": 0, "y": 30}'
                         src={readQuranImg}

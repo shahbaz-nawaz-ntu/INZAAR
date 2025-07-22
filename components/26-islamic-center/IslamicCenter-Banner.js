@@ -122,9 +122,9 @@ const IslamicCenterBanner = () => {
                 />
               </span>
             </div> */}
-            <div className="quran scene">
+            <div className="quran scene ml-10">
               <span data-depth="1">
-                <Image src={book} width={72} height={48} alt="Banner Shape" />
+                <Image src={book} width={85} height={60} alt="Banner Shape" />
               </span>
             </div>
           </div>
@@ -163,7 +163,7 @@ const IslamicCenterBanner = () => {
                   </h1>
                   <p className="description">
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. 
+                    do amet sint.
                     <span className="bold">Velit officia consequat.</span>
                   </p>
                   <Link

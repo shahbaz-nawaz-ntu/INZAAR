@@ -18,6 +18,11 @@ Copyright (c) 2015 Daniel Eden
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  .width-set {
+    width: 100px;
+  }
+
   .b-green{
     background-color: #daf3e9;
   }

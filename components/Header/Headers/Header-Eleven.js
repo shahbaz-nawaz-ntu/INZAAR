@@ -62,8 +62,8 @@ const HeaderEleven = ({
                       />
                     ) : (
                       <Image
-                        src={logoLight}
-                        width={152}
+                        src={logo}
+                        // width={152}
                         height={50}
                         priority={true}
                         alt="Education Logo Images"
