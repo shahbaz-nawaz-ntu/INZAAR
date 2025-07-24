@@ -7,7 +7,7 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2015 Daniel Eden
 */
 
-.animated {
+  .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
@@ -43,6 +43,66 @@ Copyright (c) 2015 Daniel Eden
   .gradient-background{
     background: linear-gradient(90deg, #725eeb, #b466e7);
   }
+
+  .img1 {
+    width: 15%;
+    /* height: 240px; */
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .img2{
+    width: 20%;
+    position: relative;
+    right: -30%;
+    top: 2%;
+  }
+
+  .img3{
+    width: 10%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  .img4{
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 28%;
+  }
+
+  .img5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    /* left: 300px; */
+  }
+
+  .img5-1{
+    width: 9rem;
+  }
+
+  .img5-text {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .gradient-diagonal {
+    background: linear-gradient(to bottom left, #b666e7, #3758ee); /* purple to blue */
+    color: white; /* optional */
+  }
+  
+
+  .textpurple{
+    /* color: linear-gradient(90deg,#b466e7, #8e81dc); */
+    color: #b466e7;
+  }
   .text-white{
   color: white;
   }
@@ -67,7 +127,9 @@ Copyright (c) 2015 Daniel Eden
     -webkit-animation-duration: .75s;
     animation-duration: .75s;
   }
-  
+  .radius{
+    border-radius: 5px;
+  }
   
   @-webkit-keyframes bounce {
     from, 20%, 53%, 80%, to {

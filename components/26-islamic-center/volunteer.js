@@ -5,7 +5,7 @@ import { ArrowRight, Link } from 'lucide-react';
 export default function VolunteerPage() {
   return (
     <div className="min-vh-100 bg-light py-5">
-      <div className="container">
+      <div>
         <div className="row g-4">
           {/* Header Card */}
           <div className="col-md-4 d-flex p-4">

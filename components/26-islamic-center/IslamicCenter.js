@@ -2,10 +2,10 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import BlogGrid from "../Blogs/BlogGrid";
+// import BlogGrid from "../Blogs/BlogGrid";
 import TestimonialFour from "../Testimonials/Testimonial-Four";
 
-import TeamData from "../../data/elements/team.json";
+// import TeamData from "../../data/elements/team.json";
 import AccordionData from "../../data/elements/accordion.json";
 import CourseDetails from "../../data/course-details/courseData.json";
 
@@ -346,9 +346,7 @@ const IslamicCenter = ({ blogdata }) => {
               </div>
               <div className="col-lg-6 mt--30">
                 <div className="accordion-thumbnail">
-                  {/* <div className="moon">
-                    <Image src={faqMoon} width={64} height={67} alt="Moon" />
-                  </div> */}
+
                   <div className="shape">
                     <Image
                       src={faqShape}
