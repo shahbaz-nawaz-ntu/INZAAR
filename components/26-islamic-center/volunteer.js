@@ -4,12 +4,12 @@ import { ArrowRight, Link } from 'lucide-react';
 
 export default function VolunteerPage() {
   return (
-    <div className="min-vh-100 bg-light py-5">
-      <div>
-        <div className="row g-4">
+    <div className="min-vh-10 bg-light py-5">
+      <div className="container">
+        <div className="row g-4 py-5">
           {/* Header Card */}
           <div className="col-md-4 d-flex p-4">
-            <div className="bg-white p-4 rounded shadow-sm w-100 h-100">
+            <div className="bg-light p-4 rounded ">
               <h3>Be a Part of Our Mission</h3>
               <p className="fs-5 fw-semibold text-dark mb-3">
                 Volunteer with us in Dawah activities:
@@ -23,7 +23,7 @@ export default function VolunteerPage() {
 
           {/* Feedback Card */}
           <div className="col-md-4 d-flex ">
-            <div className="bg-warning bg-opacity-25 p-4 rounded shadow-sm w-100 h-100">
+            <div className="bg-warning bg-opacity-25 p-5 rounded shadow-sm w-100 h-100">
               <div className="d-flex align-items-center justify-content-center rounded mb-3" style={{ width: '48px', height: '48px' }}>
                 <Image src="/images/icons/icon3.png" width={40} height={40} alt="Feedback" />
               </div>
@@ -36,7 +36,7 @@ export default function VolunteerPage() {
 
           {/* Spread the Word */}
           <div className="col-md-4 d-flex">
-            <div className="c-pink bg-opacity-25 p-4 rounded shadow-sm w-100 h-100">
+            <div className="c-pink bg-opacity-25 p-5 rounded shadow-sm w-100 h-100">
               <div className="d-flex align-items-center justify-content-center rounded mb-3" style={{ width: '48px', height: '48px' }}>
                 <Image src="/images/icons/icon1.png" width={40} height={40} alt="Spread the Word" />
               </div>
@@ -48,9 +48,10 @@ export default function VolunteerPage() {
           </div>
 
           {/* Graphic & Video Editors */}
+          
           <div className="col-md-4 d-flex">
-            <div className="d-pink bg-opacity-25 p-4 rounded shadow-sm w-100 h-100">
-              <div className="d-flex align-items-center justify-content-center rounded mb-3" style={{ width: '48px', height: '48px' }}>
+            <div className="d-pink bg-opacity-25 p-5 rounded shadow-sm w-100 h-100">
+              <div className="d-flex align-items-center justify-content-center rounded mb-3 " style={{ width: '48px', height: '48px' }}>
                 <Image src="/images/icons/icon2.png" width={40} height={40} alt="Graphic Editing" />
               </div>
               <h6 className='fw-bold'>Graphic & Video Editors Welcome</h6>
@@ -62,7 +63,7 @@ export default function VolunteerPage() {
 
           {/* Translate & Transcribe */}
           <div className="col-md-4 d-flex">
-            <div className="bg-opacity-25 p-4 rounded shadow-sm w-100 h-100 b-green">
+            <div className="bg-opacity-25 p-5 rounded shadow-sm w-100 h-100 b-green">
               <div className="d-flex align-items-center justify-content-center rounded mb-3" style={{ width: '48px', height: '48px' }}>
                 <Image src="/images/icons/icon4.png" width={40} height={40} alt="Translate & Transcribe" />
               </div>
@@ -75,7 +76,7 @@ export default function VolunteerPage() {
 
           {/* Join Digital Team */}
           <div className="col-md-4 d-flex">
-            <div className="e-purple bg-opacity-25 p-4 rounded shadow-sm w-100 h-100">
+            <div className="e-purple bg-opacity-25 p-5 rounded shadow-sm w-100 h-100">
               <div className="d-flex align-items-center justify-content-center rounded mb-3" style={{ width: '48px', height: '48px' }}>
                 <Image src="/images/icons/icon5.png" width={40} height={40} alt="Join Digital Team" />
               </div>

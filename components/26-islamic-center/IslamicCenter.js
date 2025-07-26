@@ -2,10 +2,10 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-// import BlogGrid from "../Blogs/BlogGrid";
+import BlogGrid from "../Blogs/BlogGrid";
 import TestimonialFour from "../Testimonials/Testimonial-Four";
 
-// import TeamData from "../../data/elements/team.json";
+import TeamData from "../../data/elements/team.json";
 import AccordionData from "../../data/elements/accordion.json";
 import CourseDetails from "../../data/course-details/courseData.json";
 
@@ -46,7 +46,7 @@ const IslamicCenter = ({ blogdata }) => {
                     </div>
                     <h5 className="title w-300 mb--10 mt--15">
                     Learn at Your Own Pace                    </h5>
-                    <p>
+                    <p className="description" style={{ fontSize: "12px" }}>
                     Learn anytime, progress at your pace.   </p>               </div>
                 </div>
               </div>
@@ -59,7 +59,7 @@ const IslamicCenter = ({ blogdata }) => {
                     </div>
                     <h5 className="title w-500 mb--10 mt--15">
                     Track Progress Easily                    </h5>
-                    <p>
+                    <p className="description" style={{ fontSize: "12px" }}>
                     Clear progress tracking for instructors and students.                    </p>
                   </div>
                 </div>
@@ -73,8 +73,8 @@ const IslamicCenter = ({ blogdata }) => {
                     </div>
                     <h5 className="title w-500 mb--10 mt--15">
                     Stay Connected and Engaged                    </h5>
-                    <p className="description">
-                    Quizzes, videos, and feedback make learning interactive.                   </p>
+                  <p className="description" style={{ fontSize: "12px" }}>
+                     Quizzes, videos, and feedback make learning interactive.                   </p>
                   </div>
                 </div>
               </div>
@@ -346,7 +346,9 @@ const IslamicCenter = ({ blogdata }) => {
               </div>
               <div className="col-lg-6 mt--30">
                 <div className="accordion-thumbnail">
-
+                  {/* <div className="moon">
+                    <Image src={faqMoon} width={64} height={67} alt="Moon" />
+                  </div> */}
                   <div className="shape">
                     <Image
                       src={faqShape}

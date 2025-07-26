@@ -51,7 +51,7 @@ export default function Signup() {
           />
         </div>
 
-        <div className="col-md-6 d-flex p-4 gap-0 align-items-center justify-content-center">
+        <div className="col-md-6 d-flex  gap-0 align-items-center justify-content-center">
           <form className="w-75">
             <h4 className="mb-4 fw-bold">Create New Account</h4>
 
