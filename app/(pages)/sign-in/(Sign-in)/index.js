@@ -9,48 +9,48 @@ export default function Signin() {
   return (
 
     <>
-   
+
       <div className="d-flex  vh-100">
         {/* Left Section */}
         <div className="d-none relative gradient-diagonal d-md-flex flex-column  justify-content-center align-items-center p-5 w-75 h-100 text-white">
-        <Image
+          <Image
             src={img1}
             width={59}
             height={59}
             alt="Author Images"
             className="img1"
-        />
-        <div className="img5">
-        <Image
-            src={img5}
-            width={59}
-            height={59}
-            alt="Author Images"
-            className="img5-1"
-        />
-        <div className="img5-text">Inzaar.org</div>
-        </div>
-        <Image
+          />
+          <div className="img5">
+            <Image
+              src={img5}
+              width={59}
+              height={59}
+              alt="Author Images"
+              className="img5-1"
+            />
+            <div className="img5-text">Inzaar.org</div>
+          </div>
+          <Image
             src={img2}
             width={59}
             height={59}
             alt="Author Images"
             className="img2"
-        />
-        <Image
+          />
+          <Image
             src={img3}
             width={59}
             height={59}
             alt="Author Images"
             className="img3"
-        />
-        <Image
+          />
+          <Image
             src={img4}
             width={59}
             height={59}
             alt="Author Images"
             className="img4"
-        />
+          />
         </div>
 
         {/* Right Section */}
@@ -69,9 +69,9 @@ export default function Signin() {
                 <input type="password" className="form-control" placeholder="Password" />
               </div>
               <div>
-              <a href="/forgotPassword">Forgot Password?</a>
+                <a href="/forgotPassword">Forgot Password?</a>
               </div>
-              <a href="/" className="gradient-background text-white py-3 radius border-0 btn-primary w-100 mb-3" type="submit">
+              <a href="/" className="btn w-100 mb-3 text-white rounded py-3 gradient-background">
                 Sign in
               </a>
             </form>

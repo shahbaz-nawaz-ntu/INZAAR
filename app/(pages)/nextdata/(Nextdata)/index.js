@@ -103,9 +103,9 @@ export default function NextData() {
 
                         {/* Submit Button */}
                         <div className="d-grid mb-3">
-                            <button className="gradient-background text-white py-3 radius border-0 btn-primary w-100 mb-3" type="submit">
+                            <a href="/" className="btn w-100 mb-3 text-white rounded py-3 gradient-background border-0">
                                 Completed
-                            </button>
+                            </a>
                         </div>
 
                         <p className="text-center">
