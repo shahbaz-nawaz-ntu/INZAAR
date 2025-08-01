@@ -44,7 +44,7 @@ const IslamicCenter = ({ blogdata }) => {
                     <div className="icon bg-color-primary">
                     <i class="fa fa-book"></i>
                     </div>
-                    <h5 className="title w-300 mb--10 mt--15">
+                    <h5 className="title w-500 mb--10 mt--15">
                     Learn at Your Own Pace                    </h5>
                     <p className="description" style={{ fontSize: "12px" }}>
                     Learn anytime, progress at your pace.   </p>               </div>
