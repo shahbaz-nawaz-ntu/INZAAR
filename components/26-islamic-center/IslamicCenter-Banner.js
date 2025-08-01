@@ -3,16 +3,16 @@ import { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-// import Icon2 from "../../public/images/shape/i-read-quran.png";
-// import shape1 from "../../public/images/shape/i-shape-1.png";
-// import shape2 from "../../public/images/shape/i-shape-2.png";
-// import star from "../../public/images/shape/i-star.png";
-// import moon from "../../public/images/shape/i-moon.png";
+import Icon2 from "../../public/images/shape/i-read-quran.png";
+import shape1 from "../../public/images/shape/i-shape-1.png";
+import shape2 from "../../public/images/shape/i-shape-2.png";
+import star from "../../public/images/shape/i-star.png";
+import moon from "../../public/images/shape/i-moon.png";
 import book from "../../public/images/shape/i-book.png";
-// import mosque from "../../public/images/shape/i-mosque.png";
-// import graduation from "../../public/images/shape/i-graduation.png";
+import mosque from "../../public/images/shape/i-mosque.png";
+import graduation from "../../public/images/shape/i-graduation.png";
 import textBook from "../../public/images/shape/i-text-book.png";
-// import iDots from "../../public/images/shape/i-dots.png";
+import iDots from "../../public/images/shape/i-dots.png";
 import iArabian from "../../public/images/banner/i-arabian.png";
 import lIcon from "../../public/images/shape/l-icon.png";
 import ialbum from "../../public/images/shape/i-album.png";
@@ -78,7 +78,7 @@ const IslamicCenterBanner = () => {
               className="shape-1"
               style={{ overflow: "hidden", position: "absolute" }}
             >
-              {/* <Image
+              <Image
                 style={{
                   transform: `translateY(${offset}px)`,
                   transition: "transform 0.6s ease-out",
@@ -87,9 +87,9 @@ const IslamicCenterBanner = () => {
                 width={130}
                 height={184}
                 alt="Banner Shape"
-              /> */}
+              /> 
             </div>
-            {/* <div
+             <div
               className="shape-2"
               style={{ overflow: "hidden", position: "absolute" }}
             >
@@ -121,14 +121,14 @@ const IslamicCenterBanner = () => {
                   alt="Banner Shape"
                 />
               </span>
-            </div> */}
+            </div> 
             <div className="quran scene ml-10">
               <span data-depth="1">
                 <Image src={book} width={85} height={60} alt="Banner Shape" />
               </span>
             </div>
           </div>
-          {/* <div className="shape-wrapper">
+           <div className="shape-wrapper">
             <div className="banner">
               <Image
                 src={mosque}
@@ -137,12 +137,12 @@ const IslamicCenterBanner = () => {
                 alt="Banner Shape"
               />
             </div>
-          </div> */}
+          </div> 
           <div className="container">
             <div className="row flex-column-reverse flex-xl-row">
               <div className="col-xl-7">
                 <div className="inner">
-                  {/* <h6 className="subtitle">
+                  <h6 className="subtitle">
                     <Image
                       src={graduation}
                       width={20}
@@ -150,7 +150,7 @@ const IslamicCenterBanner = () => {
                       alt="Banner Icon"
                     />{" "}
                     Learn Quran For Peace
-                  </h6> */}
+                  </h6> 
                   <h1 className="title">
                     Eternal success based {" "}
                     <Image
@@ -186,12 +186,12 @@ const IslamicCenterBanner = () => {
                 <div className="rbt-banner-26-thumbnails">
                   <div className="shape-dot scene">
                     <span data-depth="1">
-                      {/* <Image
+                     <Image
                         src={iDots}
                         width={95}
                         height={87}
                         alt="Banner Shape"
-                      /> */}
+                      /> 
                     </span>
                   </div>
                   <div className="main-img">
@@ -232,7 +232,7 @@ const IslamicCenterBanner = () => {
                   </div>
                   <div className="rbt-banner-26-team">
                     <div className="team-cont">
-                      {/* <span className="icon">
+                      <span className="icon">
                         <Image
                           src={Icon2}
                           width={34}
@@ -240,7 +240,7 @@ const IslamicCenterBanner = () => {
                           alt="image"
                           unoptimized={true}
                         />
-                      </span> */}
+                      </span> 
                       <div className="cont">
                         <h6 className="satis-title">36k+</h6>
                         <span className="satis-subtitle">Active Students</span>

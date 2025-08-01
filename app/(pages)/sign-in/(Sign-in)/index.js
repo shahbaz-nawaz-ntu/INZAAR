@@ -68,9 +68,12 @@ export default function Signin() {
                 <label>Password</label>
                 <input type="password" className="form-control" placeholder="Password" />
               </div>
-              <button className="gradient-background text-white py-3 radius border-0 btn-primary w-100 mb-3" type="submit">
+              <div>
+              <a href="/forgotPassword">Forgot Password?</a>
+              </div>
+              <a href="/" className="gradient-background text-white py-3 radius border-0 btn-primary w-100 mb-3" type="submit">
                 Sign in
-              </button>
+              </a>
             </form>
 
             <div className="text-center text-muted my-2 mb-4">Or</div>

@@ -95,9 +95,9 @@ export default function Signup() {
             </div>
 
             <div className="d-grid mb-3">
-              <button className="gradient-background text-white py-3 radius border-0 btn-primary w-100 mb-3" type="submit">
+              <a href="/nextdata" className="gradient-background text-white py-3 radius border-0 btn-primary w-100 mb-3" type="submit">
                 Next
-              </button>
+              </a>
             </div>
 
             <div className="form-check mb-2">

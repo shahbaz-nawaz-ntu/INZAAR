@@ -18,7 +18,7 @@ const HeaderRightThree = ({ btnClass, btnText }) => {
         <li className="access-icon rbt-mini-cart">
           <Link
             className="rbt-cart-sidenav-activation rbt-round-btn"
-            href="#"
+            href="/sign-in"
             // onClick={() => setCart(!cartToggle)}
           >
             Login
@@ -41,7 +41,7 @@ const HeaderRightThree = ({ btnClass, btnText }) => {
       </ul>
 
       <div className="rbt-btn-wrapper d-none d-xl-block ml--20">
-        <Link className={`rbt-btn ${btnClass}`} href="#">
+        <Link className={`rbt-btn ${btnClass}`} href="/sign-up">
           {/* <span data-text={`${btnText}`}>{btnText}</span> */}
           Signup for Free
         </Link>

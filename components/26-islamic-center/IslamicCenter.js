@@ -13,7 +13,7 @@ import CourseDetails from "../../data/course-details/courseData.json";
 // import brand2 from "../../public/images/brand/partner-1.webp";
 // import brand3 from "../../public/images/brand/partner-6.webp";
 // import brand4 from "../../public/images/brand/partner-3.webp";
-// import faqMoon from "../../public/images/shape/faq-moon.png";
+import faqMoon from "../../public/images/shape/faq-moon.png";
 import faqShape from "../../public/images/shape/a-dubble-shape.png";
 import faqImg from "../../public/images/others/faq-02.png";
 import faqImg2 from "../../public/images/others/faq-01.png";
@@ -346,9 +346,9 @@ const IslamicCenter = ({ blogdata }) => {
               </div>
               <div className="col-lg-6 mt--30">
                 <div className="accordion-thumbnail">
-                  {/* <div className="moon">
+                  <div className="moon">
                     <Image src={faqMoon} width={64} height={67} alt="Moon" />
-                  </div> */}
+                  </div>
                   <div className="shape">
                     <Image
                       src={faqShape}
@@ -449,10 +449,10 @@ const IslamicCenter = ({ blogdata }) => {
         </div> */}
         <VolunteerPage/>
         
-        <div className="rbt-testimonial-area bg-color-white rbt-section-gap">
+        {/* <div className="rbt-testimonial-area bg-color-white rbt-section-gap">
           <TestimonialFour leftContent={true} />
           <DonatePage/>
-          {/* <div className="container">
+          <div className="container">
             <div className="mt--80">
               <div className="rbt-brand-title-wrap">
                 <h5 className="rbt-brand-title w-600 text-center mb-0">
@@ -528,8 +528,8 @@ const IslamicCenter = ({ blogdata }) => {
                 </li>
               </ul>
             </div>
-          </div> */}
-        </div>
+          </div>
+        </div> */}
 
         {/* <div className="rbt-blog-area rbt-sec-cir-shadow-1 rbt-section-gap bg-color-extra2 rbt-section-box">
           <div className="gradient-shape-top version-02"></div>
