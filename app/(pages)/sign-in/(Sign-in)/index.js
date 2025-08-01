@@ -81,7 +81,7 @@ export default function Signin() {
             <button className="btn btn-light py-4 radius border-0 w-100 mb-3">Continue As A Guest</button>
 
             <div className="text-center gap-4">
-              No account? <a href="#" className="text-decoration-non textpurple my-2">Create one</a>
+              No account? <a href="/sign-up" className="text-decoration-non textpurple my-2">Create one</a>
             </div>
 
             <div className="text-center gap-4 mt-2">
