@@ -45,7 +45,7 @@ export default function Signin() {
         </div>
 
         {/* Right Section */}
-        <div className="d-flex flex-column justify-content-center align-items-center w-100 w-md-50 px-4">
+        <div className="d-flex flex-column justify-content-center align-items-center w-100 w-md-50 px-5">
           <div className="w-100 d-flex flex-column" style={{ maxWidth: '400px' }}>
             <h5 className="mb-3 fw-bold">Welcome to Inzaar.org LMS Portal</h5>
             <p className="text-muted mb-4">Create your account or sign in.</p>
