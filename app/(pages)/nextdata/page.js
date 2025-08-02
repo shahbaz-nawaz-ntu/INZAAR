@@ -1,18 +1,21 @@
-import BackToTop from "@/app/backToTop";
-import NextData from "./(Nextdata)";
-// import Signin from "./(Sign-in)";
+import dynamic from 'next/dynamic';
+import BackToTop from '@/app/backToTop';
 
 export const metadata = {
   title: "Become a Teacher - Online Courses & Education NEXTJS14 Template",
   description: "Online Courses & Education NEXTJS14 Template",
 };
-const Nextdata = () => {
+
+// Dynamically load client component
+const NextData = dynamic(() => import('./(Nextdata)/index'), { ssr: false });
+
+const NextdataPage = () => {
   return (
     <>
-    <NextData/>
-     <BackToTop />
+      <NextData />
+      <BackToTop />
     </>
   );
 };
 
-export default Nextdata;
+export default NextdataPage;

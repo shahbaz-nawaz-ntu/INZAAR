@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import axios from "axios";
 import Image from "next/image";
@@ -47,14 +48,14 @@ export default function MultiStepSignup() {
     <div className="d-flex vh-100">
       {/* Left Section */}
       <div className="d-none relative gradient-diagonal d-md-flex flex-column justify-content-center align-items-center p-5 w-75 h-100 text-white">
-        <Image src={img1} width={59} height={59} alt="Author Images" className="img1" />
+        <Image src={img1} width={59} height={59} alt="img1" className="img1" />
         <div className="img5">
-          <Image src={img5} width={59} height={59} alt="Author Images" className="img5-1" />
+          <Image src={img5} width={59} height={59} alt="logo" className="img5-1" />
           <div className="img5-text">Inzaar.org</div>
         </div>
-        <Image src={img2} width={59} height={59} alt="Author Images" className="img2" />
-        <Image src={img3} width={59} height={59} alt="Author Images" className="img3" />
-        <Image src={img4} width={59} height={59} alt="Author Images" className="img4" />
+        <Image src={img2} width={59} height={59} alt="img2" className="img2" />
+        <Image src={img3} width={59} height={59} alt="img3" className="img3" />
+        <Image src={img4} width={59} height={59} alt="img4" className="img4" />
       </div>
 
       {/* Right Section */}
@@ -145,7 +146,7 @@ export default function MultiStepSignup() {
 
               <div className="mb-3">
                 <label htmlFor="educationQualification" className="form-label text-black">Educational Qualification</label>
-                <input type="text" className="form-control" id="educationQualification" placeholder="Enter your Educational Qualification" value={formData.educationQualification} onChange={handleChange} />
+                <input type="text" className="form-control" id="educationQualification" placeholder="Enter your qualification" value={formData.educationQualification} onChange={handleChange} />
               </div>
 
               <div className="mb-3">
@@ -155,17 +156,17 @@ export default function MultiStepSignup() {
 
               <div className="mb-3">
                 <label htmlFor="permanentAddress" className="form-label text-black">Permanent Address</label>
-                <input type="text" className="form-control" id="permanentAddress" placeholder="Enter your Permanent Address" value={formData.permanentAddress} onChange={handleChange} />
+                <input type="text" className="form-control" id="permanentAddress" placeholder="Enter address" value={formData.permanentAddress} onChange={handleChange} />
               </div>
 
               <div className="mb-3">
-                <label htmlFor="attendedReligiousCourseDetails" className="form-label text-black">Already Attended a Religious Course, give details if any:</label>
-                <textarea className="form-control" id="attendedReligiousCourseDetails" rows="2" placeholder="Enter details" value={formData.attendedReligiousCourseDetails} onChange={handleChange}></textarea>
+                <label htmlFor="attendedReligiousCourseDetails" className="form-label text-black">Already Attended a Religious Course (if any)</label>
+                <textarea className="form-control" id="attendedReligiousCourseDetails" rows="2" value={formData.attendedReligiousCourseDetails} onChange={handleChange}></textarea>
               </div>
 
               <div className="mb-3">
-                <label htmlFor="referralSource" className="form-label text-black">How Did You Come To Know About Inzaar/Course:</label>
-                <textarea className="form-control" id="referralSource" rows="2" placeholder="Enter feedback" value={formData.referralSource} onChange={handleChange}></textarea>
+                <label htmlFor="referralSource" className="form-label text-black">How did you come to know about Inzaar?</label>
+                <textarea className="form-control" id="referralSource" rows="2" value={formData.referralSource} onChange={handleChange}></textarea>
               </div>
 
               <div className="d-grid mb-3">
@@ -175,7 +176,7 @@ export default function MultiStepSignup() {
               </div>
 
               <p className="text-center">
-                Already have an Account? <a href="/sign-in" className="text-decoration-non textpurple my-2">Login</a>
+                Already have an Account? <a href="/sign-in" className="textpurple">Login</a>
               </p>
             </>
           )}
