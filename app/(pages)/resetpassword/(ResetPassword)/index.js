@@ -31,11 +31,16 @@ export default function Reset() {
     }
 
     try {
-      const response = await axios.post("https://api-bea6zuy77q-uc.a.run.app/api/auth/reset-password", {
-        token: token || "",
-        newPassword,
-      });
-
+      const response = await axios.post(
+        "https://api-bea6zuy77q-uc.a.run.app/api/auth/reset-password",
+        {
+          token: token || "",
+          newPassword,
+        },
+        {
+          withCredentials: true,
+        }
+      );
       alert(response.data.message || "Password reset successful");
     } catch (error) {
       alert(error.response?.data?.message || "Something went wrong");

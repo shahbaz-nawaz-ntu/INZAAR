@@ -18,7 +18,11 @@ export default function Forgot() {
     try {
       const response = await axios.post("https://api-bea6zuy77q-uc.a.run.app/api/auth/forgot-password", {
         email,
-      });
+      },
+      {
+        withCredentials: true,
+      }
+    );
 
       alert(response.data.message || "Reset link sent successfully.");
     } catch (error) {
