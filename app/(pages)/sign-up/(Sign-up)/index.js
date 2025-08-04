@@ -35,7 +35,7 @@ export default function MultiStepSignup() {
 
   const handleSubmit = async () => {
     try {
-      const response = await axios.post("http://192.168.1.28:8000/api/auth/register", formData);
+      const response = await axios.post("https://api-bea6zuy77q-uc.a.run.app/api/auth/register", formData);
       alert("Registration successful");
       window.location.href = "/";
     } catch (error) {

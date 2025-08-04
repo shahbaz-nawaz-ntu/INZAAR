@@ -31,7 +31,7 @@ export default function Reset() {
     }
 
     try {
-      const response = await axios.post("http://192.168.1.28:8000/api/auth/reset-password", {
+      const response = await axios.post("https://api-bea6zuy77q-uc.a.run.app/api/auth/reset-password", {
         token: token || "",
         newPassword,
       });
