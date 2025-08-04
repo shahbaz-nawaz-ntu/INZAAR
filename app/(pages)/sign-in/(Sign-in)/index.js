@@ -20,7 +20,7 @@ export default function Signin() {
         email,
         password,
       }, {
-        withCredentials: true
+        // withCredentials: true
       });
       alert("Login successful");
       console.log(response.data);
