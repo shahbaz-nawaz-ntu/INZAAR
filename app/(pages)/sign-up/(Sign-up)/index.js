@@ -66,14 +66,14 @@ export default function MultiStepSignup() {
 
       {/* Right Section */}
       <div className="col-md-6 d-flex gap-0 align-items-center justify-content-center">
-        <form className="w-75">
-          <h4 className="mb-4 fw-bold">Create New Account</h4>
+        <form className="w-75 ">
+          <h4 className="mb-4 fw-bold ">Create New Account</h4>
 
           {step === 1 && (
             <>
               <div className="row">
-                <div className="col-md-6">
-                  <label htmlFor="firstname" className="form-label text-black">First name</label>
+                <div className="col-md-6 ">
+                  <label htmlFor="firstname" className="form-label text-black ">First name</label>
                   <input type="text" className="form-control" id="firstname" placeholder="Enter first name" value={formData.firstname} onChange={handleChange} />
                 </div>
                 <div className="col-md-6">

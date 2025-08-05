@@ -575,7 +575,7 @@ const IslamicCenter = ({ blogdata }) => {
             />
           </div>
         </div> */}
-
+         <DonatePage/>
       
       </main>
     </>
