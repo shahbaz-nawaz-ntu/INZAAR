@@ -1,5 +1,5 @@
 import BackToTop from "@/app/backToTop";
-import LessonAsmentPage from "./(lesson-assignments)";
+import LessonAssignmentPage from "./(lesson-assignments)";
 
 export const metadata = {
   title: "Lesson Assignment - Online Courses & Education NEXTJS14 Template",
