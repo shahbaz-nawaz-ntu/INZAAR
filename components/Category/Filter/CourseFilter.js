@@ -68,13 +68,21 @@ const CourseFilter = ({ filterToggle }) => {
             </div>
           </div>
 
+          <div className="filter-select-option pt-5">
+            <div className=" d-flex align-items-center pt-3">
+              <a className="rbt-btn btn-gradient btn-sm " href="#">
+                Filter
+              </a>
+            </div>
+          </div>
+
           <div className="filter-select-option">
             <div className="filter-select">
-              <span className="select-label d-block">Price Range</span>
+              {/* <span className="select-label d-block">Price Range</span> */}
 
               <div className="price_filter s-filter clear">
-                <form action="#" method="GET">
-                  <div id="slider-range">
+                <form action="#" method="GET" className="d-flex align-items-center justify-content-center w-50 h-50">
+                  {/* <div id="slider-range">
                     <Slider
                       min={0}
                       max={500}
@@ -90,10 +98,10 @@ const CourseFilter = ({ filterToggle }) => {
                         outline: "0",
                       }}
                     />
-                  </div>
+                  </div> */}
                   <div className="slider__range--output">
                     <div className="price__output--wrap">
-                      <div className="price--output">
+                      {/* <div className="price--output">
                         <span>Price :</span>
                         <input
                           type="text"
@@ -101,12 +109,12 @@ const CourseFilter = ({ filterToggle }) => {
                           value={`$${value[0]} - $${value[1]}`}
                           readOnly
                         />
-                      </div>
-                      <div className="price--filter">
-                        <a className="rbt-btn btn-gradient btn-sm" href="#">
+                      </div> */}
+                      {/* <div className="price--filter"> */}
+                        {/* <a className="rbt-btn btn-gradient btn-sm" href="#">
                           Filter
-                        </a>
-                      </div>
+                        </a> */}
+                      {/* </div> */}
                     </div>
                   </div>
                 </form>
