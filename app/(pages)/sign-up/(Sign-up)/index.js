@@ -33,7 +33,7 @@ export default function MultiStepSignup() {
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormData((prev) => ({ ...prev, [id]: value }));
-    setErrors((prev) => ({ ...prev, [id]: "" })); // Clear error on change
+    setErrors((prev) => ({ ...prev, [id]: "" }));
   };
 
   const validateStep1 = () => {
@@ -65,8 +65,8 @@ export default function MultiStepSignup() {
     if (!formData.gender) newErrors.gender = "Gender is required";
     if (!formData.age.trim()) {
       newErrors.age = "Age is required";
-    } else if (parseInt(formData.age) < 10) {
-      newErrors.age = "Enter a valid age";
+    } else if (isNaN(formData.age) || parseInt(formData.age) <= 0) {
+      newErrors.age = "Enter a valid positive age";
     }
     if (!formData.educationQualification.trim()) newErrors.educationQualification = "Education is required";
     if (!formData.nationality.trim()) newErrors.nationality = "Nationality is required";
@@ -82,7 +82,8 @@ export default function MultiStepSignup() {
     }
   };
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
     if (!validateStep2()) return;
 
     try {
@@ -115,7 +116,7 @@ export default function MultiStepSignup() {
 
       {/* Right Section */}
       <div className="col-md-6 d-flex gap-0 align-items-center justify-content-center">
-        <form className="w-75">
+        <form className="w-75" onSubmit={handleSubmit}>
           <h4 className="mb-4 fw-bold">Create New Account</h4>
 
           {step === 1 && (
@@ -237,9 +238,9 @@ export default function MultiStepSignup() {
               </div>
 
               <div className="d-grid mb-3">
-                <a href="/" type="button" onClick={handleSubmit} className="btn w-100 mb-3 text-white rounded py-3 gradient-background border-0">
+                <button type="submit" className="btn w-100 mb-3 text-white rounded py-3 gradient-background border-0">
                   Completed
-                </a>
+                </button>
               </div>
 
               <p className="text-center">
