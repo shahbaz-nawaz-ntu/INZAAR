@@ -17,28 +17,52 @@ export default function Signin() {
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false); // 🔐 Toggle password visibility
 
-  const handleLogin = async (e) => {
-    e.preventDefault();
-    try {
-      const response = await axios.post(
-        "https://api-bea6zuy77q-uc.a.run.app/api/auth/login",
-        {
-          email,
-          password,
-        },
-        {
-          withCredentials: true,
-        }
-      );
+  // const handleLogin = async (e) => {
+  //   e.preventDefault();
+  //   try {
+  //     const response = await axios.post(
+  //       "https://api-bea6zuy77q-uc.a.run.app/api/auth/login",
+  //       {
+  //         email,
+  //         password,
+  //       },
+  //       {
+  //         withCredentials: true,
+  //       }
+  //     );
 
-      // ✅ Show success message and then redirect
-      alert("Login successful");
-      router.push("/"); // ✅ Redirect to home page
+  //     // ✅ Show success message and then redirect
+  //     alert("Login successful");
+  //     router.push("/"); // ✅ Redirect to home page
 
-    } catch (error) {
-      alert(error?.response?.data?.message || "Login failed");
+  //   } catch (error) {
+  //     alert(error?.response?.data?.message || "Login failed");
+  //   }
+  // };
+const handleLogin = async (e) => {
+  e.preventDefault();
+  try {
+    const response = await axios.post(
+      "https://api-bea6zuy77q-uc.a.run.app/api/auth/login",
+      { email, password },
+      { withCredentials: true }
+    );
+
+    alert("Login successful");
+    router.push("/");
+
+  } catch (error) {
+    const message = error?.response?.data?.message;
+
+    if (message === "Invalid email") {
+      alert("Email address not found. Please check and try again.");
+    } else if (message === "Invalid password") {
+      alert("Incorrect password. Please try again.");
+    } else {
+      alert(message || "Login failed. Please try again.");
     }
-  };
+  }
+};
 
   return (
     <>
@@ -99,12 +123,12 @@ export default function Signin() {
                 <a href="/forgotPassword">Forgot Password?</a>
               </div>
 
-              <button
+              <a href="/homepage"
                 type="submit"
                 className="btn w-100 mb-3 text-white rounded py-3 gradient-background"
               >
                 Sign in
-              </button>
+              </a>
             </form>
 
             <div className="text-center text-muted my-2 mb-4">Or</div>

@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState } from "react";
@@ -29,6 +30,8 @@ export default function MultiStepSignup() {
   });
 
   const [errors, setErrors] = useState({});
+  const [showPassword, setShowPassword] = useState(false);
+  const [passwordFocused, setPasswordFocused] = useState(false);
 
   const handleChange = (e) => {
     const { id, value } = e.target;
@@ -39,19 +42,24 @@ export default function MultiStepSignup() {
   const validateStep1 = () => {
     let newErrors = {};
 
+    const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\w\s]).{8,25}$/;
+
     if (!formData.firstname.trim()) newErrors.firstname = "First name is required";
     if (!formData.lastname.trim()) newErrors.lastname = "Last name is required";
     if (!formData.username.trim()) newErrors.username = "Username is required";
+
     if (!formData.email.trim()) {
       newErrors.email = "Email is required";
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       newErrors.email = "Email is invalid";
     }
+
     if (!formData.password.trim()) {
       newErrors.password = "Password is required";
-    } else if (formData.password.length < 8) {
-      newErrors.password = "Password must be at least 8 characters";
+    } else if (!passwordPattern.test(formData.password)) {
+      newErrors.password = "Invalid Password Pattern";
     }
+
     if (!formData.phone.trim()) newErrors.phone = "Phone number is required";
     if (!formData.cityTtown.trim()) newErrors.cityTtown = "City/Town is required";
 
@@ -95,8 +103,14 @@ export default function MultiStepSignup() {
       alert("Registration successful");
       window.location.href = "/";
     } catch (error) {
-      console.error(error.response?.data || error.message);
-      alert("Registration failed");
+      if (error.response?.data?.message) {
+        alert(`Registration failed: ${error.response.data.message}`);
+      } else if (error.response?.data?.errors) {
+        const serverErrors = error.response.data.errors.map((err) => err.message).join("\n");
+        alert(`Validation failed:\n${serverErrors}`);
+      } else {
+        alert("Registration failed. Please try again.");
+      }
     }
   };
 
@@ -148,9 +162,24 @@ export default function MultiStepSignup() {
 
               <div className="mb-3">
                 <label htmlFor="password" className="form-label text-black">Password</label>
-                <input type="password" className="form-control" id="password" placeholder="Enter 8 digit password" value={formData.password} onChange={handleChange} />
-                {errors.password && <small className="text-danger">{errors.password}</small>}
+                <input
+                  type="password"
+                  className="form-control"
+                  id="password"
+                  placeholder="Enter your password"
+                  value={formData.password}
+                  onChange={handleChange}
+                />
+                {errors.password ? (
+                  <small className="text-danger">{errors.password}</small>
+                ) : (
+                  <small className="text-muted d-block">
+                    Password must be 8–25 characters long,<br />
+                    include uppercase, lowercase, number, and symbol.
+                  </small>
+                )}
               </div>
+
 
               <div className="mb-3">
                 <label htmlFor="phone" className="form-label text-black">Phone number</label>
@@ -238,9 +267,9 @@ export default function MultiStepSignup() {
               </div>
 
               <div className="d-grid mb-3">
-                <button type="submit" className="btn w-100 mb-3 text-white rounded py-3 gradient-background border-0">
+                <a href="/homepage" type="submit" className="btn w-100 mb-3 text-white rounded py-3 gradient-background border-0">
                   Completed
-                </button>
+                </a>
               </div>
 
               <p className="text-center">
