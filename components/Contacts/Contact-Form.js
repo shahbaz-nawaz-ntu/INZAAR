@@ -11,7 +11,7 @@ const ContactForm = ({ gap }) => {
             <div className="col-lg-6">
               <div className="thumbnail">
                 <Image
-                  className="w-100 radius-6"
+                  className="w-100 h radius-6"
                   src={img}
                   alt="Contact Images"
                 />

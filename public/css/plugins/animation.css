@@ -80,7 +80,9 @@ Copyright (c) 2015 Daniel Eden
     bottom: 0;
     left: 28%;
   }
-
+.h{
+  height: 620px;
+}
   .img5{
     display: flex;
     align-items: center;
