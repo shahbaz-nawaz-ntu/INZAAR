@@ -84,7 +84,7 @@ export default function Forgot() {
 
             <p className="mb-2">
               No account?{" "}
-              <a href="#" className="text-decoration-none" style={{ color: "#9333ea" }}>
+              <a href="/sign-up" className="text-decoration-none" style={{ color: "#9333ea" }}>
                 Create one
               </a>
             </p>
