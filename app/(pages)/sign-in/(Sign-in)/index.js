@@ -8,23 +8,33 @@ import img2 from "../../../../public/images/signup/Rectangle 15.png";
 import img5 from "../../../../public/images/new/logo.png";
 import axios from "axios";
 import { useState } from "react";
+import { useRouter } from "next/navigation"; // ✅ Import router
 
 export default function Signin() {
+  const router = useRouter(); // ✅ Initialize router
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false); // 🔐 Toggle password visibility
 
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("https://api-bea6zuy77q-uc.a.run.app/api/auth/login", {
-        email,
-        password,
-      }, {
-        withCredentials: true
-      });
+      const response = await axios.post(
+        "https://api-bea6zuy77q-uc.a.run.app/api/auth/login",
+        {
+          email,
+          password,
+        },
+        {
+          withCredentials: true,
+        }
+      );
+
+      // ✅ Show success message and then redirect
       alert("Login successful");
-      console.log(response.data);
-      // redirect or further logic here
+      router.push("/"); // ✅ Redirect to home page
+
     } catch (error) {
       alert(error?.response?.data?.message || "Login failed");
     }
@@ -32,9 +42,9 @@ export default function Signin() {
 
   return (
     <>
-      <div className="d-flex  vh-100">
+      <div className="d-flex vh-100">
         {/* Left Section */}
-        <div className="d-none relative gradient-diagonal d-md-flex flex-column  justify-content-center align-items-center p-5 w-75 h-100 text-white">
+        <div className="d-none relative gradient-diagonal d-md-flex flex-column justify-content-center align-items-center p-5 w-75 h-100 text-white">
           <Image src={img1} width={59} height={59} alt="Author Images" className="img1" />
           <div className="img5">
             <Image src={img5} width={59} height={59} alt="Author Images" className="img5-1" />
@@ -54,33 +64,73 @@ export default function Signin() {
             <form className="d-flex flex-column gap-3" onSubmit={handleLogin}>
               <div className="mb-3">
                 <label>Email</label>
-                <input type="email" className="form-control" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+                <input
+                  type="email"
+                  className="form-control"
+                  placeholder="Email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
               </div>
+
               <div className="mb-3">
                 <label>Password</label>
-                <input type="password" className="form-control" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
+                <div className="input-group">
+                  <input
+                    type={showPassword ? "text" : "password"}
+                    className="form-control"
+                    placeholder="Password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    required
+                  />
+                  <span
+                    className="input-group-text"
+                    style={{ cursor: "pointer" }}
+                    onClick={() => setShowPassword(!showPassword)}
+                  >
+                    {showPassword ? "🙈" : "👁️"}
+                  </span>
+                </div>
               </div>
+
               <div>
                 <a href="/forgotPassword">Forgot Password?</a>
               </div>
-              <button type="submit" className="btn w-100 mb-3 text-white rounded py-3 gradient-background">
+
+              <button
+                type="submit"
+                className="btn w-100 mb-3 text-white rounded py-3 gradient-background"
+              >
                 Sign in
               </button>
             </form>
 
             <div className="text-center text-muted my-2 mb-4">Or</div>
 
-            <button className="btn btn-light py-4 radius border-0 w-100 mb-3">Continue As A Guest</button>
+            <a href="/" className="btn btn-light py-4 radius border-0 w-100 mb-3">
+              Continue As A Guest
+            </a>
 
             <div className="text-center gap-4">
-              No account? <a href="/sign-up" className="text-decoration-non textpurple my-2">Create one</a>
+              No account?{" "}
+              <a href="/sign-up" className="text-decoration-non textpurple my-2">
+                Create one
+              </a>
             </div>
 
             <div className="text-center gap-4 mt-2">
               <small className="text-muted">
-                By continuing, you agree to our{' '}
-                <a href="#" className="text-decoration-none">Terms</a> and{' '}
-                <a href="#" className="text-decoration-none">Privacy Policy</a>.
+                By continuing, you agree to our{" "}
+                <a href="#" className="text-decoration-none">
+                  Terms
+                </a>{" "}
+                and{" "}
+                <a href="#" className="text-decoration-none">
+                  Privacy Policy
+                </a>
+                .
               </small>
             </div>
           </div>
@@ -89,7 +139,7 @@ export default function Signin() {
 
       <style jsx>{`
         .bg-gradient {
-          background: linear-gradient(135deg, #5a67d8,rgb(136, 105, 197));
+          background: linear-gradient(135deg, #5a67d8, rgb(136, 105, 197));
           height: 100vh;
         }
       `}</style>

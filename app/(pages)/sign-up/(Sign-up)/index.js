@@ -237,9 +237,9 @@ export default function MultiStepSignup() {
               </div>
 
               <div className="d-grid mb-3">
-                <button type="button" onClick={handleSubmit} className="btn w-100 mb-3 text-white rounded py-3 gradient-background border-0">
+                <a href="/" type="button" onClick={handleSubmit} className="btn w-100 mb-3 text-white rounded py-3 gradient-background border-0">
                   Completed
-                </button>
+                </a>
               </div>
 
               <p className="text-center">

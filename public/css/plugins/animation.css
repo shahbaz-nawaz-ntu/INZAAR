@@ -20,7 +20,9 @@ Copyright (c) 2015 Daniel Eden
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-
+ .volunteer{
+  height:430px;
+ }
   .width-set {
     width: 100px;
   }
@@ -45,6 +47,10 @@ Copyright (c) 2015 Daniel Eden
   .gradient-background{
     background: linear-gradient(90deg, #725eeb, #b466e7);
   }
+.gradient1-background {
+  background: linear-gradient(5deg, rgba(202, 195, 245, 0.6), rgba(231, 205, 249, 0.6));
+}
+
 
   .img1 {
     width: 15%;

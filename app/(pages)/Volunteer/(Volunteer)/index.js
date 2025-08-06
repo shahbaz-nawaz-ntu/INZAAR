@@ -11,7 +11,8 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import FooterOne from "@/components/Footer/Footer-One";
 
-import VolunteerPage from '@/components/26-islamic-center/volunteer';
+// import VolunteerPage from '@/components/26-islamic-center/volunteer';
+import Volunteer1 from '@/app/volunteer1';
 
 export default function BecomeAVolunteer() {
   return (
@@ -21,7 +22,7 @@ export default function BecomeAVolunteer() {
         <MobileMenu />
         <Cart />
 
-        <div className="bg-light min-vh-100 py-5">
+        <div className="bg-light min-vh-100 py-5 gradient1-background">
           {/* Header */}
           <div className="text-center mb-4">
             <h1 className="fw-bold">
@@ -50,8 +51,8 @@ export default function BecomeAVolunteer() {
                 <Image
                   src="/images/about/volunteer.jpg"
                   width={500}
-                  height={600}
-                  className="img-fluid rounded"
+                  height={900}
+                  className="img-fluid rounded volunteer"
                   alt="Volunteer"
                 />
               </div>
@@ -110,16 +111,21 @@ export default function BecomeAVolunteer() {
                     </div>
 
                     <div className="col-12">
-                      <button type="submit" className="btn btn-primary w-100">
+                      <button
+                        type="submit"
+                        className="btn w-100 text-white gradient-background"
+                        style={{ height: '34px' }}
+                      >
                         Become a Volunteer →
                       </button>
+
                     </div>
                   </div>
                 </form>
               </div>
 
               {/* Volunteer Info Cards */}
-              <VolunteerPage />
+              <Volunteer1 />
             </div>
           </div>
         </div>

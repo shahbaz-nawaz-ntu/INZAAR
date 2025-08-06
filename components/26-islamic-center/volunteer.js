@@ -25,7 +25,7 @@ export default function VolunteerPage() {
           <div className="col-md-4 d-flex ">
             <div className="bg-warning bg-opacity-25 p-5 rounded shadow-sm w-100 h-100">
               <div className="d-flex align-items-center justify-content-center rounded mb-3" style={{ width: '48px', height: '48px' }}>
-                <Image src="/images/icons/icon3.png" width={40} height={40} alt="Feedback" />
+                <Image src="/images/icons/icon3.png" width={60} height={60} alt="Feedback" />
               </div>
               <h6 className="fw-bold">Tell Us What You Think </h6>
               <p className="text-muted small mb-0">
@@ -38,7 +38,7 @@ export default function VolunteerPage() {
           <div className="col-md-4 d-flex">
             <div className="c-pink bg-opacity-25 p-5 rounded shadow-sm w-100 h-100">
               <div className="d-flex align-items-center justify-content-center rounded mb-3" style={{ width: '48px', height: '48px' }}>
-                <Image src="/images/icons/icon1.png" width={40} height={40} alt="Spread the Word" />
+                <Image src="/images/icons/icon1.png" width={60} height={60} alt="Spread the Word" />
               </div>
               <h6 className='fw-bold'>Help Us Spread the Word</h6>
               <p className="text-muted small mb-0">
@@ -52,7 +52,7 @@ export default function VolunteerPage() {
           <div className="col-md-4 d-flex">
             <div className="d-pink bg-opacity-25 p-5 rounded shadow-sm w-100 h-100">
               <div className="d-flex align-items-center justify-content-center rounded mb-3 " style={{ width: '48px', height: '48px' }}>
-                <Image src="/images/icons/icon2.png" width={40} height={40} alt="Graphic Editing" />
+                <Image src="/images/icons/icon2.png" width={60} height={60} alt="Graphic Editing" />
               </div>
               <h6 className='fw-bold'>Graphic & Video Editors Welcome</h6>
               <p className="text-muted small mb-0">
@@ -65,7 +65,7 @@ export default function VolunteerPage() {
           <div className="col-md-4 d-flex">
             <div className="bg-opacity-25 p-5 rounded shadow-sm w-100 h-100 b-green">
               <div className="d-flex align-items-center justify-content-center rounded mb-3" style={{ width: '48px', height: '48px' }}>
-                <Image src="/images/icons/icon4.png" width={40} height={40} alt="Translate & Transcribe" />
+                <Image src="/images/icons/icon4.png" width={60} height={60} alt="Translate & Transcribe" />
               </div>
               <h6 className="fw-bold">Translate & Transcribe With Us</h6>
               <p className="text-muted small mb-0">
@@ -78,7 +78,7 @@ export default function VolunteerPage() {
           <div className="col-md-4 d-flex">
             <div className="e-purple bg-opacity-25 p-5 rounded shadow-sm w-100 h-100">
               <div className="d-flex align-items-center justify-content-center rounded mb-3" style={{ width: '48px', height: '48px' }}>
-                <Image src="/images/icons/icon5.png" width={40} height={40} alt="Join Digital Team" />
+                <Image src="/images/icons/icon5.png" width={60} height={60} alt="Join Digital Team" />
               </div>
               <h6 className="fw-bold">Join Our Digital Team</h6>
               <p className="text-muted small mb-0">
