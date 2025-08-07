@@ -31,6 +31,10 @@ export default function MultiStepSignup() {
     referralSource: "",
   });
 
+  const handleback = () => {
+    setStep(1);
+  }
+
   const [errors, setErrors] = useState({});
   const router = useRouter();
 
@@ -55,6 +59,8 @@ export default function MultiStepSignup() {
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       newErrors.email = "Email is invalid";
     }
+
+    
 
     if (!formData.password.trim()) {
       newErrors.password = "Password is required";
@@ -136,8 +142,8 @@ export default function MultiStepSignup() {
       </div>
 
       {/* Right Section */}
-      <div className="col-md-6 d-flex gap-0 align-items-center justify-content-center">
-        <form className="w-75" onSubmit={handleSubmit}>
+      <div className="col-md-6  d-flex gap-0 align-items-center overflow-scroll justify-content-center">
+        <form className="w-75 h-100 pt-4 pb-5" onSubmit={handleSubmit}>
           <h4 className="mb-4 fw-bold">Create New Account</h4>
 
           {step === 1 && (
@@ -230,6 +236,7 @@ export default function MultiStepSignup() {
 
           {step === 2 && (
             <>
+            <div onClick={handleback} className="gradient-Registration border border-primary w-25 text-center mb-3 rounded-pill">Go back</div>
               <div className="row mb-3">
                 <div className="col-md-6">
                   <label htmlFor="gender" className="form-label text-black ">Gender</label>
