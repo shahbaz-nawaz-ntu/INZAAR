@@ -9,6 +9,8 @@ import img4 from "../../../../public/images/signup/Rectangle 14-1.png";
 import img1 from "../../../../public/images/signup/Rectangle 14.png";
 import img2 from "../../../../public/images/signup/Rectangle 15.png";
 import img5 from "../../../../public/images/new/logo.png";
+import { useRouter } from 'next/navigation';
+
 
 export default function MultiStepSignup() {
   const [step, setStep] = useState(1);
@@ -30,8 +32,8 @@ export default function MultiStepSignup() {
   });
 
   const [errors, setErrors] = useState({});
-  const [showPassword, setShowPassword] = useState(false);
-  const [passwordFocused, setPasswordFocused] = useState(false);
+  const router = useRouter();
+
 
   const handleChange = (e) => {
     const { id, value } = e.target;
@@ -101,7 +103,7 @@ export default function MultiStepSignup() {
         { withCredentials: true }
       );
       alert("Registration successful");
-      window.location.href = "/";
+      router.push("/homepage");
     } catch (error) {
       if (error.response?.data?.message) {
         alert(`Registration failed: ${error.response.data.message}`);
@@ -267,9 +269,10 @@ export default function MultiStepSignup() {
               </div>
 
               <div className="d-grid mb-3">
-                <a href="/homepage" type="submit" className="btn w-100 mb-3 text-white rounded py-3 gradient-background border-0">
+                <button type="submit" className="btn w-100 mb-3 text-white rounded py-3 gradient-background border-0">
                   Completed
-                </a>
+                </button>
+
               </div>
 
               <p className="text-center">

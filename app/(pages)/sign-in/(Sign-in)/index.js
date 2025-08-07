@@ -49,7 +49,7 @@ const handleLogin = async (e) => {
     );
 
     alert("Login successful");
-    router.push("/");
+    router.push("/homepage");
 
   } catch (error) {
     const message = error?.response?.data?.message;
@@ -123,12 +123,9 @@ const handleLogin = async (e) => {
                 <a href="/forgotPassword">Forgot Password?</a>
               </div>
 
-              <a href="/homepage"
-                type="submit"
-                className="btn w-100 mb-3 text-white rounded py-3 gradient-background"
-              >
-                Sign in
-              </a>
+                <button type="submit" className="btn w-100 mb-3 text-white rounded py-3 gradient-background border-0">
+                  Completed
+                </button>
             </form>
 
             <div className="text-center text-muted my-2 mb-4">Or</div>
