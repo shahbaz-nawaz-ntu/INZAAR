@@ -186,7 +186,10 @@ export default function MultiStepSignup() {
               <div className="mb-3">
                 <label htmlFor="phone" className="form-label text-black">Phone number</label>
                 <div className="input-group">
-                  <span className="input-group-text">🇺🇸 +1</span>
+                  <span className="input-group-text">
+                    <span role="img" aria-label="Pakistan Flag">🇵🇰 </span>
+ +92               </span>
+                  
                   <input type="text" className="form-control" id="phone" placeholder="Phone number" value={formData.phone} onChange={handleChange} />
                 </div>
                 {errors.phone && <small className="text-danger">{errors.phone}</small>}
