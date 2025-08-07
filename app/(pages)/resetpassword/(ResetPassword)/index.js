@@ -45,7 +45,7 @@ export default function Reset() {
         }
       );
       alert(response.data.message || "Password reset successful");
-      router.push("/sign-in");
+      // router.push("/sign-in");
     } catch (error) {
       alert(error.response?.data?.message || "Something went wrong");
     }
