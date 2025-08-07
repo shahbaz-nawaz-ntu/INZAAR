@@ -13,12 +13,13 @@ import FooterOne from "@/components/Footer/Footer-One";
 
 // import VolunteerPage from '@/components/26-islamic-center/volunteer';
 import Volunteer1 from '@/app/volunteer1';
+import HeaderStyleThirteen from '@/components/Header/HeaderStyle-Thirteen';
 
 export default function BecomeAVolunteer() {
   return (
     <Provider store={Store}>
       <Context>
-        <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+        <HeaderStyleThirteen headerSticky="rbt-sticky" headerType="" />
         <MobileMenu />
         <Cart />
 

@@ -678,14 +678,18 @@
         }
 
         .thumb-1 {
-            margin-left: -148px;
+            // margin-left: -148px;
+            width: 450px;
+            margin-bottom: 100px ;
+            margin-left: 50px;
 
             @media #{$laptop-device} {
-                margin-left: -50px;
+                // margin-left: -50px;
             }
 
             @media #{$md-layout, $sm-layout, $large-mobile} {
-                margin-left: 0;
+                margin-left: 100px;
+                margin-top: 50px;
             }
         }
 
@@ -697,22 +701,24 @@
 
             @media #{$laptop-device} {
                 max-width: 270px;
-                margin-top: -215px;
+                // margin-top: -215px;
             }
 
             @media #{$md-layout} {
                 max-width: 280px;
                 margin-top: -260px;
+                margin-right: 150px;
             }
 
             @media #{$sm-layout, $large-mobile} {
-                max-width: 200px;
-                margin-top: -200px;
+                max-width: 300px;
+                margin-top: 50px;
             }
 
             @media #{$large-mobile} {
                 // display: none;
                 margin-top: 10px;
+                margin: auto;
             }
 
             img {

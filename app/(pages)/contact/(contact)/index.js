@@ -10,13 +10,14 @@ import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import FooterOne from "@/components/Footer/Footer-One";
+import HeaderStyleThirteen from "@/components/Header/HeaderStyle-Thirteen";
 
 const ContactPage = () => {
   return (
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          <HeaderStyleThirteen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
           <Cart />
 

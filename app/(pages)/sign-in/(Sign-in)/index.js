@@ -136,14 +136,16 @@ export default function Signin() {
                 <a href="/forgotPassword">Forgot Password?</a>
               </div>
 
-              <button type="submit" className="btn w-100 mb-3 text-white rounded py-3 gradient-background border-0">
-                Completed
+              <button type="submit" className="btn w-100 mb-3 text-white rounded py-3 gradient-background border-0 fs-3">
+                Sign in
               </button>
+
+
             </form>
 
             <div className="text-center text-muted my-2 mb-4">Or</div>
 
-            <a href="/" className="btn btn-light py-4 radius border-0 w-100 mb-3">
+            <a href="/" className="btn btn-light py-4 radius border-0 w-100 mb-3 fs-3">
               Continue As A Guest
             </a>
 

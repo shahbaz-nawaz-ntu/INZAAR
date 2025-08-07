@@ -15,6 +15,10 @@ Copyright (c) 2015 Daniel Eden
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
   }
+
+  .hw{
+    height: 50px;
+  }
   .gradient-text {
     background: linear-gradient(90deg, #6f42c1, #e83e8c);
     -webkit-background-clip: text;
@@ -54,6 +58,10 @@ Copyright (c) 2015 Daniel Eden
   background: linear-gradient(5deg, rgba(202, 195, 245, 0.6), rgba(231, 205, 249, 0.6));
 }
 
+  .size{
+    height: 610px;
+    width: 600px;
+  }
 
   .img1 {
     width: 15%;

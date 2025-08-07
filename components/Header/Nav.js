@@ -137,7 +137,7 @@ const Nav = () => {
 
         <li className="with-megamenu has-menu-child-item position-static">
           <Link
-            href="#"
+            href="/about"
             // className={`${activeMenuItem === "blog" ? "open" : ""}`}
             // onClick={() => toggleMenuItem("blog")}
           >

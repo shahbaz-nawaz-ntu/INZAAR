@@ -18,6 +18,8 @@ import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import VolunteerPage from "@/components/26-islamic-center/volunteer";
+import inzaarImage from "../../../../public/images/about/inzaar-image.jpg";
+import HeaderStyleThirteen from "@/components/Header/HeaderStyle-Thirteen";
 
 
 const AboutPage = () => {
@@ -32,10 +34,43 @@ const AboutPage = () => {
 
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          <HeaderStyleThirteen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
           <Cart />
           <BreadCrumb title="About" text="About" />
+
+          <div className="container py-5">
+            <div className="row align-items-center">
+              {/* Text Content */}
+              <div className="col-md-6 mb-4 mb-md-0  ">
+                <span className="bg-light py-2 px-3 rounded-pill">
+                <span className="badge bg-light text-primary mb-3 px-3 py-2  gradient-Registration ">About me</span>
+                </span>
+                <h1 className="fw-bold mb-3">
+                  Building Faith and Character with <span className="gradient-Registration">Inzaar</span>
+                </h1>
+                <p className="text-muted">
+                  Inzaar is an educational and reformatory institution. Its aim is to strengthen
+                  the understanding and importance of faith and good morals and help people succeed
+                  in this life and in the hereafter. Inzaar aims to develop and inculcate in people
+                  qualities like faith, morality, patience, knowledge, research, integrity, rationality,
+                  positive thinking, chastity and modesty.
+                </p>
+                <a className="btn text-white gradient-background mt-3" href="#">
+                  Start Learning →
+                </a>
+              </div>
+
+              {/* Image */}
+              <div className="col-md-6 text-center">
+                <Image
+                  src={inzaarImage}
+                  alt="Inzaar Quran Image"
+                  className="img-fluid rounded-4"
+                />
+              </div>
+            </div>
+          </div>
 
           <div className="rbt-feature-area rbt-section-gap3Top">
             <div className="container">
@@ -83,101 +118,99 @@ const AboutPage = () => {
               </div>
             </div>
           </div>
-          
+
 
           <VolunteerPage />
 
           <div className="rbt-accordion-area bg-color-white rbt-section-gap">
-                    <div className="container">
-                      <div className="row row--30 mt_dec--30">
-                        <div className="col-lg-6 mt--30">
-                          <div className="section-title mb--50">
-                            <span className="subtitle bg-primary-opacity">
-                              FAQ'S
-                            </span>
-                            <h2 className="title w-600">
-                              Have Questions? We've Got Answers {" "}
-                            </h2>
-                          </div>
-                          <div className="rbt-accordion-style rbt-accordion-01 accordion">
-                            <div className="accordion" id="accordionExample">
-                              {AccordionData.accordionFive.map((item, index) => (
-                                <div key={index} className="accordion-item card">
-                                  <h2
-                                    className="accordion-header card-header"
-                                    id={item.headingId}
-                                  >
-                                    <button
-                                      className={`accordion-button ${
-                                        !item.expanded ? "collapsed" : ""
-                                      }`}
-                                      type="button"
-                                      data-bs-toggle="collapse"
-                                      data-bs-target={`#${item.id}`}
-                                      aria-expanded={item.expanded}
-                                      aria-controls={item.id}
-                                    >
-                                      {item.question}
-                                    </button>
-                                  </h2>
-                                  <div
-                                    id={item.id}
-                                    className={`accordion-collapse collapse ${
-                                      item.expanded ? "show" : ""
-                                    }`}
-                                    aria-labelledby={item.headingId}
-                                    data-bs-parent="#accordionExample"
-                                  >
-                                    <div className="accordion-body card-body">
-                                      {item.answer.map((paragraph, idx) => (
-                                        <p key={idx} className="mb--15">
-                                          {paragraph}
-                                        </p>
-                                      ))}
-                                    </div>
-                                  </div>
-                                </div>
+            <div className="container">
+              <div className="row row--30 mt_dec--30">
+                <div className="col-lg-6 mt--30">
+                  <div className="section-title mb--50">
+                    <span className="subtitle bg-primary-opacity">
+                      FAQ'S
+                    </span>
+                    <h2 className="title w-600">
+                      Have Questions? We've Got Answers {" "}
+                    </h2>
+                  </div>
+                  <div className="rbt-accordion-style rbt-accordion-01 accordion">
+                    <div className="accordion" id="accordionExample">
+                      {AccordionData.accordionFive.map((item, index) => (
+                        <div key={index} className="accordion-item card">
+                          <h2
+                            className="accordion-header card-header"
+                            id={item.headingId}
+                          >
+                            <button
+                              className={`accordion-button ${!item.expanded ? "collapsed" : ""
+                                }`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target={`#${item.id}`}
+                              aria-expanded={item.expanded}
+                              aria-controls={item.id}
+                            >
+                              {item.question}
+                            </button>
+                          </h2>
+                          <div
+                            id={item.id}
+                            className={`accordion-collapse collapse ${item.expanded ? "show" : ""
+                              }`}
+                            aria-labelledby={item.headingId}
+                            data-bs-parent="#accordionExample"
+                          >
+                            <div className="accordion-body card-body">
+                              {item.answer.map((paragraph, idx) => (
+                                <p key={idx} className="mb--15">
+                                  {paragraph}
+                                </p>
                               ))}
                             </div>
                           </div>
                         </div>
-                        <div className="col-lg-6 mt--30">
-                          <div className="accordion-thumbnail">
-          
-                            <div className="shape">
-                              <Image
-                                src={faqShape}
-                                width={108}
-                                height={118}
-                                alt="Shape"
-                              />
-                            </div>
-                            <div className="thumb-1 img-fluid rounded-top">
-                              <Image
-                                style={{borderTopLeftRadius:"50%", borderTopRightRadius:"50%"}}
-                                data-parallax='{"x": 0, "y": -30}'
-                                src={faqImg}
-                                width={390}
-                                height={430}
-                                unoptimized={true}
-                                alt="Thumbnail"
-                              />
-                            </div>
-                            <div className="thumb-2">
-                              <Image
-                                data-parallax='{"x": 0, "y": 30}'
-                                src={faqImg2}
-                                width={300}
-                                height={340}
-                                unoptimized={true}
-                                alt="Thumbnail"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                      ))}
                     </div>
                   </div>
+                </div>
+                <div className="col-lg-6 mt--30">
+                  <div className="accordion-thumbnail">
+
+                    <div className="shape">
+                      <Image
+                        src={faqShape}
+                        width={108}
+                        height={118}
+                        alt="Shape"
+                      />
+                    </div>
+                    <div className="thumb-1 img-fluid rounded-top">
+                      <Image
+                        style={{ borderTopLeftRadius: "50%", borderTopRightRadius: "50%" }}
+                        data-parallax='{"x": 0, "y": -30}'
+                        src={faqImg}
+                        width={390}
+                        height={430}
+                        unoptimized={true}
+                        alt="Thumbnail"
+                      />
+                    </div>
+                    <div className="thumb-2">
+                      <Image
+                        data-parallax='{"x": 0, "y": 30}'
+                        src={faqImg2}
+                        width={300}
+                        height={340}
+                        unoptimized={true}
+                        alt="Thumbnail"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <Separator />
           <FooterOne />

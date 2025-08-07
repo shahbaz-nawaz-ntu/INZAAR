@@ -102,12 +102,12 @@ const IslamicCenter = ({ blogdata }) => {
                         style={{marginLeft:"0px"}}
                         data-parallax='{"x": 0, "y": -30}'
                         src={arabianImg}
-                        width={300}
+                        // width={300}
                         height={372}
                         alt="Feature"
                       />
                     </div>
-                    <div className="thumb-2 ">
+                    <div className="thumb-2">
                       <Image
                         data-parallax='{"x": 0, "y": 30}'
                         src={readQuranImg}

@@ -93,28 +93,33 @@ export default function MultiStepSignup() {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    if (!validateStep2()) return;
+  e.preventDefault();
+  if (!validateStep2()) return;
 
-    try {
-      const response = await axios.post(
-        "https://api-bea6zuy77q-uc.a.run.app/api/auth/register",
-        formData,
-        { withCredentials: true }
-      );
-      alert("Registration successful");
-      router.push("/homepage");
-    } catch (error) {
-      if (error.response?.data?.message) {
-        alert(`Registration failed: ${error.response.data.message}`);
-      } else if (error.response?.data?.errors) {
-        const serverErrors = error.response.data.errors.map((err) => err.message).join("\n");
-        alert(`Validation failed:\n${serverErrors}`);
-      } else {
-        alert("Registration failed. Please try again.");
-      }
+  try {
+    const response = await axios.post(
+      "https://api-bea6zuy77q-uc.a.run.app/api/auth/register",
+      formData,
+      { withCredentials: true }
+    );
+    alert("Registration successful");
+    router.push("/homepage");
+  } catch (error) {
+    const res = error.response?.data;
+
+    if (res?.message) {
+      alert(`❌ Registration failed:\n${res.message}`);
+    
+    } else if (res?.errors && Array.isArray(res.errors)) {
+      const messages = res.errors.map((err, idx) => `• ${err.message}`).join("\n");
+      alert(`❌ Validation Errors:\n${messages}`);
+    
+    
+    } else {
+      alert("❌ Registration failed. Please try again.");
     }
-  };
+  }
+};
 
   return (
     <div className="d-flex vh-100">
@@ -188,8 +193,8 @@ export default function MultiStepSignup() {
                 <div className="input-group">
                   <span className="input-group-text">
                     <span role="img" aria-label="Pakistan Flag">🇵🇰 </span>
- +92               </span>
-                  
+                    +92               </span>
+
                   <input type="text" className="form-control" id="phone" placeholder="Phone number" value={formData.phone} onChange={handleChange} />
                 </div>
                 {errors.phone && <small className="text-danger">{errors.phone}</small>}
@@ -227,8 +232,13 @@ export default function MultiStepSignup() {
             <>
               <div className="row mb-3">
                 <div className="col-md-6">
-                  <label htmlFor="gender" className="form-label text-black">Gender</label>
-                  <select className="form-select" id="gender" value={formData.gender} onChange={handleChange}>
+                  <label htmlFor="gender" className="form-label text-black ">Gender</label>
+                  <select
+                    className="form-select fs-3 hw" 
+                    id="gender"
+                    value={formData.gender}
+                    onChange={handleChange}
+                  >
                     <option value="">Choose</option>
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
@@ -236,6 +246,7 @@ export default function MultiStepSignup() {
                   </select>
                   {errors.gender && <small className="text-danger">{errors.gender}</small>}
                 </div>
+
                 <div className="col-md-6">
                   <label htmlFor="age" className="form-label text-black">Age</label>
                   <input type="number" className="form-control" id="age" placeholder="Enter your age" value={formData.age} onChange={handleChange} />
@@ -272,7 +283,7 @@ export default function MultiStepSignup() {
               </div>
 
               <div className="d-grid mb-3">
-                <button type="submit" className="btn w-100 mb-3 text-white rounded py-3 gradient-background border-0">
+                <button type="submit" className="btn w-100 mb-3 text-white rounded py-3 gradient-background border-0 fs-2">
                   Completed
                 </button>
 
