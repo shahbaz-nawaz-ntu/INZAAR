@@ -69,7 +69,7 @@ export default function BecomeAVolunteer() {
                       <input type="text" placeholder="Full Name" className="form-control" />
                     </div>
                     <div className="col-md-6">
-                      <select className="form-select">
+                      <select className="form-select fs-4 hw">
                         <option>Volunteer Field</option>
                         <option>Teaching</option>
                         <option>Event Organizing</option>
@@ -91,14 +91,14 @@ export default function BecomeAVolunteer() {
                     </div>
 
                     <div className="col-md-6">
-                      <select className="form-select">
+                      <select className="form-select fs-4 hw">
                         <option>Position Preference</option>
                         <option>Leader</option>
                         <option>Assistant</option>
                       </select>
                     </div>
                     <div className="col-md-6">
-                      <select className="form-select">
+                      <select className="form-select fs-4 hw">
                         <option>Skill Level</option>
                         <option>Beginner</option>
                         <option>Intermediate</option>
@@ -108,7 +108,7 @@ export default function BecomeAVolunteer() {
 
                     <div className="col-12">
                       <label className="form-label">Resume (File Upload)</label>
-                      <input type="file" className="form-control" />
+                      <input type="file" className="form-control pt-3" />
                     </div>
 
                     <div className="col-12">
