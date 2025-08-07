@@ -9,13 +9,11 @@ import img1 from "../../../../public/images/signup/Rectangle 14.png";
 import img2 from "../../../../public/images/signup/Rectangle 15.png";
 import img5 from "../../../../public/images/new/logo.png";
 import { Router } from "lucide-react";
-import { useRouter } from "next/router";
 
 export default function Reset() {
   const [newPassword, setNewPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [token, setToken] = useState("");
-  const router = useRouter();
 
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
@@ -45,7 +43,6 @@ export default function Reset() {
         }
       );
       alert(response.data.message || "Password reset successful");
-      // router.push("/sign-in");
     } catch (error) {
       alert(error.response?.data?.message || "Something went wrong");
     }
