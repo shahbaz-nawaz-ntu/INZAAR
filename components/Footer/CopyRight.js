@@ -11,8 +11,8 @@ const CopyRight = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
               <p className="rbt-link-hover text-center text-lg-start">
                 Copyright © 2025
-                <Link className="mx-2" href="https://rainbowthemes.net">
-                  Rainbow-Themes.
+                <Link className="mx-2" href="https://www.inzaar.org/">
+                  Inzaar.org
                 </Link>
                 All Rights Reserved
               </p>

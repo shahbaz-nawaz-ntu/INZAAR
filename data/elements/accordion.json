@@ -248,16 +248,16 @@
       "headingId": "headingTwo",
       "question": "Who do I contact for technical support?",
       "answer": [
-        "After purchasing the product, if you need any support, you can share it with us by sending an email to rainbowit10@gmail.com."
+        "Email globalinzaar@gmail.com or contact your instructor or LMS administrator.."
       ],
       "expanded": false
     },
     {
       "id": "collapseThree",
       "headingId": "headingThree",
-      "question": "Can I get updates regularly and for how long do I get updates?",
+      "question": "Can I access the LMS on my mobile phone?",
       "answer": [
-        "Yes, we will update Histudy, and you can get updates anytime. Next time, we will come with more features. You can get updates unlimited times. Our dedicated team works for updates."
+        "Yes, the LMS is mobile-friendly. You can also download the LMS mobile app (if available) from Google Play or the App Store."
       ],
       "expanded": false
     }
