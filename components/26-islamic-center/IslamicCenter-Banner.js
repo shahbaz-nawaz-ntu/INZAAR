@@ -162,9 +162,8 @@ const IslamicCenterBanner = () => {
                     on character.
                   </h1>
                   <p className="description">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint.
-                    <span className="bold">Velit officia consequat.</span>
+                    We are devoted to bringing the light of Quranic faith and morality to life—shaping hearts, guiding actions, and transforming our personal and collective journey.
+                    
                   </p>
                   <Link
                     className="rbt-btn btn-gradient hover-icon-reverse"
