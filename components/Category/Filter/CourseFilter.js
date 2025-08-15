@@ -17,7 +17,7 @@ const CourseFilter = ({ filterToggle }) => {
         <div className="filter-inner">
           <div className="filter-select-option">
             <div className="filter-select rbt-modern-select">
-              <span className="select-label d-block">Short By</span>
+              <span className="select-label d-block">Sort By</span>
               <select>
                 <option>Default</option>
                 <option>Latest</option>
@@ -31,7 +31,7 @@ const CourseFilter = ({ filterToggle }) => {
 
           <div className="filter-select-option">
             <div className="filter-select rbt-modern-select">
-              <span className="select-label d-block">Short By Author</span>
+              <span className="select-label d-block">Sort By INSTRUCTOR</span>
               <select data-live-search="true" title="Select Author">
                 <option data-subtext="Experts">Janin Afsana</option>
                 <option data-subtext="Experts">Joe Biden</option>
@@ -47,7 +47,7 @@ const CourseFilter = ({ filterToggle }) => {
 
           <div className="filter-select-option">
             <div className="filter-select rbt-modern-select">
-              <span className="select-label d-block">Short By Offer</span>
+              <span className="select-label d-block">Sort By Offer</span>
               <select>
                 <option>Free</option>
                 <option>Paid</option>
@@ -58,7 +58,7 @@ const CourseFilter = ({ filterToggle }) => {
 
           <div className="filter-select-option">
             <div className="filter-select rbt-modern-select">
-              <span className="select-label d-block">Short By Category</span>
+              <span className="select-label d-block">Sort By Category</span>
               <select data-live-search="true">
                 <option>Web Design</option>
                 <option>Graphic</option>

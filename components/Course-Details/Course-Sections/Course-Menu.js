@@ -16,7 +16,7 @@ const CourseMenu = () => {
     { id: "overview", label: "Overview" },
     { id: "coursecontent", label: "Course Content" },
     { id: "details", label: "Details" },
-    { id: "Instructor", label: "Intructor" },
+    { id: "Instructor", label: "Instructor" },
     { id: "Review", label: "Review" },
   ];
 
