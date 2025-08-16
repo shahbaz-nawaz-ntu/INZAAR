@@ -157,7 +157,7 @@
 
         .header-right {
             display: flex;
-            align-items: center;
+            // align-items: center;
             justify-content: flex-end;
 
             @media #{$sm-layout} {

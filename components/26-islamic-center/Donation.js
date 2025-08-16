@@ -18,7 +18,7 @@ export default function DonatePage() {
             faith &amp; morality (ایمان و اخلاق), personality development (تعمیر شخصیت),
             and the success in life hereafter (فلاح آخرت).
           </p>
-          <a href="#" className="btn text-white gradient-background ">
+          <a href="#" className="btn text-white gradient-background join fs-5">
             Donate Now →
           </a>
         </div>

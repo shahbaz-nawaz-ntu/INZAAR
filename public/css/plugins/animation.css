@@ -16,6 +16,26 @@ Copyright (c) 2015 Daniel Eden
     animation-fill-mode: both;
   }
 
+  .islamic-custom-wor{
+    
+  }
+
+  .custom-select {
+  appearance: none;        /* Removes default arrow */
+  -webkit-appearance: none; /* For Safari */
+  -moz-appearance: none;    /* For Firefox */
+  width: 50px;
+  height: 40px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-left: 10px;
+  background-color: white;
+  
+  /* Optional: Add your own arrow with background image */
+  background-image: none;
+}
+
   .hw{
     height: 50px;
   }
@@ -56,6 +76,9 @@ Copyright (c) 2015 Daniel Eden
   }
 .gradient1-background {
   background: linear-gradient(5deg, rgba(202, 195, 245, 0.6), rgba(231, 205, 249, 0.6));
+} 
+.backgroundwhite{
+background: white;
 }
 
   .size{
@@ -92,7 +115,16 @@ Copyright (c) 2015 Daniel Eden
     left: 28%;
   }
 .h{
-  height: 620px;
+  height: 650px;
+}
+.join{
+  height: 32px;
+}
+.become{
+  height: 40px;
+}
+.st{
+  width: 150px;
 }
   .img5{
     display: flex;
@@ -118,7 +150,9 @@ Copyright (c) 2015 Daniel Eden
     background: linear-gradient(to bottom left, #b666e7, #3758ee); /* purple to blue */
     color: white; /* optional */
   }
-  
+  .two{
+    text-align: center;
+  }
 
   .textpurple{
     /* color: linear-gradient(90deg,#b466e7, #8e81dc); */

@@ -87,9 +87,9 @@ const IslamicCenterBanner = () => {
                 width={130}
                 height={184}
                 alt="Banner Shape"
-              /> 
+              />
             </div>
-             <div
+            <div
               className="shape-2"
               style={{ overflow: "hidden", position: "absolute" }}
             >
@@ -121,14 +121,14 @@ const IslamicCenterBanner = () => {
                   alt="Banner Shape"
                 />
               </span>
-            </div> 
+            </div>
             <div className="quran scene ml-10">
               <span data-depth="1">
                 <Image src={book} width={85} height={60} alt="Banner Shape" />
               </span>
             </div>
           </div>
-           <div className="shape-wrapper">
+          <div className="shape-wrapper">
             <div className="banner">
               <Image
                 src={mosque}
@@ -137,7 +137,7 @@ const IslamicCenterBanner = () => {
                 alt="Banner Shape"
               />
             </div>
-          </div> 
+          </div>
           <div className="container">
             <div className="row flex-column-reverse flex-xl-row">
               <div className="col-xl-7">
@@ -150,17 +150,18 @@ const IslamicCenterBanner = () => {
                       alt="Banner Icon"
                     />{" "}
                     Learn Quran For Peace
-                  </h6> 
+                  </h6>
                   <h1 className="title">
-                    Eternal success based {" "}
-                    <Image
+                    <span className="gradient-Registration">Eternal success</span> based{" "}
+                   {" "}
+                    on character <Image
                       src={textBook}
                       width={94}
                       height={60}
                       alt="Banner Text"
-                    />{" "}
-                    on character.
+                    />.
                   </h1>
+
                   <p className="description">
                     We are devoted to bringing the light of Quranic faith and morality to life—shaping hearts, guiding actions, and transforming our personal and collective journey.
                     
@@ -185,12 +186,12 @@ const IslamicCenterBanner = () => {
                 <div className="rbt-banner-26-thumbnails">
                   <div className="shape-dot scene">
                     <span data-depth="1">
-                     <Image
+                      <Image
                         src={iDots}
                         width={95}
                         height={87}
                         alt="Banner Shape"
-                      /> 
+                      />
                     </span>
                   </div>
                   <div className="main-img">
@@ -239,31 +240,11 @@ const IslamicCenterBanner = () => {
                           alt="image"
                           unoptimized={true}
                         />
-                      </span> 
+                      </span>
                       <div className="cont">
-                        <h6 className="satis-title">36k+</h6>
-                        <span className="satis-subtitle">Active Students</span>
-                      </div>
+                      <h6 className="satis-title">99%</h6>
+                      <span className="satis-subtitle">Student</span>
                     </div>
-
-                    <div className="profile-share">
-                      {profiles.map((profile, index) => (
-                        <Link
-                          key={index}
-                          href="#"
-                          className="avatar"
-                          data-tooltip={profile.name}
-                          tabIndex="0"
-                        >
-                          <Image
-                            src={profile.src}
-                            alt="education"
-                            width={51}
-                            height={51}
-                            unoptimized={true}
-                          />
-                        </Link>
-                      ))}
                     </div>
                   </div>
                 </div>

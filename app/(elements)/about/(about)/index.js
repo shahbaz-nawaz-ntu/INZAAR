@@ -56,7 +56,7 @@ const AboutPage = () => {
                   qualities like faith, morality, patience, knowledge, research, integrity, rationality,
                   positive thinking, chastity and modesty.
                 </p>
-                <a className="btn text-white gradient-background mt-3" href="#">
+                <a className="btn text-white gradient-background mt-3 join fs-4 st" href="#">
                   Start Learning →
                 </a>
               </div>

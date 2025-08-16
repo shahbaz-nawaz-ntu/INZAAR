@@ -260,6 +260,15 @@
         "Yes, the LMS is mobile-friendly. You can also download the LMS mobile app (if available) from Google Play or the App Store."
       ],
       "expanded": false
+    },
+    {
+      "id": "collapseFour",
+      "headingId": "headingThree",
+      "question": "What do I do if I experience a technical issue during class?",
+      "answer": [
+        "Take a screenshot of the error, note the time, and contact tech support or instructor immediately by using Complaint Management System"
+      ],
+      "expanded": false
     }
   ],
 

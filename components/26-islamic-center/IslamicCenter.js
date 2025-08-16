@@ -36,11 +36,11 @@ const IslamicCenter = ({ blogdata }) => {
       <main className="rbt-main-wrapper">
         <IslamicCenterBanner />
         <div className="rbt-feature-area rbt-section-gap3Top">
-          <div className="container">
-            <div className="row g-5">
-              <div className="col-lg-4 col-md-6 col-12">
+          <div className="container ">
+            <div className="row g-5 ">
+              <div className="col-lg-4 col-md-6 col-12 ">
                 <div className="rbt-feature-card-two">
-                  <div className="feature-body">
+                  <div className="feature-body ">
                     <div className="icon bg-color-primary">
                     <i class="fa fa-book"></i>
                     </div>
@@ -52,6 +52,7 @@ const IslamicCenter = ({ blogdata }) => {
               </div>
 
               <div className="col-lg-4 col-md-6 col-12">
+                
                 <div className="rbt-feature-card-two">
                   <div className="feature-body">
                     <div className="icon bg-color-secondary">
@@ -229,29 +230,8 @@ const IslamicCenter = ({ blogdata }) => {
                         </Link>
                       </h4>
                       <p className="rbt-card-text">{data.desc}</p>
-
-                      <div className="rbt-review">
-                        <div className="rating">
-                          <i className="fas fa-star"></i>
-                          <i className="fas fa-star"></i>
-                          <i className="fas fa-star"></i>
-                          <i className="fas fa-star"></i>
-                          <i className="fas fa-star"></i>
-                        </div>
-                        <span className="rating-count">
-                          ({data.review} Reviews)
-                        </span>
-                      </div>
-
                       <div className="rbt-card-bottom">
-                        <div className="rbt-price">
-                          <span className="current-price mb-0">
-                            ${data.price}
-                          </span>
-                          <span className="off-price version-02">
-                            ${data.offPrice}
-                          </span>
-                        </div>
+                      
 
                         <Link
                           className="rbt-btn-link color-primary"
@@ -575,6 +555,9 @@ const IslamicCenter = ({ blogdata }) => {
             />
           </div>
         </div> */}
+
+         <TestimonialFour leftContent={true} />
+
          <DonatePage/>
       
       </main>

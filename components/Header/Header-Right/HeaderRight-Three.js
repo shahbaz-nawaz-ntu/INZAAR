@@ -19,7 +19,7 @@ const HeaderRightThree = ({ btnClass, btnText }) => {
           <Link
             className="rbt-cart-sidenav-activation rbt-round-btn"
             href="/sign-in"
-            // onClick={() => setCart(!cartToggle)}
+          // onClick={() => setCart(!cartToggle)}
           >
             Login
             {/* <i className="feather-shopping-cart"></i> */}
@@ -47,6 +47,14 @@ const HeaderRightThree = ({ btnClass, btnText }) => {
         </Link>
       </div>
 
+      
+      <select id="fruit" name="fruit" className="custom-select">
+        <option value="apple" selected>EN</option>
+        <option value="banana">Ur</option>
+        <option value="cherry">Fr</option>
+      </select>
+
+
       <div className="mobile-menu-bar d-block d-xl-none">
         <div className="hamberger">
           <button
@@ -58,7 +66,7 @@ const HeaderRightThree = ({ btnClass, btnText }) => {
         </div>
       </div>
 
-      
+
     </div>
   );
 };

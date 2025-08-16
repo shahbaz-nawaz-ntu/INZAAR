@@ -680,23 +680,24 @@
         .thumb-1 {
             // margin-left: -148px;
             width: 450px;
-            margin-bottom: 100px ;
-            margin-left: 50px;
+            margin-top: 50px;
+            margin-bottom: 70px;
+            margin-left: 100px;
 
             @media #{$laptop-device} {
                 // margin-left: -50px;
             }
 
             @media #{$md-layout, $sm-layout, $large-mobile} {
-                margin-left: 100px;
-                margin-top: 50px;
+                margin-left: 150px;
+                margin-top: 100px;
             }
         }
 
         .thumb-2 {
             max-width: 340px;
             margin-left: auto;
-            margin-top: -340px;
+            margin-top: -400px;
             margin-right: 65px;
 
             @media #{$laptop-device} {

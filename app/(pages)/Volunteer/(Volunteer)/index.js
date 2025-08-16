@@ -37,12 +37,13 @@ export default function BecomeAVolunteer() {
           {/* Application Section */}
           <div className="container bg-white rounded shadow-sm p-4">
             <div className="text-center mb-4">
-              <button className="btn btn-sm mb-2 gradient-Registration">Join Our Team</button>
-              <h2 className="fw-bold fs-4">
+              <button className="btn btn-sm mb-2 gradient-Registration fs-4">Join Our Team</button>
+              <h2 className="fw-bold fs-7">
                 Apply As <span className="gradient-Registration">Volunteer</span>
               </h2>
-              <p className="text-muted mt-2">
-                You can be part of the team and voluntarily assist us in Dawah Activities by providing your valuable time and skills.
+              <p className="text-muted mt-2 two">
+                You can be part of the team and voluntarily assist us in Dawah
+                Activities by providing your valuable time and skills.
               </p>
             </div>
 
@@ -108,13 +109,44 @@ export default function BecomeAVolunteer() {
 
                     <div className="col-12">
                       <label className="form-label">Resume (File Upload)</label>
-                      <input type="file" className="form-control pt-3" />
+
+                      <div
+                        className="d-flex align-items-center p-2"
+                        style={{
+                          border: "1px solid #e5e7eb",
+                          borderRadius: "6px",
+                        }}
+                      >
+
+                        <input
+                          type="file"
+                          id="resumeUpload"
+                          className="d-none"
+                        />
+
+
+                        <label
+                          htmlFor="resumeUpload"
+                          className="btn text-white m-0"
+                          style={{
+                            background: "linear-gradient(to right, #3b82f6, #a855f7)",
+                            borderRadius: "6px",
+                            padding: "6px 14px",
+                            cursor: "pointer",
+                            fontWeight: 400,
+                            fontSize: "14px",
+                             }}
+                        >
+                          Resume (File Upload)
+                        </label>
+                      </div>
                     </div>
+
 
                     <div className="col-12">
                       <button
                         type="submit"
-                        className="btn w-100 text-white gradient-background"
+                        className="btn w-100 text-white gradient-background fs-4 become"
                         style={{ height: '34px' }}
                       >
                         Become a Volunteer →
@@ -125,12 +157,11 @@ export default function BecomeAVolunteer() {
                 </form>
               </div>
 
-              {/* Volunteer Info Cards */}
+
               <Volunteer1 />
             </div>
           </div>
         </div>
-
         <FooterOne />
       </Context>
     </Provider>
