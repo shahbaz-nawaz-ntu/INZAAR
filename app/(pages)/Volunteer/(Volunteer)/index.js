@@ -146,8 +146,8 @@ export default function BecomeAVolunteer() {
                     <div className="col-12">
                       <button
                         type="submit"
-                        className="btn w-100 text-white gradient-background fs-4 become"
-                        style={{ height: '34px' }}
+                        className="btn w-100 text-white gradient-background fs-4"
+                        style={{ height: '45px' }}
                       >
                         Become a Volunteer →
                       </button>

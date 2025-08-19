@@ -70,8 +70,8 @@ const CourseFilter = ({ filterToggle }) => {
 
           <div className="filter-select-option pt-5">
             <div className=" d-flex align-items-center pt-3">
-              <a className="rbt-btn btn-gradient btn-sm " href="#">
-                Filter
+              <a className="rbt-btn btn-gradient btn-sm" href="#">
+                Apply Filter 
               </a>
             </div>
           </div>
