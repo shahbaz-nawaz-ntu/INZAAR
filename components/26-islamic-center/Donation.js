@@ -1,5 +1,7 @@
 // pages/donate.js
 import Image from 'next/image';
+import Link from "next/link";
+
 import donationImage from '../../public/images/gallery/gallery-01.jpg'; // replace with your local image or URL
 
 export default function DonatePage() {
@@ -18,9 +20,20 @@ export default function DonatePage() {
             faith &amp; morality (ایمان و اخلاق), personality development (تعمیر شخصیت),
             and the success in life hereafter (فلاح آخرت).
           </p>
-          <a href="#" className="btn text-white gradient-background ">
-            Donate Now →
-          </a>
+           <Link
+                    className="rbt-btn btn-gradient hover-icon-reverse"
+                    href="#"
+                  >
+                    <span className="icon-reverse-wrapper">
+                      <span className="btn-text">Donate us </span>
+                      <span className="btn-icon">
+                        <i className="feather-arrow-right"></i>
+                      </span>
+                      <span className="btn-icon">
+                        <i className="feather-arrow-right"></i>
+                      </span>
+                    </span>
+                  </Link>
         </div>
         <div className="col-md-5 text-center">
           <Image

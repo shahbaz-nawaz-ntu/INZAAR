@@ -1,6 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import ContactData from "../../data/pages/contact.json";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaFacebook } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
+
 
 const Contact = () => {
   return (
@@ -48,13 +53,25 @@ const Contact = () => {
                     </p>
                   )}
 
-                  {data.mailTwo && (
+                  {/* {data.mailTwo && (
                     <p>
                       <Link href={`mailto:${data.mailTwo}`}>{data.mailTwo}</Link>
                     </p>
-                  )}
+                  )} */}
 
-                  {data.address && <p>{data.address}</p>}
+                  {data.address && (
+                    <p className="d-flex align-items-center justify-content-start gap-5">
+                      <a href="https://www.instagram.com/abuyahya267/" target="_blank" rel="noopener noreferrer">
+                        <AiFillInstagram size={40} color="#ad65e7" />
+                      </a>
+                      <a href="https://www.facebook.com/abuyahya.inzaar" target="_blank" rel="noopener noreferrer">
+                        <FaFacebook size={40} color="#ad65e7" />
+                      </a>
+                      <a href="https://www.instagram.com/abuyahya267/" target="_blank" rel="noopener noreferrer">
+                        <FaXTwitter size={40} color="#ad65e7" />
+                      </a>
+                    </p>
+                  )} 
                 </div>
               </div>
             </div>
