@@ -52,14 +52,14 @@
       "socialLink": [
         {
           "icon": "feather-facebook",
-          "link": " https://www.facebook.com/abuyahya.inzaar"
+          "link": "https://www.facebook.com/abuyahya.inzaar"
         },
         {
           "icon": "feather-twitter",
           "link": "https://x.com/abuyahya_inzaar"
         },
         {
-          "icon": "feather-instagram",
+          "icon": "feather-instagram", 
           "link": "https://www.instagram.com/abuyahya267/"
         },
         {

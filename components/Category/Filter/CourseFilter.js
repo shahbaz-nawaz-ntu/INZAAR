@@ -17,53 +17,46 @@ const CourseFilter = ({ filterToggle }) => {
         <div className="filter-inner">
           <div className="filter-select-option">
             <div className="filter-select rbt-modern-select">
-              <span className="select-label d-block">Sort By</span>
+              <span className="select-label d-block">Sort By Catagory</span>
               <select>
-                <option>Default</option>
-                <option>Latest</option>
-                <option>Popularity</option>
-                <option>Trending</option>
-                <option>Price: low to high</option>
-                <option>Price: high to low</option>
+                  <option>All</option>
+                <option>LMS</option>
+                <option>Introspection</option>
+                <option>Ramdan Courses</option>
+               
               </select>
             </div>
           </div>
 
           <div className="filter-select-option">
             <div className="filter-select rbt-modern-select">
-              <span className="select-label d-block">Sort By INSTRUCTOR</span>
+              <span className="select-label d-block">Sort By Popularity</span>
               <select data-live-search="true" title="Select Author">
-                <option data-subtext="Experts">Janin Afsana</option>
-                <option data-subtext="Experts">Joe Biden</option>
-                <option data-subtext="Experts">Fatima Asrafy</option>
-                <option data-subtext="Experts">Aysha Baby</option>
-                <option data-subtext="Experts">Mohamad Ali</option>
-                <option data-subtext="Experts">Jone Li</option>
-                <option data-subtext="Experts">Alberd Roce</option>
-                <option data-subtext="Experts">Zeliski Noor</option>
+                 <option data-subtext="Experts">default</option>
+                <option data-subtext="Experts">Frequently Completed Courses</option>
+             
               </select>
             </div>
           </div>
 
           <div className="filter-select-option">
             <div className="filter-select rbt-modern-select">
-              <span className="select-label d-block">Sort By Offer</span>
+              <span className="select-label d-block">Sort By NEW</span>
               <select>
-                <option>Free</option>
-                <option>Paid</option>
-                <option>Premium</option>
+                <option>default </option>
+                <option>Fresh Courses Offered </option>
+             
               </select>
             </div>
           </div>
 
           <div className="filter-select-option">
             <div className="filter-select rbt-modern-select">
-              <span className="select-label d-block">Sort By Category</span>
+              <span className="select-label d-block">Sort By length</span>
               <select data-live-search="true">
-                <option>Web Design</option>
-                <option>Graphic</option>
-                <option>App Development</option>
-                <option>Figma Design</option>
+                <option>default</option>
+                <option>Short vs Long Courses</option>
+               
               </select>
             </div>
           </div>
