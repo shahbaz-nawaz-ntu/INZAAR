@@ -59,13 +59,19 @@ const Contact = () => {
                     </p>
                   )} */}
 
-                  {data.address && <p className="d-flex align-items-center justify-content-start gap-5">
-                    <AiFillInstagram size={40} color="#ad65e7"/>
-                    <FaFacebook size={40} color="#ad65e7"/>
-                    <FaXTwitter size={40} color="#ad65e7"/></p>}
-                  
-                  
-
+                  {data.address && (
+                    <p className="d-flex align-items-center justify-content-start gap-5">
+                      <a href="https://www.instagram.com/abuyahya267/" target="_blank" rel="noopener noreferrer">
+                        <AiFillInstagram size={40} color="#ad65e7" />
+                      </a>
+                      <a href="https://www.facebook.com/abuyahya.inzaar" target="_blank" rel="noopener noreferrer">
+                        <FaFacebook size={40} color="#ad65e7" />
+                      </a>
+                      <a href="https://www.instagram.com/abuyahya267/" target="_blank" rel="noopener noreferrer">
+                        <FaXTwitter size={40} color="#ad65e7" />
+                      </a>
+                    </p>
+                  )} 
                 </div>
               </div>
             </div>
