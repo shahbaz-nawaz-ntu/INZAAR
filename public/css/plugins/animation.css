@@ -119,7 +119,9 @@ background: white;
 }
 .join{
   height: 32px;
+  width: 100px;
 }
+
 .become{
   height: 40px;
 }
