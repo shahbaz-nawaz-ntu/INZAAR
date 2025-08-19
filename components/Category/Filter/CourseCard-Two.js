@@ -68,8 +68,7 @@ const CourseCardTwo = ({ course }) => {
                   </span>
                 </span>
                 <p className="rbt-card-text">
-                  It is a long established fact that a reader will be
-                  distracted.
+                Learn Islam from the comfort of your home with our comprehensive online courses.
                 </p>
                 <div className="rbt-card-bottom">
                   <Link

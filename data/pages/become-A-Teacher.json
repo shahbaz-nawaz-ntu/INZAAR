@@ -6,7 +6,7 @@
       "desc": "Lorem ipsum dolor sit amet, consectetur",
       "body": [
         {
-          "text": "Become an Intructor.",
+          "text": "Become an Instructor.",
           "isActive": false,
           "tab": "home-tab-4",
           "target": "home-4",
