@@ -689,6 +689,7 @@
             }
 
             @media #{$md-layout, $sm-layout, $large-mobile} {
+                width: 350px;
                 margin-left: 150px;
                 margin-top: 100px;
             }
@@ -701,13 +702,14 @@
             margin-right: 65px;
 
             @media #{$laptop-device} {
-                max-width: 270px;
+                // max-width: 270px;
                 // margin-top: -215px;
+                margin-right: 70px;
             }
 
             @media #{$md-layout} {
                 max-width: 280px;
-                margin-top: -260px;
+                margin-top: -360px;
                 margin-right: 150px;
             }
 
