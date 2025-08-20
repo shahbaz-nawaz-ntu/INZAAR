@@ -42,26 +42,26 @@ const IslamicCenter = ({ blogdata }) => {
                 <div className="rbt-feature-card-two">
                   <div className="feature-body ">
                     <div className="icon bg-color-primary">
-                    <i class="fa fa-book"></i>
+                      <i class="fa fa-book"></i>
                     </div>
                     <h5 className="title w-500 mb--10 mt--15">
-                    Learn at Your Own Pace                    </h5>
+                      Learn at Your Own Pace                    </h5>
                     <p className="description" style={{ fontSize: "12px" }}>
-                    Learn anytime, progress at your pace.   </p>               </div>
+                      Learn anytime, progress at your pace.   </p>               </div>
                 </div>
               </div>
 
               <div className="col-lg-4 col-md-6 col-12">
-                
+
                 <div className="rbt-feature-card-two">
                   <div className="feature-body">
                     <div className="icon bg-color-secondary">
                       <i className="feather-book"></i>
                     </div>
                     <h5 className="title w-500 mb--10 mt--15">
-                    Track Progress Easily                    </h5>
+                      Track Progress Easily                    </h5>
                     <p className="description" style={{ fontSize: "12px" }}>
-                    Clear progress tracking for instructors and students.                    </p>
+                      Clear progress tracking for instructors and students.                    </p>
                   </div>
                 </div>
               </div>
@@ -73,9 +73,9 @@ const IslamicCenter = ({ blogdata }) => {
                       <i className="feather-award"></i>
                     </div>
                     <h5 className="title w-500 mb--10 mt--15">
-                    Stay Connected and Engaged                    </h5>
-                  <p className="description" style={{ fontSize: "12px" }}>
-                     Quizzes, videos, and feedback make learning interactive.                   </p>
+                      Stay Connected and Engaged                    </h5>
+                    <p className="description" style={{ fontSize: "12px" }}>
+                      Quizzes, videos, and feedback make learning interactive.                   </p>
                   </div>
                 </div>
               </div>
@@ -100,7 +100,7 @@ const IslamicCenter = ({ blogdata }) => {
                     </div>
                     <div className="thumb-1 d-md-block d-none">
                       <Image
-                        style={{marginLeft:"0px"}}
+                        style={{ marginLeft: "0px" }}
                         data-parallax='{"x": 0, "y": -30}'
                         src={arabianImg}
                         // width={300}
@@ -123,45 +123,46 @@ const IslamicCenter = ({ blogdata }) => {
                   <div className="content">
                     <div className="section-title">
                       <span className="subtitle bg-primary-opacity">
-                        ABOUT Me 
+                        ABOUT Me
                       </span>
                       <h2 className="title w-600">
                         Fostering{" "}
                         <span className="theme-gradient">
-                         Faith and Knowledge
+                          Faith and Knowledge
                         </span>{" "}
-                       
+
                       </h2>
                       <p className="mt--15">
-                      We are dedicated to fostering spiritual growth and academic
-                       excellence through accessible online learning.
+                        We are dedicated to fostering spiritual growth and academic
+                        excellence through accessible online learning.
                       </p>
                       <ul className="mt--30 mb--50">
                         <li>
                           <span className="icon bg-primary-opacity">
-                            <i className="feather-heart"></i>
+                            <img src="/images/Group 25.png" alt="Course Automation" width="20" height="20" />
                           </span>
                           <span className="text">Course Automation</span>
                         </li>
                         <li>
                           <span className="icon bg-secondary-opacity">
-                            <i className="feather-book"></i>
+                            <img src="/images/Group 26.png" alt="Complaint Desk" width="20" height="20" />
                           </span>
                           <span className="text">Complaint Desk</span>
                         </li>
                         <li>
                           <span className="icon bg-primary-opacity">
-                            <i className="feather-heart"></i>
+                            <img src="/images/Group 27.png" alt="Free Islamic Learning" width="20" height="20" />
                           </span>
                           <span className="text">Free Islamic Learning</span>
                         </li>
                         <li>
                           <span className="icon bg-secondary-opacity">
-                            <i className="feather-book"></i>
+                            <img src="/images/Group 24.png" alt="Completion Certificate" width="20" height="20" />
                           </span>
                           <span className="text">Completion Certificate</span>
                         </li>
                       </ul>
+
                       <Link
                         className="rbt-btn btn-gradient hover-icon-reverse"
                         href="/about-us-01"
@@ -229,18 +230,15 @@ const IslamicCenter = ({ blogdata }) => {
                           {data.courseTitle}
                         </Link>
                       </h4>
+                      <div className="width-fix">
                       <p className="rbt-card-text">{data.desc}</p>
-                      <div className="rbt-card-bottom">
-                      
-
-                        <Link
-                          className="rbt-btn-link color-primary"
-                          href={`/course-details/${data.id}`}
-                        >
-                          Enroll Course
-                          <i className="feather-arrow-right"></i>
+                      </div>
+                      <div className=" gradient-Registration" style={{ display: 'flex', justifyContent: 'flex-end' }}>
+                        <Link className="rbt-btn-link gradient-Registration" href={`/course-details/${data.id}`}>
+                          Enroll Course <i className="feather-arrow-right gradient-Registration"></i>
                         </Link>
                       </div>
+
                     </div>
                   </div>
                 </div>
@@ -291,9 +289,8 @@ const IslamicCenter = ({ blogdata }) => {
                           id={item.headingId}
                         >
                           <button
-                            className={`accordion-button ${
-                              !item.expanded ? "collapsed" : ""
-                            }`}
+                            className={`accordion-button ${!item.expanded ? "collapsed" : ""
+                              }`}
                             type="button"
                             data-bs-toggle="collapse"
                             data-bs-target={`#${item.id}`}
@@ -305,9 +302,8 @@ const IslamicCenter = ({ blogdata }) => {
                         </h2>
                         <div
                           id={item.id}
-                          className={`accordion-collapse collapse ${
-                            item.expanded ? "show" : ""
-                          }`}
+                          className={`accordion-collapse collapse ${item.expanded ? "show" : ""
+                            }`}
                           aria-labelledby={item.headingId}
                           data-bs-parent="#accordionExample"
                         >
@@ -339,7 +335,7 @@ const IslamicCenter = ({ blogdata }) => {
                   </div>
                   <div className="thumb-1 img-fluid rounded-top">
                     <Image
-                      style={{borderTopLeftRadius:"50%", borderTopRightRadius:"50%"}}
+                      style={{ borderTopLeftRadius: "50%", borderTopRightRadius: "50%" }}
                       data-parallax='{"x": 0, "y": -30}'
                       src={faqImg}
                       width={390}
@@ -363,7 +359,7 @@ const IslamicCenter = ({ blogdata }) => {
             </div>
           </div>
         </div>
-        
+
 
         {/* <div className="rbt-team-area bg-color-extra2 rbt-section-gap rbt-sec-cir-shadow-1">
           <div className="gradient-shape-top version-03"></div>
@@ -427,8 +423,8 @@ const IslamicCenter = ({ blogdata }) => {
           </div>
         
         </div> */}
-        <VolunteerPage/>
-        
+        <VolunteerPage />
+
         {/* <div className="rbt-testimonial-area bg-color-white rbt-section-gap">
           <TestimonialFour leftContent={true} />
           <DonatePage/>
@@ -556,10 +552,10 @@ const IslamicCenter = ({ blogdata }) => {
           </div>
         </div> */}
 
-         <TestimonialFour leftContent={true} />
+        <TestimonialFour leftContent={true} />
 
-         <DonatePage/>
-      
+        <DonatePage />
+
       </main>
     </>
   );
