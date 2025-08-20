@@ -33,8 +33,8 @@ const CourseFilter = ({ filterToggle }) => {
               <span className="select-label d-block">Sort By Popularity</span>
               <select data-live-search="true" title="Select Author">
                  <option data-subtext="Experts">default</option>
-                <option data-subtext="Experts">Frequently Completed Courses</option>
-             
+                <option data-subtext="Experts">Frequently  Courses</option>
+             <option data-subtext="Experts">Completed Courses</option>
               </select>
             </div>
           </div>
@@ -55,8 +55,8 @@ const CourseFilter = ({ filterToggle }) => {
               <span className="select-label d-block">Sort By length</span>
               <select data-live-search="true">
                 <option>default</option>
-                <option>Short vs Long Courses</option>
-               
+                <option>Short Courses</option>
+               <option>Long Courses</option>
               </select>
             </div>
           </div>

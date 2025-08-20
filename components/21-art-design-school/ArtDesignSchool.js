@@ -261,7 +261,7 @@ const ArtDesignSchool = ({ blogdata }) => {
               <div className="load-more-btn text-center">
                 <Link
                   className="rbt-btn btn-gradient btn-lg btn-mobile hover-icon-reverse"
-                  href="/course-with-tab"
+                  href="/course-masonry"
                 >
                   <span className="icon-reverse-wrapper">
                     <span className="btn-text">View All Courses</span>
