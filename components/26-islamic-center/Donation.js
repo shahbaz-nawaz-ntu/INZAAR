@@ -6,14 +6,16 @@ import donationImage from '../../public/images/gallery/gallery-01.jpg'; // repla
 
 export default function DonatePage() {
   return (
-    <div className="container my-5 py-4 bg-light rounded shadow-sm ">
-      <div className="row align-items-center ">
+    <div className=" my-5 py-4 bg-light rounded shadow-sm ">
+      <div className="container row align-items-center mx-auto my-5">
         <div className="col-md-7 mb-4 mb-md-0 ">
           
-          <span className="badge  gradient-background mb-2 ">Donate Us</span>
+          <span className="dimension-btn">
+            <span className='gradient-text'>Donate Us</span>
+          </span>
     
           <h2 className="fw-bold">
-            Join Us in Spreading the <span className="gradient-Registration">Light of Deen</span>
+            <span className='text-ew1'>Join Us in Spreading the</span>  <span className="gradient-Registration">Light of Deen</span>
           </h2>
           <p>
             Please join hands with Inzaar in spreading the message of Almighty Allah –

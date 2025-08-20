@@ -33,11 +33,11 @@ const TestimonialFour = ({ isGradient, leftContent }) => {
                 </div>
               </div>
             ) : (
-              <div className="row g-5 mb--50 align-items-center">
+              <div className="row g-5  mb--50 align-items-center">
                 <div className="col-lg-8 col-md-8 col-12">
                   <div className="section-title">
-                    <span className="subtitle bg-primary-opacity">
-                      EDUCATION FOR EVERYONE
+                    <span className=" mt-5 dimension-btn">
+                      <span className="gradient-text">Education for Everyone </span>
                     </span>
                     <h2 className="title w-600">
                       Student's <span className="theme-gradient">Feedback</span>

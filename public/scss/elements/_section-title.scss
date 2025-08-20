@@ -48,15 +48,16 @@
         font-size: 14px;
         line-height: 15px;
         font-weight: 500;
-        color: var(--color-heading);
+        // color: var(--color-heading);
         margin-bottom: 15px;
         display: inline-block;
         padding: 10px 20px;
         border-radius: 100px;
         text-transform: uppercase;
         display: inline-block;
-        background: var(--color-primary);
-        color: var(--color-primary);
+        background: linear-gradient(5deg, rgba(202, 195, 245, 0.6), rgba(231, 205, 249, 0.6));
+        // background: var(--color-primary);
+        // color: var(--color-primary);
     }
 
     .subtitle-2 {

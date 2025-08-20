@@ -24,6 +24,7 @@ import readQuranImg from "../../public/images/others/read-quran.png";
 import IslamicCenterBanner from "./IslamicCenter-Banner";
 import VolunteerPage from "../26-islamic-center/volunteer";
 import DonatePage from "./Donation";
+import imgPati from "../../public/images/Pati.png"
 // import VolunteerPage from "../../components/26-islamic-center/vounteer";
 // import donationImage from "../../public/images/banner/donations.png";
 
@@ -103,17 +104,17 @@ const IslamicCenter = ({ blogdata }) => {
                         style={{ marginLeft: "0px" }}
                         data-parallax='{"x": 0, "y": -30}'
                         src={arabianImg}
-                        // width={300}
-                        height={372}
+                        width={372}
+                        height={410}
                         alt="Feature"
                       />
                     </div>
                     <div className="thumb-2">
                       <Image
                         data-parallax='{"x": 0, "y": 30}'
-                        src={readQuranImg}
-                        width={410}
-                        height={372}
+                        src={imgPati}
+                        width={372}
+                        height={410}
                         alt="Feature"
                       />
                     </div>
@@ -122,13 +123,13 @@ const IslamicCenter = ({ blogdata }) => {
                 <div className="col-xl-6 col-12">
                   <div className="content">
                     <div className="section-title">
-                      <span className="subtitle bg-primary-opacity">
-                        ABOUT Me
+                      <span className="dimension-btn">
+                        <span className="gradient-text">ABOUT Me </span>
                       </span>
                       <h2 className="title w-600">
                         Fostering{" "}
-                        <span className="theme-gradient">
-                          Faith and Knowledge
+                        <span className="gradient-text-about">
+                         Faith and Knowledge
                         </span>{" "}
 
                       </h2>
@@ -192,8 +193,8 @@ const IslamicCenter = ({ blogdata }) => {
             <div className="row mb--50 mb_sm--45">
               <div className="col-lg-12">
                 <div className="section-title text-center">
-                  <span className="subtitle bg-primary-opacity">
-                    Learn From Me
+                  <span className="dimension-btn">
+                    <span className="gradient-text">Learn From me </span>
                   </span>
                   <h2 className="title w-600">Enroll Course Become Better</h2>
                 </div>
@@ -273,8 +274,8 @@ const IslamicCenter = ({ blogdata }) => {
             <div className="row row--30 mt_dec--30">
               <div className="col-lg-6 mt--30">
                 <div className="section-title mb--50">
-                  <span className="subtitle bg-primary-opacity">
-                    FAQ'S
+                  <span className="dimension-btn">
+                    <span className="gradient-text">FAQ's</span>
                   </span>
                   <h2 className="title w-600">
                     Have Questions? We've Got Answers {" "}

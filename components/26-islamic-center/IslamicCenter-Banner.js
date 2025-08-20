@@ -142,24 +142,24 @@ const IslamicCenterBanner = () => {
             <div className="row flex-column-reverse flex-xl-row">
               <div className="col-xl-7">
                 <div className="inner">
-                  <h6 className="subtitle">
+                  <h6 className="dimension-btn">
                     <Image
                       src={graduation}
                       width={20}
                       height={15}
                       alt="Banner Icon"
                     />{" "}
-                    Learn Quran For Peace
+                    <span className="gradient-text">Learn Quran For Peace </span>
                   </h6>
                   <h1 className="title">
-                    <span className="gradient-Registration">Eternal success</span> based{" "}
+                    <span className="gradient-Registration text-ew">Eternal success</span> <span className="text-ew1">based{" "}
                    {" "}
-                    on character <Image
+                    on character. </span><Image
                       src={textBook}
                       width={94}
                       height={60}
                       alt="Banner Text"
-                    />.
+                    />
                   </h1>
 
                   <p className="description">

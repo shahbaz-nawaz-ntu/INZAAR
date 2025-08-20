@@ -16,9 +16,7 @@ Copyright (c) 2015 Daniel Eden
     animation-fill-mode: both;
   }
 
-  .islamic-custom-wor{
-    
-  }
+  
 
   .custom-select {
   appearance: none;        /* Removes default arrow */
@@ -52,6 +50,38 @@ Copyright (c) 2015 Daniel Eden
  }
   .width-set {
     width: 100px;
+  }
+
+  .gradient-text-about {
+    background: linear-gradient(90deg,#9162e9, #685eec );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text-ew{
+    font-size: 50px;
+  }
+
+  .text-ew1{
+    font-size: 50px;
+    font-weight: 400;
+  }
+
+  .dimension-btn{
+    background: linear-gradient(5deg, #e5e9f8, #f4edfb);
+    padding: 10px 20px;
+    border-radius:20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+        line-height: 15px;
+        font-weight: 500;
+        /* // color: var(--color-heading); */
+        margin-bottom: 15px;
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 100px;
+        text-transform: uppercase;
+        display: inline-block;
   }
 
   .b-green{

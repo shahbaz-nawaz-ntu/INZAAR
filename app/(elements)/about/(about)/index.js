@@ -44,8 +44,8 @@ const AboutPage = () => {
             <div className="row align-items-center">
               {/* Text Content */}
               <div className="col-md-6 mb-4 mb-md-0  ">
-                <span className="bg-light py-2 px-3 rounded-pill">
-                <span className="badge bg-light text-primary mb-3 px-3 py-2  gradient-Registration ">About me</span>
+                <span className="">
+                <span className="dimension-btn "><span className="gradient-Registration">About me</span></span>
                 </span>
                 <h1 className="fw-bold mb-3">
                   Building Faith and Character with <span className="gradient-Registration">Inzaar</span>
@@ -139,8 +139,8 @@ const AboutPage = () => {
               <div className="row row--30 mt_dec--30">
                 <div className="col-lg-6 mt--30">
                   <div className="section-title mb--50">
-                    <span className="subtitle bg-primary-opacity">
-                      FAQ'S
+                    <span className="dimension-btn">
+                      <span className="gradient-text">FAQ'S</span>
                     </span>
                     <h2 className="title w-600">
                       Have Questions? We've Got Answers {" "}
