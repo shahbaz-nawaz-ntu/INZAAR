@@ -25,7 +25,7 @@ export default function DonatePage() {
                     href="#"
                   >
                     <span className="icon-reverse-wrapper">
-                      <span className="btn-text">Donate us </span>
+                      <span className="btn-text">Donate Now </span>
                       <span className="btn-icon">
                         <i className="feather-arrow-right"></i>
                       </span>
