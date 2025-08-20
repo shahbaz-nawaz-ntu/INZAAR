@@ -65,7 +65,7 @@ export default function VolunteerPage() {
           <div className="col-md-4 d-flex">
             <div className="bg-opacity-25 p-5 rounded shadow-sm w-100 h-100 b-green">
               <div className="d-flex align-items-center justify-content-center rounded mb-3" style={{ width: '48px', height: '48px' }}>
-                <Image src="/images/icons/icon4.png" width={60} height={60} alt="Translate & Transcribe" />
+                <Image src="/images/icons/icon4.png" width={80} height={80} alt="Translate & Transcribe" />
               </div>
               <h6 className="fw-bold">Translate & Transcribe With Us</h6>
               <p className="text-muted small mb-0">
@@ -78,7 +78,7 @@ export default function VolunteerPage() {
           <div className="col-md-4 d-flex">
             <div className="e-purple bg-opacity-25 p-5 rounded shadow-sm w-100 h-100">
               <div className="d-flex align-items-center justify-content-center rounded mb-3" style={{ width: '48px', height: '48px' }}>
-                <Image src="/images/icons/icon5.png" width={60} height={60} alt="Join Digital Team" />
+                <Image src="/images/icons/icon5.png" width={80} height={80} alt="Join Digital Team" />
               </div>
               <h6 className="fw-bold">Join Our Digital Team</h6>
               <p className="text-muted small mb-0">
