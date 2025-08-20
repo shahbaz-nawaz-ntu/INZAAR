@@ -296,7 +296,7 @@ const InstructorsCoaches = ({ blogdata }) => {
                 <div className="load-more-btn text-center">
                   <Link
                     className="rbt-btn btn-gradient btn-lg btn-mobile hover-icon-reverse"
-                    href="/course-masonry"
+                    href="/course-with-tab-two"
                   >
                     <span className="icon-reverse-wrapper">
                       <span className="btn-text">View All Courses</span>
