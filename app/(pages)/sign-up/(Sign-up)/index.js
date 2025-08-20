@@ -17,7 +17,6 @@ export default function MultiStepSignup() {
   const [formData, setFormData] = useState({
     firstname: "",
     lastname: "",
-    username: "",
     email: "",
     password: "",
     phone: "",
@@ -52,7 +51,6 @@ export default function MultiStepSignup() {
 
     if (!formData.firstname.trim()) newErrors.firstname = "First name is required";
     if (!formData.lastname.trim()) newErrors.lastname = "Last name is required";
-    if (!formData.username.trim()) newErrors.username = "Username is required";
 
     if (!formData.email.trim()) {
       newErrors.email = "Email is required";
@@ -161,11 +159,7 @@ export default function MultiStepSignup() {
                 </div>
               </div>
 
-              <div>
-                <label htmlFor="username" className="form-label text-black">Username</label>
-                <input type="text" className="form-control" id="username" placeholder="Enter username" value={formData.username} onChange={handleChange} />
-                {errors.username && <small className="text-danger">{errors.username}</small>}
-              </div>
+             
 
               <div>
                 <label htmlFor="email" className="form-label text-black">Email</label>
@@ -263,13 +257,13 @@ export default function MultiStepSignup() {
 
               <div className="mb-3">
                 <label htmlFor="educationQualification" className="form-label text-black">Educational Qualification</label>
-                <input type="text" className="form-control" id="educationQualification" placeholder="Enter your qualification" value={formData.educationQualification} onChange={handleChange} />
+                <input type="text" className="form-control fs-3 " id="educationQualification" placeholder="Enter your qualification" value={formData.educationQualification} onChange={handleChange} />
                 {errors.educationQualification && <small className="text-danger">{errors.educationQualification}</small>}
               </div>
 
               <div className="mb-3">
                 <label htmlFor="nationality" className="form-label text-black">Nationality</label>
-                <input type="text" className="form-control" id="nationality" placeholder="Enter your nationality" value={formData.nationality} onChange={handleChange} />
+                <input type="text" className="form-control fs-3" id="nationality" placeholder="Enter your nationality" value={formData.nationality} onChange={handleChange} />
                 {errors.nationality && <small className="text-danger">{errors.nationality}</small>}
               </div>
 
@@ -281,12 +275,12 @@ export default function MultiStepSignup() {
 
               <div className="mb-3">
                 <label htmlFor="attendedReligiousCourseDetails" className="form-label text-black">Already Attended a Religious Course (if any)</label>
-                <textarea className="form-control" id="attendedReligiousCourseDetails" rows="2" value={formData.attendedReligiousCourseDetails} onChange={handleChange}></textarea>
+                <textarea className="form-control fs-3" id="attendedReligiousCourseDetails" rows="2" value={formData.attendedReligiousCourseDetails} onChange={handleChange}></textarea>
               </div>
 
               <div className="mb-3">
                 <label htmlFor="referralSource" className="form-label text-black">How did you come to know about Inzaar?</label>
-                <textarea className="form-control" id="referralSource" rows="2" value={formData.referralSource} onChange={handleChange}></textarea>
+                <textarea className="form-control fs-3" id="referralSource" rows="2" value={formData.referralSource} onChange={handleChange}></textarea>
               </div>
 
               <div className="d-grid mb-3">

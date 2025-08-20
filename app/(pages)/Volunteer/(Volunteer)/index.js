@@ -14,6 +14,7 @@ import FooterOne from "@/components/Footer/Footer-One";
 // import VolunteerPage from '@/components/26-islamic-center/volunteer';
 import Volunteer1 from '@/app/volunteer1';
 import HeaderStyleThirteen from '@/components/Header/HeaderStyle-Thirteen';
+import BreadCrumb from '@/components/Common/BreadCrumb';
 
 export default function BecomeAVolunteer() {
   return (
@@ -23,21 +24,46 @@ export default function BecomeAVolunteer() {
         <MobileMenu />
         <Cart />
 
-        <div className="bg-light min-vh-100 py-5 gradient1-background">
+        <div className=" min-vh-100 py-5">
           {/* Header */}
-          <div className="text-center mb-4">
+          {/* <div className="text-center mb-4">
             <h1 className="fw-bold">
               Become a <span className="gradient-Registration">Volunteer</span>
             </h1>
             <div className="text-secondary mt-2">
               <Link href="/" className="text-decoration-underline text-secondary">Home</Link> <span>›</span> Become a Volunteer
             </div>
+          </div> */}
+
+          {/* <BreadCrumb title="Become a Volunteer" text="Volunteer" /> */}
+          <div className="rbt-breadcrumb-default ptb--100 ptb_md--50 ptb_sm--30 gradient1-background ">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="breadcrumb-inner text-center">
+              <h2 className="title">Become a <span className='gradient-text'>Volunteer</span></h2>
+              <ul className="page-list">
+                <li className="rbt-breadcrumb-item">
+                  <Link href="/">Home</Link>
+                </li>
+                <li>
+                  <div className="icon-right">
+                    <i className="feather-chevron-right"></i>
+                  </div>
+                </li>
+                <li className="rbt-breadcrumb-item active">Volunteer</li>
+              </ul>
+            </div>
           </div>
+        </div>
+      </div>
+    </div>
 
           {/* Application Section */}
-          <div className="container bg-white rounded shadow-sm p-4">
+          <div className="container bg-white rounded  p-4">
             <div className="text-center mb-4">
-              <button className="btn btn-sm mb-2 gradient-Registration fs-4">Join Our Team</button>
+              <button className="btn btn-sm mb-2 dimension-btn fs-4">
+                <span className='gradient-text'>Join Our Team</span></button>
               <h2 className="fw-bold fs-7">
                 Apply As <span className="gradient-Registration">Volunteer</span>
               </h2>

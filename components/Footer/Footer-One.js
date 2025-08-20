@@ -71,7 +71,7 @@ const FooterOne = ({ isBox, bgColor, newsletterBorder, islamic }) => {
                   <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                     <div className="footer-widget">
                       <div className="logo">
-                        <Link href="/">
+                        <Link href="/" className="d-flex align-items-center gap-3">
                           {isLightTheme ? (
                             <Image
                               src={logo}
@@ -89,7 +89,9 @@ const FooterOne = ({ isBox, bgColor, newsletterBorder, islamic }) => {
                               alt="Education Logo Images"
                             />
                           )}
+                          <div className="gradient-text fs-1 fw-semibold">Inzaar.org</div>
                         </Link>
+                        {/* <div className="gradient-text fs-1 fw-semibold">Inzaar.org</div> */}
                       </div>
 
                       <p className="description mt--20">{footer.description}</p>

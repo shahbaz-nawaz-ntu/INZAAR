@@ -4,7 +4,7 @@ import { ArrowRight, Link } from 'lucide-react';
 
 export default function Volunteer1() {
     return (
-        <div className="min-vh-10 bg-light py-5">
+        <div className=" bg-light py-5">
             <div className="container">
                 <div className="row g-4 py-5">
                     {/* Header Card */}
