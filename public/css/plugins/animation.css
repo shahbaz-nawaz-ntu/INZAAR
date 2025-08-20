@@ -80,11 +80,15 @@ Copyright (c) 2015 Daniel Eden
 .backgroundwhite{
 background: white;
 }
-
+.width-fix{
+  height: 100px;
+}
   .size{
     height: 610px;
     width: 600px;
   }
+
+
 
   .img1 {
     width: 15%;
