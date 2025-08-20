@@ -115,7 +115,16 @@ background: white;
     left: 28%;
   }
 .h{
-  height: 620px;
+  height: 650px;
+}
+.join{
+  height: 32px;
+}
+.become{
+  height: 40px;
+}
+.st{
+  width: 150px;
 }
 .join{
   height: 32px;
