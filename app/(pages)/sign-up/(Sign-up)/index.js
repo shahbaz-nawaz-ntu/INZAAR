@@ -142,8 +142,10 @@ export default function MultiStepSignup() {
       <div className="d-none relative gradient-diagonal d-md-flex flex-column justify-content-center align-items-center p-5 w-75 h-100 text-white">
         <Image src={img1} width={59} height={59} alt="img1" className="img1" />
         <div className="img5">
-         <Link href="/" className=""><Image src={img5} width={59} height={59} alt="logo" className="img5-1" /></Link>
-          <div className="img5-text">Inzaar.org</div>
+         <Link href="/" className="d-flex align-items-center gap-2">
+          <Image src={img5} width={59} height={59} alt="logo" className="img5-1" />
+          <div className="img5-text text-white">Inzaar.org</div>
+         </Link>
         </div>
         <Image src={img2} width={59} height={59} alt="img2" className="img2" />
         <Image src={img3} width={59} height={59} alt="img3" className="img3" />
@@ -205,7 +207,7 @@ export default function MultiStepSignup() {
                   </span>
                   <input
                     type="text"
-                    className="form-control"
+                    className="form-control outline-none"
                     id="phone"
                     placeholder="e.g. 3312345678 (without 0)"
                     value={formData.phone}

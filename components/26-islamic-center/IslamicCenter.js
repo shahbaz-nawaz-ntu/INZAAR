@@ -36,8 +36,8 @@ const IslamicCenter = ({ blogdata }) => {
     <>
       <main className="rbt-main-wrapper">
         <IslamicCenterBanner />
-        <div className="rbt-feature-area rbt-section-gap3Top">
-          <div className="container ">
+        <div className="rbt-feature-area rbt-section-gap3Top py-5">
+          <div className="container">
             <div className="row g-5 ">
               <div className="col-lg-4 col-md-6 col-12 ">
                 <div className="rbt-feature-card-two">
