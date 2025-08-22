@@ -109,6 +109,11 @@ background: white;
     width: 600px;
   }
 
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important; /* removes the glow */
+  border-color: #e8ecf0 !important;
+}
 
 
   .img1 {
