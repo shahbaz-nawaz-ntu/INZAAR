@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "../../public/images/logo/logo.png";
+import logo from "../../public/images/new/logo.png";
 
 import Nav from "./Nav";
 import { useAppContext } from "@/context/Context";
@@ -22,7 +22,7 @@ const MobileMenu = () => {
                 <Link href="/">
                   <Image
                     src={logo}
-                    width={137}
+                    // width={137}
                     height={45}
                     alt="Education Logo Images"
                   />
@@ -38,17 +38,17 @@ const MobileMenu = () => {
               </div>
             </div>
             <p className="description">
-              Histudy is a education website template. You can customize all.
+              We’re always in search for talented and motivated people.Don’t be shy introduce yourself!
             </p>
             <ul className="navbar-top-left rbt-information-list justify-content-start">
               <li>
                 <Link href="mailto:hello@example.com">
-                  <i className="feather-mail"></i>example@gmail.com
+                  <i className="feather-mail"></i>globalinzaar@gmail.com
                 </Link>
               </li>
               <li>
                 <Link href="#">
-                  <i className="feather-phone"></i>(302) 555-0107
+                  <i className="feather-phone"></i>+92-345-8206011
                 </Link>
               </li>
             </ul>
@@ -60,11 +60,15 @@ const MobileMenu = () => {
             <div className="rbt-btn-wrapper mb--20">
               <Link
                 className="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center"
-                href="#"
+                href="/sign-up"
               >
                 <span>Enroll Now</span>
               </Link>
             </div>
+
+            
+              
+            
 
             <div className="social-share-wrapper">
               <span className="rbt-short-title d-block">Find With Us</span>

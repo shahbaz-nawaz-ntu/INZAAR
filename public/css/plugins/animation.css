@@ -19,19 +19,10 @@ Copyright (c) 2015 Daniel Eden
   
 
   .custom-select {
-  appearance: none;        /* Removes default arrow */
-  -webkit-appearance: none; /* For Safari */
-  -moz-appearance: none;    /* For Firefox */
-  width: 50px;
-  height: 40px;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  margin-left: 10px;
-  background-color: white;
-  
-  /* Optional: Add your own arrow with background image */
-  background-image: none;
+    width: 80px;
+    height: 46px;
+    padding: 10px;
+    margin-left: 10px;
 }
 
   .hw{

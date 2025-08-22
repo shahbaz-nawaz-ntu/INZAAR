@@ -10,7 +10,7 @@ const HeaderStyleThirteen = () => {
       <header className="rbt-header rbt-header-default">
         <div className="rbt-sticky-placeholder"></div>
         <HeaderEleven
-          transparent="shadow-none header-sticky"
+          transparent="shadow-none header-sticky "
           gapSpaceBetween=""
           navigationEnd="rbt-navigation-center"
           btnClass="rbt-marquee-btn marquee-auto btn-border-gradient radius-round btn-sm hover-transform-none"

@@ -10,6 +10,8 @@ import img1 from "../../../../public/images/signup/Rectangle 14.png";
 import img2 from "../../../../public/images/signup/Rectangle 15.png";
 import img5 from "../../../../public/images/new/logo.png";
 import { useRouter } from 'next/navigation';
+import { FaArrowCircleLeft } from "react-icons/fa";
+
 
 
 export default function MultiStepSignup() {
@@ -230,7 +232,8 @@ export default function MultiStepSignup() {
 
           {step === 2 && (
             <>
-            <div onClick={handleback} className="gradient-Registration border border-primary w-25 text-center mb-3 rounded-pill">Go back</div>
+            <div onClick={handleback} className="mb-4" ><FaArrowCircleLeft size={25} color="#b165e7"/>
+</div>
               <div className="row mb-3">
                 <div className="col-md-6">
                   <label htmlFor="gender" className="form-label text-black ">Gender</label>
@@ -275,12 +278,24 @@ export default function MultiStepSignup() {
 
               <div className="mb-3">
                 <label htmlFor="attendedReligiousCourseDetails" className="form-label text-black">Already Attended a Religious Course (if any)</label>
-                <textarea className="form-control fs-3" id="attendedReligiousCourseDetails" rows="2" value={formData.attendedReligiousCourseDetails} onChange={handleChange}></textarea>
+                <select className="p-3">
+                  <option>Choose an option</option>
+                  <option value={"Yes"}>Yes</option>
+                  <option value={"No"}>No</option>
+                </select>
+                {/* <textarea className="form-control fs-3" id="attendedReligiousCourseDetails" rows="2" value={formData.attendedReligiousCourseDetails} onChange={handleChange}></textarea> */}
               </div>
 
               <div className="mb-3">
                 <label htmlFor="referralSource" className="form-label text-black">How did you come to know about Inzaar?</label>
-                <textarea className="form-control fs-3" id="referralSource" rows="2" value={formData.referralSource} onChange={handleChange}></textarea>
+                {/* <textarea className="form-control fs-3" id="referralSource" rows="2" value={formData.referralSource} onChange={handleChange}></textarea> */}
+                <select>
+                  <option>Choose an option</option>
+                  <option value={"Social Media"}>Social Media</option>
+                  <option value={"Friend"}>Friend</option>
+                  <option value={"Advertisement"}>Advertisement</option>
+                  <option value={"Other"}>Other</option>
+                </select>
               </div>
 
               <div className="d-grid mb-3">
