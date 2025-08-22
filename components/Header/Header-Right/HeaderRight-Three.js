@@ -48,7 +48,7 @@ const HeaderRightThree = ({ btnClass, btnText }) => {
       </div>
 
       
-      <select id="fruit" name="fruit" className="custom-select">
+      <select id="fruit" name="fruit" className="custom-select d-none d-xl-block">
         <option value="apple" selected>EN</option>
         <option value="banana">Ur</option>
         <option value="cherry">Fr</option>
