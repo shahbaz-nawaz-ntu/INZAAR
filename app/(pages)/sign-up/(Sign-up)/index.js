@@ -1,5 +1,5 @@
-
 "use client";
+import Link from "next/link";
 
 import { useState } from "react";
 import axios from "axios";
@@ -10,7 +10,6 @@ import img1 from "../../../../public/images/signup/Rectangle 14.png";
 import img2 from "../../../../public/images/signup/Rectangle 15.png";
 import img5 from "../../../../public/images/new/logo.png";
 import { useRouter } from 'next/navigation';
-
 
 export default function MultiStepSignup() {
   const [step, setStep] = useState(1);
@@ -32,17 +31,10 @@ export default function MultiStepSignup() {
 
   const handleback = () => {
     setStep(1);
-  }
+  };
 
   const [errors, setErrors] = useState({});
   const router = useRouter();
-
-
-  const handleChange = (e) => {
-    const { id, value } = e.target;
-    setFormData((prev) => ({ ...prev, [id]: value }));
-    setErrors((prev) => ({ ...prev, [id]: "" }));
-  };
 
   const validateStep1 = () => {
     let newErrors = {};
@@ -58,15 +50,18 @@ export default function MultiStepSignup() {
       newErrors.email = "Email is invalid";
     }
 
-    
-
     if (!formData.password.trim()) {
       newErrors.password = "Password is required";
     } else if (!passwordPattern.test(formData.password)) {
       newErrors.password = "Invalid Password Pattern";
     }
 
-    if (!formData.phone.trim()) newErrors.phone = "Phone number is required";
+    if (!formData.phone.trim()) {
+      newErrors.phone = "Phone number is required";
+    } else if (formData.phone.startsWith("0")) {
+      newErrors.phone = "Do not start with 0";
+    }
+
     if (!formData.cityTtown.trim()) newErrors.cityTtown = "City/Town is required";
 
     setErrors(newErrors);
@@ -97,33 +92,47 @@ export default function MultiStepSignup() {
   };
 
   const handleSubmit = async (e) => {
-  e.preventDefault();
-  if (!validateStep2()) return;
+    e.preventDefault();
+    if (!validateStep2()) return;
 
-  try {
-    const response = await axios.post(
-      "https://api-bea6zuy77q-uc.a.run.app/api/auth/register",
-      formData,
-      { withCredentials: true }
-    );
-    alert("Registration successful");
-    router.push("/homepage");
-  } catch (error) {
-    const res = error.response?.data;
+    try {
+      const response = await axios.post(
+        "https://api-bea6zuy77q-uc.a.run.app/api/auth/register",
+        formData,
+        { withCredentials: true }
+      );
+      alert("Registration successful");
+      router.push("/homepage");
+    } catch (error) {
+      const res = error.response?.data;
 
-    if (res?.message) {
-      alert(`❌ Registration failed:\n${res.message}`);
-    
-    } else if (res?.errors && Array.isArray(res.errors)) {
-      const messages = res.errors.map((err, idx) => `• ${err.message}`).join("\n");
-      alert(`❌ Validation Errors:\n${messages}`);
-    
-    
-    } else {
-      alert("❌ Registration failed. Please try again.");
+      if (res?.message) {
+        alert(`❌ Registration failed:\n${res.message}`);
+      } else if (res?.errors && Array.isArray(res.errors)) {
+        const messages = res.errors.map((err, idx) => `• ${err.message}`).join("\n");
+        alert(`❌ Validation Errors:\n${messages}`);
+      } else {
+        alert("❌ Registration failed. Please try again.");
+      }
     }
-  }
-};
+  };
+
+  const handleChange = (e) => {
+    const { id, value } = e.target;
+
+    // Always update form data
+    setFormData((prev) => ({ ...prev, [id]: value }));
+
+    // Reset the error by default
+    setErrors((prev) => ({ ...prev, [id]: "" }));
+
+    // Extra check for phone (live validation)
+    if (id === "phone") {
+      if (value.startsWith("0")) {
+        setErrors((prev) => ({ ...prev, phone: "Do not start with 0" }));
+      }
+    }
+  };
 
   return (
     <div className="d-flex vh-100">
@@ -131,7 +140,7 @@ export default function MultiStepSignup() {
       <div className="d-none relative gradient-diagonal d-md-flex flex-column justify-content-center align-items-center p-5 w-75 h-100 text-white">
         <Image src={img1} width={59} height={59} alt="img1" className="img1" />
         <div className="img5">
-          <Image src={img5} width={59} height={59} alt="logo" className="img5-1" />
+         <Link href="/" className=""><Image src={img5} width={59} height={59} alt="logo" className="img5-1" /></Link>
           <div className="img5-text">Inzaar.org</div>
         </div>
         <Image src={img2} width={59} height={59} alt="img2" className="img2" />
@@ -159,8 +168,6 @@ export default function MultiStepSignup() {
                 </div>
               </div>
 
-             
-
               <div>
                 <label htmlFor="email" className="form-label text-black">Email</label>
                 <input type="email" className="form-control" id="email" placeholder="Enter email address" value={formData.email} onChange={handleChange} />
@@ -187,15 +194,21 @@ export default function MultiStepSignup() {
                 )}
               </div>
 
-
               <div className="mb-3">
                 <label htmlFor="phone" className="form-label text-black">Phone number</label>
                 <div className="input-group">
-                  <span className="input-group-text">
-                    <span role="img" aria-label="Pakistan Flag">🇵🇰 </span>
-                    +92               </span>
-
-                  <input type="text" className="form-control" id="phone" placeholder="Phone number" value={formData.phone} onChange={handleChange} />
+                  <span className="input-group-text fs-4">
+                    <span role="img" aria-label="Pakistan Flag">🇵🇰</span>
+                    +92
+                  </span>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="phone"
+                    placeholder="e.g. 3312345678 (without 0)"
+                    value={formData.phone}
+                    onChange={handleChange}
+                  />
                 </div>
                 {errors.phone && <small className="text-danger">{errors.phone}</small>}
               </div>
@@ -230,12 +243,12 @@ export default function MultiStepSignup() {
 
           {step === 2 && (
             <>
-            <div onClick={handleback} className="gradient-Registration border border-primary w-25 text-center mb-3 rounded-pill">Go back</div>
+              <div onClick={handleback} className="gradient-Registration border border-primary w-25 text-center mb-3 rounded-pill">Go back</div>
               <div className="row mb-3">
                 <div className="col-md-6">
                   <label htmlFor="gender" className="form-label text-black ">Gender</label>
                   <select
-                    className="form-select fs-3 hw" 
+                    className="form-select fs-3 hw"
                     id="gender"
                     value={formData.gender}
                     onChange={handleChange}
@@ -287,7 +300,6 @@ export default function MultiStepSignup() {
                 <button type="submit" className="btn w-100 mb-3 text-white rounded py-3 gradient-background border-0 fs-2">
                   Completed
                 </button>
-
               </div>
 
               <p className="text-center">

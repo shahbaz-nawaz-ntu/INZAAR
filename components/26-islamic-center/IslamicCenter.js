@@ -43,7 +43,11 @@ const IslamicCenter = ({ blogdata }) => {
                 <div className="rbt-feature-card-two">
                   <div className="feature-body ">
                     <div className="icon bg-color-primary">
-                      <i class="fa fa-book"></i>
+                      <img
+                        src="/images/Group.png"
+                        alt="Book Icon"
+                        style={{ width: "30px", height: "30px" }}
+                      />
                     </div>
                     <h5 className="title w-500 mb--10 mt--15">
                       Learn at Your Own Pace                    </h5>
@@ -57,8 +61,13 @@ const IslamicCenter = ({ blogdata }) => {
                 <div className="rbt-feature-card-two">
                   <div className="feature-body">
                     <div className="icon bg-color-secondary">
-                      <i className="feather-book"></i>
+                      <img
+                        src="/images/Group 339.png"
+                        alt="Book Icon"
+                        style={{ width: "36px", height: "36px" }}
+                      />
                     </div>
+
                     <h5 className="title w-500 mb--10 mt--15">
                       Track Progress Easily                    </h5>
                     <p className="description" style={{ fontSize: "12px" }}>
@@ -71,8 +80,11 @@ const IslamicCenter = ({ blogdata }) => {
                 <div className="rbt-feature-card-two">
                   <div className="feature-body">
                     <div className="icon bg-color-pink">
-                      <i className="feather-award"></i>
-                    </div>
+                      <img
+                        src="/images/Group(1).png"
+                        alt="Book Icon"
+                        style={{ width: "36px", height: "36px" }}
+                      />                    </div>
                     <h5 className="title w-500 mb--10 mt--15">
                       Stay Connected and Engaged                    </h5>
                     <p className="description" style={{ fontSize: "12px" }}>
@@ -129,7 +141,7 @@ const IslamicCenter = ({ blogdata }) => {
                       <h2 className="title w-600">
                         Fostering{" "}
                         <span className="gradient-text-about">
-                         Faith and Knowledge
+                          Faith and Knowledge
                         </span>{" "}
 
                       </h2>
@@ -232,7 +244,7 @@ const IslamicCenter = ({ blogdata }) => {
                         </Link>
                       </h4>
                       <div className="width-fix">
-                      <p className="rbt-card-text">{data.desc}</p>
+                        <p className="rbt-card-text">{data.desc}</p>
                       </div>
                       <div className=" gradient-Registration" style={{ display: 'flex', justifyContent: 'flex-end' }}>
                         <Link className="rbt-btn-link gradient-Registration" href={`/course-details/${data.id}`}>

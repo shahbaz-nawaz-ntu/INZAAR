@@ -1,4 +1,6 @@
 "use client";
+import Link from "next/link";
+
 import Image from "next/image";
 import React, { useState } from "react";
 import axios from "axios";
@@ -39,9 +41,9 @@ export default function Forgot() {
       <div className="d-flex vh-100">
         {/* Left Section */}
         <div className="d-none relative gradient-diagonal d-md-flex flex-column justify-content-center align-items-center p-5 w-75 h-100 text-white">
-          <Image src={img1} width={59} height={59} alt="Author Images" className="img1" />
+         <Image src={img1} width={59} height={59} alt="Author Images" className="img1" />
           <div className="img5">
-            <Image src={img5} width={59} height={59} alt="Author Images" className="img5-1" />
+             <Link href="/" className=""><Image src={img5} width={59} height={59} alt="Author Images" className="img5-1" /></Link>
             <div className="img5-text">Inzaar.org</div>
           </div>
           <Image src={img2} width={59} height={59} alt="Author Images" className="img2" />
