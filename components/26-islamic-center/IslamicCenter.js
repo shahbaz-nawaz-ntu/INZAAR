@@ -178,7 +178,7 @@ const IslamicCenter = ({ blogdata }) => {
 
                       <Link
                         className="rbt-btn btn-gradient hover-icon-reverse"
-                        href="/about-us-01"
+                        href="/course-masonry"
                       >
                         <span className="icon-reverse-wrapper">
                           <span className="btn-text">Start Learning</span>
