@@ -53,11 +53,7 @@ const Contact = () => {
                     </p>
                   )}
 
-                  {/* {data.mailTwo && (
-                    <p>
-                      <Link href={`mailto:${data.mailTwo}`}>{data.mailTwo}</Link>
-                    </p>
-                  )} */}
+                
 
                   {data.address && (
                     <p className="d-flex align-items-center justify-content-start gap-5">
@@ -65,10 +61,10 @@ const Contact = () => {
                         <AiFillInstagram size={40} color="#ad65e7" />
                       </a>
                       <a href="https://www.facebook.com/abuyahya.inzaar" target="_blank" rel="noopener noreferrer">
-                        <FaFacebook size={40} color="#ad65e7" />
+                        <FaFacebook size={40} color="#ad65e7"/>
                       </a>
                       <a href="https://www.instagram.com/abuyahya267/" target="_blank" rel="noopener noreferrer">
-                        <FaXTwitter size={40} color="#ad65e7" />
+                        <FaXTwitter size={40} color="#9947ddff" />
                       </a>
                     </p>
                   )} 

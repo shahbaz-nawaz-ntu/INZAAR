@@ -94,7 +94,7 @@ const FooterFour = () => {
                         </li>
                         <li>
                           <span>E-mail:</span>
-                          <Link href="mailto:hr@example.com">
+                          <Link href="mailto:admin@inzaar.org ">
                             {footer.mail}
                           </Link>
                         </li>
