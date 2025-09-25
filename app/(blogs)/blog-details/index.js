@@ -48,7 +48,7 @@ export default function SingleBlog({ getAllblog }) {
                     <span className="subtitle bg-primary-opacity">
                       Related Post
                     </span>
-                    <h4 className="title">Similar Post</h4>
+                    <h4 className="title">Similar Posts</h4>
                   </div>
                   <BlogListItems selectedBlog={getAllblog} start={1} end={4} />
                 </div>
