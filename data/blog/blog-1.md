@@ -72,8 +72,8 @@ social: [
 ]
 author: [
     {
-          name: "Farjana Bawnia",
-          img: "/images/testimonial/testimonial-4.jpg",
+          name: "Farhana Fatima",
+          img: "/images/testimonial/islamic-featured-01.png",
           about: "Sr. UX Designer",
           info: "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top.",
           social: [

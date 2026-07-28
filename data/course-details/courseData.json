@@ -30,7 +30,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Design", "Development"],
+      "courseFor": [
+        "Design",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -320,7 +323,7 @@
           "body": [
             {
               "id": 1,
-              "img": "/images/client/avatar-02.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/card-icon-1.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -360,28 +363,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/userImg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -573,7 +576,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Frontend", "Design"],
+      "courseFor": [
+        "Frontend",
+        "Design"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -863,7 +869,7 @@
           "body": [
             {
               "id": 2,
-              "img": "/images/client/avatar-03.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/card-icon-1.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -902,28 +908,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -1070,7 +1076,6 @@
         {
           "cate": "Beauty & fashion"
         },
-
         {
           "cate": "Kitchen"
         },
@@ -1115,7 +1120,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Design", "Backend"],
+      "courseFor": [
+        "Design",
+        "Backend"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -1405,7 +1413,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -1444,28 +1452,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -1647,7 +1655,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Design", "Development"],
+      "courseFor": [
+        "Design",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -1937,7 +1948,7 @@
           "body": [
             {
               "id": 1,
-              "img": "/images/client/avatar-02.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/card-icon-1.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -1977,28 +1988,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -2184,7 +2195,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Python", "Development"],
+      "courseFor": [
+        "Python",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -2474,7 +2488,7 @@
           "body": [
             {
               "id": 2,
-              "img": "/images/client/avatar-03.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/card-icon-1.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -2513,28 +2527,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -2719,7 +2733,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Frontend", "Python"],
+      "courseFor": [
+        "Frontend",
+        "Python"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -3009,7 +3026,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -3048,28 +3065,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -3254,7 +3271,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Full Stack", "Design"],
+      "courseFor": [
+        "Full Stack",
+        "Design"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -3544,7 +3564,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -3583,28 +3603,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -3792,7 +3812,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Backend", "Frontend"],
+      "courseFor": [
+        "Backend",
+        "Frontend"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -4082,7 +4105,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -4121,28 +4144,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -4330,7 +4353,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Design", "Development"],
+      "courseFor": [
+        "Design",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -4620,7 +4646,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -4659,28 +4685,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -4868,7 +4894,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Design", "Development"],
+      "courseFor": [
+        "Design",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -5158,7 +5187,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -5197,28 +5226,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -5406,7 +5435,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Frontend", "Backend"],
+      "courseFor": [
+        "Frontend",
+        "Backend"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -5696,7 +5728,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -5735,28 +5767,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -5944,7 +5976,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -6234,7 +6269,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -6273,28 +6308,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -6491,7 +6526,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -6781,7 +6819,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -6820,28 +6858,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -7038,7 +7076,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -7328,7 +7369,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -7367,28 +7408,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -7585,7 +7626,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -7875,7 +7919,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -7914,28 +7958,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -8132,7 +8176,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -8422,7 +8469,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avater-01.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -8461,28 +8508,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -8679,7 +8726,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -8969,7 +9019,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-02.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -9008,28 +9058,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -9226,7 +9276,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -9516,7 +9569,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -9555,28 +9608,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -9773,7 +9826,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -10063,7 +10119,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -10102,28 +10158,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -10320,7 +10376,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -10610,7 +10669,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -10649,28 +10708,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -10867,7 +10926,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -11157,7 +11219,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -11196,28 +11258,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -11414,7 +11476,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -11704,7 +11769,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -11743,28 +11808,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -11961,7 +12026,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -12251,7 +12319,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -12290,28 +12358,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -12508,7 +12576,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -12798,7 +12869,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -12837,28 +12908,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -13055,7 +13126,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -13345,7 +13419,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -13384,28 +13458,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -13602,7 +13676,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -13892,7 +13969,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -13931,28 +14008,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -14149,7 +14226,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -14439,7 +14519,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -14478,28 +14558,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -14696,7 +14776,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -14986,7 +15069,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -15025,28 +15108,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -15243,7 +15326,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -15533,7 +15619,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -15572,28 +15658,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -15790,7 +15876,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -16080,7 +16169,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -16119,28 +16208,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -16297,8 +16386,8 @@
           "cate": "Tour & Travel"
         }
       ]
-    }, 
-     {
+    },
+    {
       "id": 42,
       "courseTitle": "Self-Introspection Courses",
       "category": "development",
@@ -16337,7 +16426,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -16627,7 +16719,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -16666,28 +16758,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -16884,7 +16976,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -17174,7 +17269,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -17213,28 +17308,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -17391,7 +17486,7 @@
           "cate": "Tour & Travel"
         }
       ]
-    },    
+    },
     {
       "id": 44,
       "courseTitle": "Tafseer Courses",
@@ -17431,7 +17526,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -17721,7 +17819,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -17760,28 +17858,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -17954,12 +18052,10 @@
       "student": 50,
       "discount": 40,
       "sellsType": "",
-
       "star": "",
       "ratingNumber": "",
       "studentNumber": "",
       "cateSmallImg": "/images/category/web-design.png",
-
       "cateBigImg": "/images/category/image/web-design.jpg",
       "userImg": "/images/client/avatar-02.png",
       "courseImg": "/images/course/course-list-01.jpg",
@@ -17978,7 +18074,7 @@
         {
           "title": "Akhrat kay Dalail aur Ahwal e Akhrat Course",
           "desc": "This course thoroughly explores the concept of the Day of Judgment, drawing upon the teachings of the Holy Quran and authentic Ahadith. It explains the reality, significance, and certainty of this inevitable event in every individual's life. The course highlights the signs leading up to the Day of Judgment, the process of accountability, and the eternal consequences of one’s actions in the worldly life.By studying these authentic sources, participants will gain a deeper awareness of the afterlife and be encouraged to lead a more responsible and righteous life in preparation for the ultimate meeting with their Creator.",
-          "descTwo":"",
+          "descTwo": "",
           "overviewList": [
             {
               "listItem": ""
@@ -18263,7 +18359,7 @@
           "body": [
             {
               "id": 1,
-              "img": "/images/client/1.jpg",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/card-icon-1.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -18303,28 +18399,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Emaaan Fatima",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -18785,7 +18881,7 @@
           "body": [
             {
               "id": 2,
-              "img": "/images/client/1.jpg",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/card-icon-1.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -18824,28 +18920,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -18972,7 +19068,6 @@
         {
           "cate": "Beauty & fashion"
         },
-
         {
           "cate": "Kitchen"
         },
@@ -19305,7 +19400,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/1.jpg",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "",
               "contact": "",
@@ -19344,28 +19439,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -19815,7 +19910,7 @@
           "body": [
             {
               "id": 1,
-              "img": "/images/client/1.jpg",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/card-icon-1.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -19855,28 +19950,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -20330,7 +20425,7 @@
           "body": [
             {
               "id": 2,
-              "img": "/images/client/1.jpg",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/card-icon-1.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -20369,28 +20464,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -20863,7 +20958,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/1.jpg",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -20902,28 +20997,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -21376,7 +21471,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/1.jpg",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -21415,28 +21510,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -21882,7 +21977,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/1.jpg",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -21921,28 +22016,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -22398,7 +22493,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/1.jpg",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -22437,28 +22532,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -22914,7 +23009,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/1.jpg",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -22953,28 +23048,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/client/1.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -23431,7 +23526,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -23470,28 +23565,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -23658,7 +23753,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -23948,7 +24046,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -23987,28 +24085,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -24188,7 +24286,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -24478,7 +24579,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -24517,28 +24618,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -24736,7 +24837,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -25026,7 +25130,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -25065,28 +25169,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -25284,7 +25388,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -25574,7 +25681,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -25613,28 +25720,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -25832,7 +25939,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -26122,7 +26232,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -26161,28 +26271,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -26380,7 +26490,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -26670,7 +26783,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -26709,28 +26822,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -26928,7 +27041,10 @@
         "NEXT",
         "Bitcoin"
       ],
-      "courseFor": ["Full Stack", "Development"],
+      "courseFor": [
+        "Full Stack",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -27218,7 +27334,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -27257,28 +27373,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -27468,7 +27584,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Design", "Development"],
+      "courseFor": [
+        "Design",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -27758,7 +27877,7 @@
           "body": [
             {
               "id": 1,
-              "img": "/images/client/avatar-02.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/card-icon-1.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -27798,28 +27917,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -28011,7 +28130,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Frontend", "Design"],
+      "courseFor": [
+        "Frontend",
+        "Design"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -28301,7 +28423,7 @@
           "body": [
             {
               "id": 2,
-              "img": "/images/client/avatar-03.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/card-icon-1.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -28340,28 +28462,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -28508,7 +28630,6 @@
         {
           "cate": "Beauty & fashion"
         },
-
         {
           "cate": "Kitchen"
         },
@@ -28553,7 +28674,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Design", "Backend"],
+      "courseFor": [
+        "Design",
+        "Backend"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -28843,7 +28967,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -28882,28 +29006,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -29085,7 +29209,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Design", "Development"],
+      "courseFor": [
+        "Design",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -29375,7 +29502,7 @@
           "body": [
             {
               "id": 1,
-              "img": "/images/client/avatar-02.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/card-icon-1.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -29415,28 +29542,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -29622,7 +29749,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Python", "Development"],
+      "courseFor": [
+        "Python",
+        "Development"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -29912,7 +30042,7 @@
           "body": [
             {
               "id": 2,
-              "img": "/images/client/avatar-03.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/card-icon-1.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -29951,28 +30081,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
@@ -30157,7 +30287,10 @@
       "date": "12/2025",
       "language": "English",
       "courseAward": "Certified Course",
-      "courseFor": ["Frontend", "Python"],
+      "courseFor": [
+        "Frontend",
+        "Python"
+      ],
       "courseOverview": [
         {
           "title": "What you'll learn",
@@ -30447,7 +30580,7 @@
           "body": [
             {
               "id": 3,
-              "img": "/images/client/avatar-04.png",
+              "img": "/images/testimonial/islamic-instructor.png",
               "awardImg": "/images/icons/best-seller-icon.png",
               "sellsType": "Bestseller",
               "contact": "+1-202-555-0174",
@@ -30486,28 +30619,28 @@
           "title": "Featured review",
           "body": [
             {
-              "userImg": "/images/testimonial/testimonial-3.jpg",
-              "userName": "Farjana Bawnia",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Farhana Fatima",
               "desc": "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-4.jpg",
-              "userName": "Razwan Islam",
+              "userImg": "/images/testimonial/islamic-featured-04.png",
+              "userName": "Emaan Fatima",
               "desc": "At 25 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-1.jpg",
-              "userName": "Babor Azom",
+              "userImg": "/images/testimonial/islamic-featured-02.png",
+              "userName": "Babar Azam",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-6.jpg",
-              "userName": "Mohammad Ali",
+              "userImg": "/images/testimonial/islamic-featured-03.png",
+              "userName": "Muhammad Ali",
               "desc": "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             },
             {
-              "userImg": "/images/testimonial/testimonial-2.jpg",
-              "userName": "Sakib Al Hasan",
+              "userImg": "/images/testimonial/islamic-featured-01.png",
+              "userName": "Sumayya Bibi",
               "desc": "At 28 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
             }
           ]
