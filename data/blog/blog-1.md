@@ -33,9 +33,7 @@ linkThree: "App Store"
 quote: "Only one thing is impossible for God: To find any sense in any copyright law on the planet."
 city: "Mark Twain"
 
-thumbnail: {
-	large: "/images/blog/blog-single-03.png" 
-}
+thumbnail: { large: \"/images/blog/blog-single-03.png\" }
 categories: ["Agency news"]
 publishedAt: "Aug 27 2025"
 readingTime: "9 min read"
