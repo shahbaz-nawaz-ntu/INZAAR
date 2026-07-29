@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import toast from 'react-hot-toast';
 
 import "venobox/dist/venobox.min.css";
 
@@ -38,8 +39,12 @@ const Viedo = ({ checkMatchCourses }) => {
   const [amount, setAmount] = useState(1);
 
   const addToCartFun = (id, amount, product) => {
-    dispatch(addToCartAction(id, amount, product));
-    setCart(!cartToggle);
+    // dispatch(addToCartAction(id, amount, product));
+    // setCart(!cartToggle);
+    toast.error('Feature under development', {
+      duration: 3000,
+      position: 'top-center',
+    });
   };
 
   useEffect(() => {
@@ -138,9 +143,10 @@ const Viedo = ({ checkMatchCourses }) => {
           <Link
             className="rbt-btn btn-gradient icon-hover w-100 d-block text-center"
             href="#"
-            onClick={() =>
-              addToCartFun(checkMatchCourses.id, amount, checkMatchCourses)
-            }
+            onClick={(e) => {
+              e.preventDefault();
+              addToCartFun(checkMatchCourses.id, amount, checkMatchCourses);
+            }}
           >
             <span className="btn-text">Enroll Now</span>
             <span className="btn-icon">

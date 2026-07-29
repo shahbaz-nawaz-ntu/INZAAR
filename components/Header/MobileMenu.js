@@ -38,7 +38,7 @@ const MobileMenu = () => {
               </div>
             </div>
             <p className="description">
-              We’re always in search for talented and motivated people.Don’t be shy introduce yourself!
+              Inzaar is an institution dedicated to Da’wah and Learning. Its aim is to strengthen the understanding and importance of faith and good morals in the society and help people mold their personalities in accordance with the requirements of faith and morality.
             </p>
             <ul className="navbar-top-left rbt-information-list justify-content-start">
               <li>

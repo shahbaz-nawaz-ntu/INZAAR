@@ -21,6 +21,8 @@ import "swiper/css/thumbs";
 
 import "../public/scss/styles.scss";
 
+import { Toaster } from 'react-hot-toast';
+
 export default function RootLayout({ children }) {
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
@@ -28,6 +30,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" dir="ltr">
       <body className="" suppressHydrationWarning={true}>
+        <Toaster />
         {children}
       </body>
     </html>
