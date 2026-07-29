@@ -41,9 +41,15 @@ const Viedo = ({ checkMatchCourses }) => {
   const addToCartFun = (id, amount, product) => {
     // dispatch(addToCartAction(id, amount, product));
     // setCart(!cartToggle);
-    toast.error('Feature under development', {
+    toast('Feature under development', {
       duration: 3000,
       position: 'top-center',
+      icon: <img src="/images/icons/development-icon.png" alt="Development" style={{ width: '24px', height: '24px' }} />,
+      style: {
+        borderRadius: '10px',
+        background: '#333',
+        color: '#fff',
+      },
     });
   };
 
@@ -78,9 +84,8 @@ const Viedo = ({ checkMatchCourses }) => {
     <>
       {!disableVideo ? (
         <Link
-          className={`video-popup-with-text video-popup-wrapper text-center popup-video sidebar-video-hidden mb--15 ${
-            hideOnScroll ? "d-none" : ""
-          }`}
+          className={`video-popup-with-text video-popup-wrapper text-center popup-video sidebar-video-hidden mb--15 ${hideOnScroll ? "d-none" : ""
+            }`}
           data-vbtype="video"
           href="https://www.youtube.com/watch?v=nA1Aqp0sPQo"
         >
@@ -109,9 +114,8 @@ const Viedo = ({ checkMatchCourses }) => {
       )}
       {isVideo ? (
         <div
-          className={`radius-6 overflow-hidden sidebar-video-hidden mb--30 ${
-            hideOnScroll ? "d-none" : ""
-          }`}
+          className={`radius-6 overflow-hidden sidebar-video-hidden mb--30 ${hideOnScroll ? "d-none" : ""
+            }`}
         >
           <div className="plyr__video-embed rbtplayer">
             <iframe
@@ -127,17 +131,17 @@ const Viedo = ({ checkMatchCourses }) => {
       ) : (
         ""
       )}
-      
-       <div className="content-item-content">
-       {checkMatchCourses.courseImg && (
-              <Image
-                className="w-100 rbt-radius"
-                src={checkMatchCourses.courseImg}
-                width={255}
-                height={155}
-                alt="Video Images"
-              />
-            )}
+
+      <div className="content-item-content">
+        {checkMatchCourses.courseImg && (
+          <Image
+            className="w-100 rbt-radius"
+            src={checkMatchCourses.courseImg}
+            width={255}
+            height={155}
+            alt="Video Images"
+          />
+        )}
 
         <div className="add-to-card-button mt--15">
           <Link
@@ -156,15 +160,14 @@ const Viedo = ({ checkMatchCourses }) => {
         </div>
 
         <div className="buy-now-btn mt--15 ml--40">
-          
-            <span className="btn-text">All courses are free of cost</span>
-           
+
+          <span className="btn-text">All courses are free of cost</span>
+
         </div>
-       
+
         <div
-          className={`rbt-widget-details has-show-more ${
-            toggle ? "active" : ""
-          }`}
+          className={`rbt-widget-details has-show-more ${toggle ? "active" : ""
+            }`}
         >
           <ul className="has-show-more-inner-content rbt-course-details-list-wrapper">
             {checkMatchCourses &&
@@ -177,7 +180,7 @@ const Viedo = ({ checkMatchCourses }) => {
                 </li>
               ))}
           </ul>
-         
+
         </div>
 
         <div className="social-share-wrapper mt--30 text-center">
