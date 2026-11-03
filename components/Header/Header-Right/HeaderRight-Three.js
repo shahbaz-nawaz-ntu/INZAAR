@@ -18,7 +18,7 @@ const HeaderRightThree = ({ btnClass, btnText }) => {
         <li className="access-icon rbt-mini-cart">
           <Link
             className="rbt-cart-sidenav-activation rbt-round-btn"
-            href="/sign-in"
+            href="/app/login"
           // onClick={() => setCart(!cartToggle)}
           >
             Login
@@ -41,13 +41,13 @@ const HeaderRightThree = ({ btnClass, btnText }) => {
       </ul>
 
       <div className="rbt-btn-wrapper d-none d-xl-block ml--20">
-        <Link className={`rbt-btn ${btnClass}`} href="/sign-up">
+        <Link className={`rbt-btn ${btnClass}`} href="/app/signup">
           {/* <span data-text={`${btnText}`}>{btnText}</span> */}
           Signup for Free
         </Link>
       </div>
 
-      
+
       <select id="fruit" name="fruit" className="custom-select d-none d-xl-block">
         <option value="apple" selected>EN</option>
         <option value="banana">Ur</option>
