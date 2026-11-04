@@ -1,5 +1,6 @@
 import BackToTop from "./backToTop";
 import HomePage from "../app/HomePage/page";
+import LandingAuthCheck from "./LandingAuthCheck";
 
 export const metadata = {
   title: "Inzaar Educational System",
@@ -11,10 +12,12 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main>
-      <HomePage />
+    <LandingAuthCheck>
+      <main>
+        <HomePage />
 
-      <BackToTop />
-    </main>
+        <BackToTop />
+      </main>
+    </LandingAuthCheck>
   );
 }
