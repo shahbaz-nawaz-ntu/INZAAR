@@ -2,8 +2,11 @@ import BackToTop from "./backToTop";
 import HomePage from "../app/HomePage/page";
 
 export const metadata = {
-  title: "Home - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Inzaar Educational System",
+  description: "Inzaar Educational System",
+  icons: {
+    icon: "/images/new/logo.png",
+  },
 };
 
 export default function Home() {

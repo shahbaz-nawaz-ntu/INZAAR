@@ -3,8 +3,11 @@ import { getAllPostsMeta } from "@/mdx";
 import IslamicCenterPage from "./(islamic-center)";
 
 export const metadata = {
-  title: "Islamic Center - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Inzaar Educational System",
+  description: "Inzaar Educational System",
+  icons: {
+    icon: "/images/new/logo.png",
+  },
 };
 
 const IslamicCenterLayout = async () => {
