@@ -27,9 +27,9 @@ export default function VolunteerPage() {
               <div className="d-flex align-items-center justify-content-center rounded mb-3" style={{ width: '48px', height: '48px' }}>
                 <Image src="/images/icons/icon3.png" width={60} height={60} alt="Feedback" />
               </div>
-              <h6 className="fw-bold">Tell Us What You Think </h6>
+              <h6 className="fw-bold">AI Expert / Software Developer</h6>
               <p className="text-muted small mb-0">
-                Providing regular feedback about your experience of the website and our social media pages.
+                Join our mission to blend faith and technology as an AI Expert / Software Developer.
               </p>
             </div>
           </div>
