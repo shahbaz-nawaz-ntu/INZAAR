@@ -38,15 +38,12 @@ const AboutPage = () => {
           <HeaderStyleThirteen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
           <Cart />
-          <BreadCrumb title="About" text="About" />
+          <BreadCrumb title="About us" text="About us" />
 
           <div className="container py-5">
             <div className="row align-items-center">
               {/* Text Content */}
-              <div className="col-md-6 mb-4 mb-md-0  ">
-                <span className="">
-                <span className="dimension-btn "><span className="gradient-Registration">About me</span></span>
-                </span>
+              <div className="col-md-6 mb-4 mb-md-0">
                 <h1 className="fw-bold mb-3">
                   Building Faith and Character with <span className="gradient-Registration">Inzaar</span>
                 </h1>

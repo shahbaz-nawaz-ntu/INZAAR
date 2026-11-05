@@ -136,7 +136,7 @@ const IslamicCenter = ({ blogdata }) => {
                   <div className="content">
                     <div className="section-title">
                       <span className="dimension-btn">
-                        <span className="gradient-text">ABOUT Me </span>
+                        <span className="gradient-text">About Us </span>
                       </span>
                       <h2 className="title w-600">
                         Fostering{" "}
@@ -178,10 +178,10 @@ const IslamicCenter = ({ blogdata }) => {
 
                       <Link
                         className="rbt-btn btn-gradient hover-icon-reverse"
-                        href="/course-masonry"
+                        href="/about"
                       >
                         <span className="icon-reverse-wrapper">
-                          <span className="btn-text">Start Learning</span>
+                          <span className="btn-text">Learn More</span>
                           <span className="btn-icon">
                             <i className="feather-arrow-right"></i>
                           </span>
@@ -206,7 +206,7 @@ const IslamicCenter = ({ blogdata }) => {
               <div className="col-lg-12">
                 <div className="section-title text-center">
                   <span className="dimension-btn">
-                    <span className="gradient-text">Learn From me </span>
+                    <span className="gradient-text">Learn From Us </span>
                   </span>
                   <h2 className="title w-600">Enroll Course Become Better</h2>
                 </div>
