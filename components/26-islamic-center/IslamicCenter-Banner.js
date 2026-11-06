@@ -153,8 +153,8 @@ const IslamicCenterBanner = () => {
                   </h6>
                   <h1 className="title">
                     <span className="gradient-Registration text-ew">Eternal success</span> <span className="text-ew1">based{" "}
-                   {" "}
-                    on character. </span><Image
+                      {" "}
+                      on character. </span><Image
                       src={textBook}
                       width={94}
                       height={60}
@@ -164,11 +164,11 @@ const IslamicCenterBanner = () => {
 
                   <p className="description">
                     We are devoted to bringing the light of Quranic faith and morality to life—shaping hearts, guiding actions, and transforming our personal and collective journey.
-                    
+
                   </p>
                   <Link
                     className="rbt-btn btn-gradient hover-icon-reverse"
-                    href="#"
+                    href="/app/login"
                   >
                     <span className="icon-reverse-wrapper">
                       <span className="btn-text">Start Learning</span>
@@ -242,9 +242,9 @@ const IslamicCenterBanner = () => {
                         />
                       </span>
                       <div className="cont">
-                      <h6 className="satis-title">99%</h6>
-                      <span className="satis-subtitle">Student</span>
-                    </div>
+                        <h6 className="satis-title">99%</h6>
+                        <span className="satis-subtitle">Student</span>
+                      </div>
                     </div>
                   </div>
                 </div>

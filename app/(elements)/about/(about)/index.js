@@ -54,20 +54,20 @@ const AboutPage = () => {
                   qualities like faith, morality, patience, knowledge, research, integrity, rationality,
                   positive thinking, chastity and modesty.
                 </p>
-                 <Link
-                    className="rbt-btn btn-gradient hover-icon-reverse"
-                    href="#"
-                  >
-                    <span className="icon-reverse-wrapper">
-                      <span className="btn-text">Start Learning </span>
-                      <span className="btn-icon">
-                        <i className="feather-arrow-right"></i>
-                      </span>
-                      <span className="btn-icon">
-                        <i className="feather-arrow-right"></i>
-                      </span>
+                <Link
+                  className="rbt-btn btn-gradient hover-icon-reverse"
+                  href="/app/login"
+                >
+                  <span className="icon-reverse-wrapper">
+                    <span className="btn-text">Start Learning </span>
+                    <span className="btn-icon">
+                      <i className="feather-arrow-right"></i>
                     </span>
-                  </Link>
+                    <span className="btn-icon">
+                      <i className="feather-arrow-right"></i>
+                    </span>
+                  </span>
+                </Link>
               </div>
 
               {/* Image */}
