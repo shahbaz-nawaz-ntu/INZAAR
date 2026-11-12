@@ -205,10 +205,9 @@ const IslamicCenter = ({ blogdata }) => {
             <div className="row mb--50 mb_sm--45">
               <div className="col-lg-12">
                 <div className="section-title text-center">
-                  <span className="dimension-btn">
-                    <span className="gradient-text">Learn From Us </span>
-                  </span>
-                  <h2 className="title w-600">Enroll Course Become Better</h2>
+                  <h2 className="title w-600">
+                    Learn From <span className="gradient-Registration">Us</span>
+                  </h2>
                 </div>
               </div>
             </div>
@@ -286,12 +285,7 @@ const IslamicCenter = ({ blogdata }) => {
             <div className="row row--30 mt_dec--30">
               <div className="col-lg-6 mt--30">
                 <div className="section-title mb--50">
-                  <span className="dimension-btn">
-                    <span className="gradient-text">FAQ's</span>
-                  </span>
-                  <h2 className="title w-600">
-                    Have Questions? We've Got Answers {" "}
-                  </h2>
+                  <h2 className="title w-600">FAQ&apos;S</h2>
                 </div>
                 <div className="rbt-accordion-style rbt-accordion-01 accordion">
                   <div className="accordion" id="accordionExample">

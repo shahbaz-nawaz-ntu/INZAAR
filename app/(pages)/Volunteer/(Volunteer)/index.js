@@ -12,7 +12,6 @@ import Cart from "@/components/Header/Offcanvas/Cart";
 import FooterOne from "@/components/Footer/Footer-One";
 
 // import VolunteerPage from '@/components/26-islamic-center/volunteer';
-import Volunteer1 from '@/app/volunteer1';
 import HeaderStyleThirteen from '@/components/Header/HeaderStyle-Thirteen';
 import BreadCrumb from '@/components/Common/BreadCrumb';
 
@@ -60,12 +59,10 @@ export default function BecomeAVolunteer() {
     </div>
 
           {/* Application Section */}
-          <div className="container bg-white rounded  p-4">
+          <div className="container bg-white rounded p-4">
             <div className="text-center mb-4">
-              <button className="btn btn-sm mb-2 dimension-btn fs-4">
-                <span className='gradient-text'>Join Our Team</span></button>
-              <h2 className="fw-bold fs-7">
-                Apply As <span className="gradient-Registration">Volunteer</span>
+              <h2 className="fw-bold">
+                Join Our <span className="gradient-Registration">Team</span>
               </h2>
               <p className="text-muted mt-2 two">
                 You can be part of the team and voluntarily assist us in Dawah
@@ -182,9 +179,6 @@ export default function BecomeAVolunteer() {
                   </div>
                 </form>
               </div>
-
-
-              <Volunteer1 />
             </div>
           </div>
         </div>

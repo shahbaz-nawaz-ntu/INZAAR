@@ -48,7 +48,7 @@ export default function VolunteerPage() {
           </div>
 
           {/* Graphic & Video Editors */}
-          
+
           <div className="col-md-4 d-flex">
             <div className="d-pink bg-opacity-25 p-5 rounded shadow-sm w-100 h-100">
               <div className="d-flex align-items-center justify-content-center rounded mb-3 " style={{ width: '48px', height: '48px' }}>

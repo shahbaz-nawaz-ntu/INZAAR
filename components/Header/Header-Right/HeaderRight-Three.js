@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useSelector } from "react-redux";
 
 import { useAppContext } from "@/context/Context";
+import LanguageSelect from "./LanguageSelect";
 
 const HeaderRightThree = ({ btnClass, btnText }) => {
   const { mobile, setMobile, search, setSearch, cartToggle, setCart } =
@@ -13,11 +14,14 @@ const HeaderRightThree = ({ btnClass, btnText }) => {
   const { total_items } = useSelector((state) => state.CartReducer);
 
   return (
-    <div className="header-right">
-      <ul className="quick-access">
-        <li className="access-icon rbt-mini-cart">
+    <div
+      className="header-right d-flex align-items-center gap-3"
+      style={{ display: "flex", alignItems: "center", gap: "12px" }}
+    >
+      <ul className="quick-access m-0 p-0 d-flex align-items-center">
+        <li className="access-icon rbt-mini-cart m-0 d-flex align-items-center">
           <Link
-            className="rbt-cart-sidenav-activation rbt-round-btn"
+            className="rbt-cart-sidenav-activation rbt-round-btn d-flex align-items-center justify-content-center"
             href="/app/login"
           // onClick={() => setCart(!cartToggle)}
           >
@@ -40,19 +44,14 @@ const HeaderRightThree = ({ btnClass, btnText }) => {
         </li> */}
       </ul>
 
-      <div className="rbt-btn-wrapper d-none d-xl-block ml--20">
+      <div className="rbt-btn-wrapper d-none d-xl-flex align-items-center m-0">
         <Link className={`rbt-btn ${btnClass}`} href="/app/signup">
           {/* <span data-text={`${btnText}`}>{btnText}</span> */}
           Signup for Free
         </Link>
       </div>
 
-
-      <select id="fruit" name="fruit" className="custom-select d-none d-xl-block">
-        <option value="apple" selected>EN</option>
-        <option value="banana">Ur</option>
-        <option value="cherry">Fr</option>
-      </select>
+      <LanguageSelect />
 
 
       <div className="mobile-menu-bar d-block d-xl-none">

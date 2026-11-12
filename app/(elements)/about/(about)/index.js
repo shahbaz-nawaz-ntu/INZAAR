@@ -18,7 +18,6 @@ import FooterOne from "@/components/Footer/Footer-One";
 import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
-import VolunteerPage from "@/components/26-islamic-center/volunteer";
 import inzaarImage from "../../../../public/images/about/inzaar-image.jpg";
 import HeaderStyleThirteen from "@/components/Header/HeaderStyle-Thirteen";
 
@@ -128,20 +127,12 @@ const AboutPage = () => {
             </div>
           </div>
 
-
-          <VolunteerPage />
-
           <div className="rbt-accordion-area bg-color-white rbt-section-gap">
             <div className="container">
               <div className="row row--30 mt_dec--30">
                 <div className="col-lg-6 mt--30">
                   <div className="section-title mb--50">
-                    <span className="dimension-btn">
-                      <span className="gradient-text">FAQ'S</span>
-                    </span>
-                    <h2 className="title w-600">
-                      Have Questions? We've Got Answers {" "}
-                    </h2>
+                    <h2 className="title w-600">FAQ&apos;S</h2>
                   </div>
                   <div className="rbt-accordion-style rbt-accordion-01 accordion">
                     <div className="accordion" id="accordionExample">

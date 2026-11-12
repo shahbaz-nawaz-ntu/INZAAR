@@ -9,11 +9,11 @@ export default function DonatePage() {
     <div className=" my-5 py-4 bg-light rounded shadow-sm ">
       <div className="container row align-items-center mx-auto my-5">
         <div className="col-md-7 mb-4 mb-md-0 ">
-          
+
           <span className="dimension-btn">
             <span className='gradient-text'>Donate Us</span>
           </span>
-    
+
           <h2 className="fw-bold">
             <span className='text-ew1'>Join Us in Spreading the</span>  <span className="gradient-Registration">Light of Deen</span>
           </h2>
@@ -22,20 +22,20 @@ export default function DonatePage() {
             faith &amp; morality (ایمان و اخلاق), personality development (تعمیر شخصیت),
             and the success in life hereafter (فلاح آخرت).
           </p>
-           <Link
-                    className="rbt-btn btn-gradient hover-icon-reverse"
-                    href="#"
-                  >
-                    <span className="icon-reverse-wrapper">
-                      <span className="btn-text">Donate Now </span>
-                      <span className="btn-icon">
-                        <i className="feather-arrow-right"></i>
-                      </span>
-                      <span className="btn-icon">
-                        <i className="feather-arrow-right"></i>
-                      </span>
-                    </span>
-                  </Link>
+          <Link
+            className="rbt-btn btn-gradient hover-icon-reverse"
+            href="https://www.inzaar.org/support-us/"
+          >
+            <span className="icon-reverse-wrapper">
+              <span className="btn-text">Donate Now </span>
+              <span className="btn-icon">
+                <i className="feather-arrow-right"></i>
+              </span>
+              <span className="btn-icon">
+                <i className="feather-arrow-right"></i>
+              </span>
+            </span>
+          </Link>
         </div>
         <div className="col-md-5 text-center">
           <Image

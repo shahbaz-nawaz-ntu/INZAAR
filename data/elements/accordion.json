@@ -257,16 +257,16 @@
       "headingId": "headingThree",
       "question": "Can I access the LMS on my mobile phone?",
       "answer": [
-        "Yes, the LMS is mobile-friendly. You can also download the LMS mobile app (if available) from Google Play or the App Store."
+        "Yes, the LMS is mobile-friendly. You can browse our LMS web portal through any mobile browser like Google Chrome or similar."
       ],
       "expanded": false
     },
     {
       "id": "collapseFour",
       "headingId": "headingThree",
-      "question": "What do I do if I experience a technical issue during class?",
+      "question": "What do I do if I experience a technical issue?",
       "answer": [
-        "Take a screenshot of the error, note the time, and contact tech support or instructor immediately by using Complaint Management System"
+        "A Help Center is available within the LMS for raising queries. Students can also contact the Admin directly."
       ],
       "expanded": false
     }

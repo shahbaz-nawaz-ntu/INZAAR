@@ -25,6 +25,16 @@ Copyright (c) 2015 Daniel Eden
     margin-left: 10px;
 }
 
+  .lang-select-trigger:hover {
+    background-color: #f8fafc !important;
+    border-color: #cbd5e1 !important;
+  }
+
+  .lang-select-item:hover {
+    background-color: #faf5ff !important;
+    color: #7c3aed !important;
+  }
+
   .hw{
     height: 50px;
   }
