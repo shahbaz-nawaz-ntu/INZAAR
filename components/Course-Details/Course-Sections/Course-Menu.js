@@ -14,20 +14,12 @@ const CourseMenu = () => {
 
   const sections = [
     { id: "overview", label: "Overview" },
-    { id: "coursecontent", label: "Course Content" },
-    { id: "details", label: "Details" },
-    { id: "Instructor", label: "Instructor" },
-    { id: "Review", label: "Review" },
+    { id: "intructor", label: "Instructor" },
+    { id: "review", label: "Review" },
   ];
 
   useEffect(() => {
-    const sectionIds = [
-      "overview",
-      "coursecontent",
-      "details",
-      "intructor",
-      "review",
-    ];
+    const sectionIds = ["overview", "intructor", "review"];
 
     const handleScroll = () => {
       const scrollPosition = window.scrollY + 200;
@@ -63,7 +55,7 @@ const CourseMenu = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-70}
+                offset={-160}
                 style={{ cursor: "pointer" }}
               >
                 {sec.label}

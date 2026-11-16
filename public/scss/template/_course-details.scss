@@ -99,20 +99,19 @@
         }
 
         .thumbnail {
-            a {
-                img {
-                    margin-bottom: 0;
-                    min-width: 250px;
-                    max-height: 250px;
-                    object-fit: cover;
-                    border-radius: 100%;
+            img,
+            a img {
+                margin-bottom: 0;
+                min-width: 250px;
+                max-height: 250px;
+                object-fit: cover;
+                border-radius: 100%;
 
-                    @media #{$large-mobile} {
-                        margin-bottom: 0;
-                        min-width: 100%;
-                        max-height: initial;
-                        margin-right: 0;
-                    }
+                @media #{$large-mobile} {
+                    margin-bottom: 0;
+                    min-width: 100%;
+                    max-height: initial;
+                    margin-right: 0;
                 }
             }
         }

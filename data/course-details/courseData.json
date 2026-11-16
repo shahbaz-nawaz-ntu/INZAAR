@@ -16388,12 +16388,12 @@
       ]
     },
     {
-      "id": 42,
-      "courseTitle": "Self-Introspection Courses",
-      "category": "development",
+      "id": 13,
+      "courseTitle": "Quran ka Matloob Insaan Course",
+      "category": "LMS",
       "courseType": "special",
-      "desc": "Our Self-Introspection courses include introspection forms along with comprehensive course materials.",
-      "lesson": 20,
+      "desc": "Quran Ka Matloob Insaan (The Person Desired by the Quran) is a transformative character-building and self-reformation course delivered by Abu Yahya.",
+      "lesson": 52,
       "review": 112,
       "price": 49,
       "offPrice": 100,
@@ -16402,13 +16402,13 @@
       "sellsType": "Bestseller",
       "star": "4.8",
       "ratingNumber": "215,475",
-      "days": "1",
+      "days": "24",
       "isActiveCate": false,
       "studentNumber": "616,029",
       "cateSmallImg": "/images/category/server.png",
       "cateBigImg": "/images/category/image/mobile.jpg",
       "userImg": "/images/client/avatar-04.png",
-      "courseImg": "/images/course/art-course.png",
+      "courseImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791382386500-756962843.jpg",
       "awardImg": "/images/icons/best-seller-icon.png",
       "userName": "Angela",
       "userCategory": "Graphic Design",
@@ -16935,15 +16935,18 @@
         {
           "cate": "Tour & Travel"
         }
-      ]
+      ],
+      "thumbnail": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791382386500-756962843.jpg",
+      "courseListImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791382386500-756962843.jpg",
+      "totalTime": "34h 15m"
     },
     {
-      "id": 43,
-      "courseTitle": "LMS Courses",
-      "category": "development",
+      "id": 14,
+      "courseTitle": "Akhirat Ke Dalail Aur Ehwal-e-Akhirat Course",
+      "category": "LMS",
       "courseType": "special",
-      "desc": "Our LMS-based courses include quizzes along with comprehensive course materials.",
-      "lesson": 20,
+      "desc": "This course thoroughly explores the concept of the Day of Judgment, drawing upon the teachings of the Holy Quran and authentic Ahadith.",
+      "lesson": 12,
       "review": 86,
       "price": 75,
       "offPrice": 150,
@@ -16952,13 +16955,13 @@
       "sellsType": "Bestseller",
       "star": "4.8",
       "ratingNumber": "215,475",
-      "days": "1",
+      "days": "12",
       "isActiveCate": false,
       "studentNumber": "616,029",
       "cateSmallImg": "/images/category/server.png",
       "cateBigImg": "/images/category/image/mobile.jpg",
       "userImg": "/images/client/avatar-04.png",
-      "courseImg": "/images/course/quran-course-02.jpg",
+      "courseImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791456618863-135149456.jpg",
       "awardImg": "/images/icons/best-seller-icon.png",
       "userName": "Angela",
       "userCategory": "Graphic Design",
@@ -17485,15 +17488,18 @@
         {
           "cate": "Tour & Travel"
         }
-      ]
+      ],
+      "thumbnail": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791456618863-135149456.jpg",
+      "courseListImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791456618863-135149456.jpg",
+      "totalTime": "12 Weeks"
     },
     {
-      "id": 44,
-      "courseTitle": "Tafseer Courses",
-      "category": "development",
+      "id": 15,
+      "courseTitle": "Self-Introspection Course",
+      "category": "Introspection",
       "courseType": "special",
-      "desc": "We offer Dura e Quran once a year, exclusively during Ramadan.",
-      "lesson": 20,
+      "desc": "A reflective journey for personal development, moral accountability, and spiritual growth in light of Islamic principles.",
+      "lesson": 30,
       "review": 86,
       "price": 60,
       "offPrice": 120,
@@ -17502,13 +17508,13 @@
       "sellsType": "Bestseller",
       "star": "4.8",
       "ratingNumber": "215,475",
-      "days": "1",
+      "days": "12",
       "isActiveCate": false,
       "studentNumber": "616,029",
       "cateSmallImg": "/images/category/server.png",
       "cateBigImg": "/images/category/image/mobile.jpg",
       "userImg": "/images/client/avatar-04.png",
-      "courseImg": "/images/course/quran-course-03.jpg",
+      "courseImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791460193676-321354964.jpg",
       "awardImg": "/images/icons/best-seller-icon.png",
       "userName": "Angela",
       "userCategory": "Graphic Design",
@@ -18035,17 +18041,20 @@
         {
           "cate": "Tour & Travel"
         }
-      ]
+      ],
+      "thumbnail": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791460193676-321354964.jpg",
+      "courseListImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791460193676-321354964.jpg",
+      "totalTime": "12 Weeks"
     }
   ],
   "courseTab": [
     {
       "id": 13,
-      "courseTitle": "Akhrat kay Dalail aur Ahwal e Akhrat Course",
-      "category": "",
+      "courseTitle": "Quran ka Matloob Insaan Course",
+      "category": "LMS",
       "courseType": "",
-      "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
-      "lesson": 10,
+      "desc": "Quran Ka Matloob Insaan (The Person Desired by the Quran) is a transformative character-building and self-reformation course delivered by Abu Yahya.",
+      "lesson": 52,
       "review": 15,
       "price": 70,
       "offPrice": 40,
@@ -18058,9 +18067,9 @@
       "cateSmallImg": "/images/category/web-design.png",
       "cateBigImg": "/images/category/image/web-design.jpg",
       "userImg": "/images/client/avatar-02.png",
-      "courseImg": "/images/course/course-list-01.jpg",
+      "courseImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791382386500-756962843.jpg",
       "awardImg": "/images/icons/card-icon-1.png",
-      "days": "3",
+      "days": "24",
       "Minutes": "30",
       "isActiveCate": true,
       "userName": "",
@@ -18560,15 +18569,18 @@
         {
           "cate": "Tour & Travel"
         }
-      ]
+      ],
+      "thumbnail": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791382386500-756962843.jpg",
+      "courseListImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791382386500-756962843.jpg",
+      "totalTime": "34h 15m"
     },
     {
       "id": 14,
-      "courseTitle": "Dora Quran Course (Only in Ramzan) ",
-      "category": "Backend",
+      "courseTitle": "Akhirat Ke Dalail Aur Ehwal-e-Akhirat Course",
+      "category": "LMS",
       "courseType": "latest",
-      "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
-      "lesson": 54,
+      "desc": "This course thoroughly explores the concept of the Day of Judgment, drawing upon the teachings of the Holy Quran and authentic Ahadith.",
+      "lesson": 12,
       "review": 15,
       "price": 75,
       "offPrice": 10,
@@ -18576,14 +18588,14 @@
       "discount": 40,
       "sellsType": "Bestseller",
       "star": "4.8",
-      "days": "24",
+      "days": "12",
       "isActiveCate": false,
       "ratingNumber": "215,475",
       "studentNumber": "616,029",
       "cateSmallImg": "/images/category/design.png",
       "cateBigImg": "/images/category/image/graphic-design.jpg",
       "userImg": "/images/client/avatar-03.png",
-      "courseImg": "/images/course/course-list-02.jpg",
+      "courseImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791456618863-135149456.jpg",
       "awardImg": "/images/icons/card-icon-1.png",
       "userName": "Fred Guer",
       "userCategory": "Math Teacher",
@@ -19080,15 +19092,18 @@
         {
           "cate": "Tour & Travel"
         }
-      ]
+      ],
+      "thumbnail": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791456618863-135149456.jpg",
+      "courseListImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791456618863-135149456.jpg",
+      "totalTime": "12 Weeks"
     },
     {
       "id": 15,
-      "courseTitle": "Imaniyaat Course – Nijat ka Rasta (Path to Eternal Success) Series",
-      "category": "Full Stack",
+      "courseTitle": "Self-Introspection Course",
+      "category": "Introspection",
       "courseType": "featured",
-      "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
-      "lesson": 7,
+      "desc": "A reflective journey for personal development, moral accountability, and spiritual growth in light of Islamic principles.",
+      "lesson": 30,
       "review": 15,
       "price": 90,
       "offPrice": 40,
@@ -19097,13 +19112,13 @@
       "sellsType": "Bestseller",
       "star": "4.8",
       "ratingNumber": "215,475",
-      "days": "6",
+      "days": "12",
       "isActiveCate": false,
       "studentNumber": "616,029",
       "cateSmallImg": "/images/category/personal.png",
       "cateBigImg": "/images/category/image/personal-development.jpg",
       "userImg": "/images/client/avatar-04.png",
-      "courseImg": "/images/course/course-list-03.jpg",
+      "courseImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791460193676-321354964.jpg",
       "awardImg": "/images/icons/best-seller-icon.png",
       "userName": "Levi Arm",
       "userCategory": "Advanced Educator",
@@ -19590,15 +19605,18 @@
         {
           "cate": "Tour & Travel"
         }
-      ]
+      ],
+      "thumbnail": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791460193676-321354964.jpg",
+      "courseListImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791460193676-321354964.jpg",
+      "totalTime": "12 Weeks"
     },
     {
       "id": 16,
-      "courseTitle": "Stress Management Course",
-      "category": "Mobile Application",
+      "courseTitle": "Tauheed Ke Dalail Course Evidences for Monotheism Course",
+      "category": "LMS",
       "courseType": "popular",
-      "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
-      "lesson": 9,
+      "desc": "A profound exploration into the intellectual and Quranic evidences establishing the oneness of Allah (SWT).",
+      "lesson": 14,
       "review": 15,
       "price": 70,
       "offPrice": 20,
@@ -19611,9 +19629,9 @@
       "cateSmallImg": "/images/category/server.png",
       "cateBigImg": "/images/category/image/software.jpg",
       "userImg": "/images/client/avatar-02.png",
-      "courseImg": "/images/course/course-list-04.jpg",
+      "courseImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791518231202-168480782.jpg",
       "awardImg": "/images/icons/card-icon-1.png",
-      "days": "3",
+      "days": "12",
       "isActiveCate": false,
       "userName": "Claudia Pruitt",
       "userCategory": "Designing",
@@ -20105,15 +20123,18 @@
         {
           "cate": "Tour & Travel"
         }
-      ]
+      ],
+      "thumbnail": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791518231202-168480782.jpg",
+      "courseListImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791518231202-168480782.jpg",
+      "totalTime": "12 Weeks"
     },
     {
       "id": 17,
-      "courseTitle": "Tauheed Course",
-      "category": "Backend",
+      "courseTitle": "Quran ka Rabbani Insaan Course",
+      "category": "LMS",
       "courseType": "featured",
-      "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
-      "lesson": 14,
+      "desc": "Nurturing individuals who embody godly character, divine wisdom, and selfless service to humanity.",
+      "lesson": 12,
       "review": 15,
       "price": 75,
       "offPrice": 10,
@@ -20121,14 +20142,14 @@
       "discount": 40,
       "sellsType": "Bestseller",
       "star": "4.8",
-      "days": "5",
+      "days": "8",
       "isActiveCate": false,
       "ratingNumber": "215,475",
       "studentNumber": "616,029",
       "cateSmallImg": "/images/category/pantone.png",
       "cateBigImg": "/images/category/image/software.jpg",
       "userImg": "/images/client/avatar-03.png",
-      "courseImg": "/images/course/course-list-05.jpg",
+      "courseImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791865932582-541324584.jpg",
       "awardImg": "/images/icons/card-icon-1.png",
       "userName": "Fred Guer",
       "userCategory": "Math Teacher",
@@ -20638,15 +20659,18 @@
         {
           "cate": "Medicle & entertain"
         }
-      ]
+      ],
+      "thumbnail": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791865932582-541324584.jpg",
+      "courseListImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791865932582-541324584.jpg",
+      "totalTime": "8 Weeks"
     },
     {
       "id": 18,
-      "courseTitle": "Namaz Course",
-      "category": "Finance & Accounting",
+      "courseTitle": "Imaniyaat Course (Najaat Ka Raasta Series)",
+      "category": "LMS",
       "courseType": "popular",
-      "desc": ". Learn data science, automation, build websites, games and apps!",
-      "lesson": 10,
+      "desc": "Foundations of faith and core Islamic beliefs that guide believers toward eternal salvation.",
+      "lesson": 9,
       "review": 15,
       "price": 90,
       "offPrice": 40,
@@ -20655,13 +20679,13 @@
       "sellsType": "Bestseller",
       "star": "",
       "ratingNumber": "",
-      "days": "5",
+      "days": "7",
       "isActiveCate": false,
       "studentNumber": "616,029",
       "cateSmallImg": "/images/category/paint-palette.png",
       "cateBigImg": "/images/category/image/sales.jpg",
       "userImg": "/images/client/avatar-04.png",
-      "courseImg": "/images/course/course-list-06.jpg",
+      "courseImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1792240637352-374383794.jpg",
       "awardImg": "/images/icons/best-seller-icon.png",
       "userName": "Levi Arm",
       "userCategory": "Advanced Educator",
@@ -21151,15 +21175,18 @@
         {
           "cate": "Medicle & Science"
         }
-      ]
+      ],
+      "thumbnail": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1792240637352-374383794.jpg",
+      "courseListImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1792240637352-374383794.jpg",
+      "totalTime": "7 Weeks"
     },
     {
       "id": 19,
-      "courseTitle": "Nabuwat and Risalat Course",
-      "category": "",
+      "courseTitle": "Roza aur Aitekaf Course (Ramadan Program)",
+      "category": "Tafseer",
       "courseType": "trending",
-      "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
-      "lesson": 10,
+      "desc": "Comprehensive guidance on fasting, night prayers, and spiritual retreat during Ramadan.",
+      "lesson": 3,
       "review": 15,
       "price": 90,
       "offPrice": 40,
@@ -21168,13 +21195,13 @@
       "sellsType": "Bestseller",
       "star": "4.8",
       "ratingNumber": "215,475",
-      "days": "4",
+      "days": "8",
       "isActiveCate": false,
       "studentNumber": "616,029",
       "cateSmallImg": "/images/category/smartphone.png",
       "cateBigImg": "/images/category/image/arts.jpg",
       "userImg": "/images/client/avatar-04.png",
-      "courseImg": "/images/course/course-list-07.jpg",
+      "courseImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791435313201-240896462.jpg",
       "awardImg": "/images/icons/best-seller-icon.png",
       "userName": "Levi Arm",
       "userCategory": "Advanced Educator",
@@ -21667,21 +21694,24 @@
         {
           "cate": "Tour & Travel"
         }
-      ]
+      ],
+      "thumbnail": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791435313201-240896462.jpg",
+      "courseListImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791435313201-240896462.jpg",
+      "totalTime": "8 Weeks"
     },
     {
       "id": 20,
-      "courseTitle": "Roza & Itikaf Course (Only in Ramzan)",
-      "category": "Graphic Design",
+      "courseTitle": "Namaz Course",
+      "category": "LMS",
       "courseType": "popular",
-      "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
-      "lesson": 3,
+      "desc": "Understanding the spiritual depth, prerequisites, and correct method of performing Salah with devotion.",
+      "lesson": 10,
       "userImg": "/images/client/avatar-04.png",
       "cateSmallImg": "/images/category/infographic.png",
       "cateBigImg": "/images/category/image/finance.jpg",
-      "courseImg": "/images/course/course-list-08.jpg",
+      "courseImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791445827210-165897269.jpg",
       "awardImg": "/images/icons/best-seller-icon.png",
-      "days": "1",
+      "days": "6",
       "userName": "Levi Arm",
       "userCategory": "Advanced Educator",
       "cateDesc": "Design is Art",
@@ -22173,15 +22203,18 @@
         {
           "cate": "Tour & Travel"
         }
-      ]
+      ],
+      "thumbnail": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791445827210-165897269.jpg",
+      "courseListImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791445827210-165897269.jpg",
+      "totalTime": "6 Weeks"
     },
     {
       "id": 21,
-      "courseTitle": "Quran ka Rabbani Insaan",
-      "category": "Personal Development",
+      "courseTitle": "Stress Management Course",
+      "category": "Introspection",
       "courseType": "latest",
-      "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
-      "lesson": 5,
+      "desc": "Navigating life pressures, anxiety, and grief through Quranic solace, supplication, and emotional resilience.",
+      "lesson": 8,
       "review": 15,
       "price": 90,
       "offPrice": 40,
@@ -22190,13 +22223,13 @@
       "sellsType": "",
       "star": "",
       "ratingNumber": "",
-      "days": "2",
+      "days": "4",
       "isActiveCate": false,
       "studentNumber": "",
       "cateSmallImg": "/images/category/web-design.png",
       "cateBigImg": "/images/category/image/web-design.jpg",
       "userImg": "/images/client/avatar-04.png",
-      "courseImg": "/images/course/course-list-09.jpg",
+      "courseImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791547013456-816788490.jpg",
       "awardImg": "/images/icons/best-seller-icon.png",
       "userName": "Levi Arm",
       "userCategory": "Advanced Educator",
@@ -22689,15 +22722,18 @@
         {
           "cate": "Tour & Travel"
         }
-      ]
+      ],
+      "thumbnail": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791547013456-816788490.jpg",
+      "courseListImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791547013456-816788490.jpg",
+      "totalTime": "4 Weeks"
     },
     {
       "id": 22,
-      "courseTitle": "Quran ka Matloob Insaan",
-      "category": "Personal Development",
+      "courseTitle": "Aamaal-e-Saleh Course Part 1 (Najaat Ka Raasta Series)",
+      "category": "LMS",
       "courseType": "trending",
-      "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
-      "lesson": 5,
+      "desc": "Cultivating righteous deeds, purity of intention, and moral excellence in everyday life.",
+      "lesson": 10,
       "review": 15,
       "price": 90,
       "offPrice": 40,
@@ -22706,13 +22742,13 @@
       "sellsType": "Bestseller",
       "star": "4.8",
       "ratingNumber": "215,475",
-      "days": "2",
+      "days": "6",
       "isActiveCate": false,
       "studentNumber": "616,029",
       "cateSmallImg": "/images/category/design.png",
       "cateBigImg": "/images/category/image/graphic-design.jpg",
       "userImg": "/images/client/avatar-04.png",
-      "courseImg": "/images/course/course-list-10.jpg",
+      "courseImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791799133454-747648614.jpg",
       "awardImg": "/images/icons/best-seller-icon.png",
       "userName": "Levi Arm",
       "userCategory": "Advanced Educator",
@@ -23205,14 +23241,17 @@
         {
           "cate": "Tour & Travel"
         }
-      ]
+      ],
+      "thumbnail": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791799133454-747648614.jpg",
+      "courseListImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791799133454-747648614.jpg",
+      "totalTime": "6 Weeks"
     },
     {
       "id": 23,
-      "courseTitle": "Five Things You Should Do In Education.",
-      "category": "IT and Software",
+      "courseTitle": "Nabuwwat o Risaalat Ke Dalail Course",
+      "category": "LMS",
       "courseType": "featured",
-      "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+      "desc": "Evidences for prophethood and the divine mission of Prophet Muhammad ﷺ.",
       "lesson": 12,
       "review": 15,
       "price": 90,
@@ -23222,13 +23261,13 @@
       "sellsType": "Bestseller",
       "star": "4.8",
       "ratingNumber": "215,475",
-      "days": "1",
+      "days": "8",
       "isActiveCate": false,
       "studentNumber": "616,029",
       "cateSmallImg": "/images/category/personal.png",
       "cateBigImg": "/images/category/image/personal-development.jpg",
       "userImg": "/images/client/avatar-04.png",
-      "courseImg": "/images/course/course-list-04.jpg",
+      "courseImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791808909298-199671129.jpg",
       "awardImg": "/images/icons/best-seller-icon.png",
       "userName": "Levi Arm",
       "userCategory": "Advanced Educator",
@@ -23722,15 +23761,18 @@
         {
           "cate": "Tour & Travel"
         }
-      ]
+      ],
+      "thumbnail": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791808909298-199671129.jpg",
+      "courseListImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1791808909298-199671129.jpg",
+      "totalTime": "8 Weeks"
     },
     {
       "id": 24,
-      "courseTitle": "Five Things You Should Do In Education.",
-      "category": "Art & Humanities",
+      "courseTitle": "Dora-e-Quran (Ramzan Program)",
+      "category": "Tafseer",
       "courseType": "trending",
-      "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
-      "lesson": 12,
+      "desc": "A comprehensive summary of the entire Holy Quran focusing on key themes, moral lessons, and divine reminders.",
+      "lesson": 54,
       "review": 15,
       "price": 90,
       "offPrice": 40,
@@ -23739,13 +23781,13 @@
       "sellsType": "Bestseller",
       "star": "4.8",
       "ratingNumber": "215,475",
-      "days": "1",
+      "days": "24",
       "isActiveCate": false,
       "studentNumber": "616,029",
       "cateSmallImg": "/images/category/server.png",
       "cateBigImg": "/images/category/image/mobile.jpg",
       "userImg": "/images/client/avatar-04.png",
-      "courseImg": "/images/course/course-list-03.jpg",
+      "courseImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1792092710911-261831729.jpg",
       "awardImg": "/images/icons/best-seller-icon.png",
       "userName": "Levi Arm",
       "userCategory": "Advanced Educator",
@@ -24242,7 +24284,10 @@
         {
           "cate": "Tour & Travel"
         }
-      ]
+      ],
+      "thumbnail": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1792092710911-261831729.jpg",
+      "courseListImg": "https://inzaar.duckdns.org/uploads/thumbnails/thumbnail_1792092710911-261831729.jpg",
+      "totalTime": "24 Hours"
     }
   ],
   "languageAcademy": [

@@ -2,611 +2,137 @@
 
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
+import { useState, useEffect } from "react";
 
-import { useState } from "react";
-
-import MenuData from "../../data/MegaMenu.json";
-
-import CourseLayout from "./NavProps/CourseLayout";
-import PageLayout from "./NavProps/PageLayout";
-import ElementsLayout from "./NavProps/ElementsLayout";
-
-import addImage from "../../public/images/service/mobile-cat.jpg";
+const navItems = [
+  {
+    key: "home",
+    label: "Home",
+    href: "/",
+    match: (p) => p === "/",
+  },
+  {
+    key: "about",
+    label: "About",
+    href: "/about",
+    match: (p) => p === "/about" || p.startsWith("/about/"),
+  },
+  {
+    key: "courses",
+    label: "Courses",
+    href: "/course-masonry",
+    match: (p) => p.startsWith("/course"),
+  },
+  {
+    key: "contact",
+    label: "Contact",
+    href: "/contact",
+    match: (p) => p === "/contact" || p.startsWith("/contact/"),
+  },
+];
 
 const Nav = () => {
-  const [activeMenuItem, setActiveMenuItem] = useState(null);
+  const pathname = usePathname() || "/";
 
-  const pathname = usePathname();
+  // Initial active key based on current pathname
+  const getCurrentKey = (path) => {
+    const found = navItems.find((item) => item.match(path));
+    return found ? found.key : null;
+  };
 
-  const isActive = (href) => pathname.startsWith(href);
+  const [optimisticKey, setOptimisticKey] = useState(() => getCurrentKey(pathname));
+  const [navigatingKey, setNavigatingKey] = useState(null);
 
-  const toggleMenuItem = (item) => {
-    setActiveMenuItem(activeMenuItem === item ? null : item);
+  // Sync active item when pathname finishes changing
+  useEffect(() => {
+    setNavigatingKey(null);
+    setOptimisticKey(getCurrentKey(pathname));
+  }, [pathname]);
+
+  const handleNavClick = (item) => {
+    // If clicking the already active route, no need to navigate
+    if (item.match(pathname)) {
+      return;
+    }
+
+    // Immediately select clicked item and start loading animation
+    setOptimisticKey(item.key);
+    setNavigatingKey(item.key);
+
+    if (typeof window !== "undefined") {
+      window.dispatchEvent(
+        new CustomEvent("app:nav-start", { detail: { href: item.href } })
+      );
+    }
   };
 
   return (
     <nav className="mainmenu-nav">
-
       <ul className="mainmenu">
-        <li className="with-megamenu has-menu-child-item position-static">
+        {navItems.map((item) => {
+          const isSelected = optimisticKey === item.key;
+          const isLoading = navigatingKey === item.key;
 
-          <Link
-            // className={`$}
-            // onClick={() => toggleMenuItem("home")}
-            href="/"
-          >
-            Home
-            {/* <i className="feather-chevron-down"></i> */}
-          </Link>
-
-          {/* <div
-            className={`rbt-megamenu menu-skin-dark ${
-              activeMenuItem === "home" ? "active d-block" : ""
-            }`}
-          >
-            <div className="wrapper">
-              <div className="row row--15 home-plesentation-wrapper single-dropdown-menu-presentation">
-                {MenuData &&
-                  MenuData.menuData.map((data, index) => {
-                    if (data.menuType === "home") {
-                      const elements = data.menuItems?.map(
-                        (value, innerIndex) => (
-                          <div
-                            className="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item"
-                            key={innerIndex}
-                          >
-                            <div className="demo-single">
-                              <div
-                                className={`inner ${
-                                  value.badget ? "disable" : ""
-                                }`}
-                              >
-                                {value.tag ? (
-                                  <span className="new-batch">New Added</span>
-                                ) : (
-                                  ""
-                                )}
-                                <div className="thumbnail">
-                                  <Link href={value.link} className="relative">
-                                    <Image
-                                      src={value.img}
-                                      width={454}
-                                      height={332}
-                                      alt="Demo Images"
-                                    />
-                                    {value.badget ? (
-                                      <span className="rbt-badge-card rbt-badge-card__coming">
-                                        Coming
-                                      </span>
-                                    ) : (
-                                      ""
-                                    )}
-                                  </Link>
-                                </div>
-                                <div className="content">
-                                  <h4 className="title">
-                                    <Link href={value.link}>
-                                      {value.title}
-                                      {value.badget ? (
-                                        <span className="rbt-badge-card ms-3 d-lg-none">
-                                          Coming
-                                        </span>
-                                      ) : (
-                                        ""
-                                      )}
-                                      <span className="btn-icon">
-                                        <i className="feather-arrow-right"></i>
-                                      </span>
-                                    </Link>
-                                  </h4>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        )
-                      );
-                      return elements;
-                    }
-                    return null;
-                  })}
-              </div>
-              <div className="load-demo-btn-wrap">
-                <div className="load-demo-btn text-center">
-                  <span className="color-white b3">
-                    Scroll to view more{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      className="bi bi-arrow-down-up"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5zm-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5z"
-                      />
-                    </svg>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div> */}
-        </li>
-
-        <li className="with-megamenu has-menu-child-item position-static">
-          <Link
-            href="/about"
-            // className={`${activeMenuItem === "blog" ? "open" : ""}`}
-            // onClick={() => toggleMenuItem("blog")}
-          >
-            About
-            {/* <i className="feather-chevron-down"></i> */}
-          </Link>
-          {/* <div
-            className={`rbt-megamenu grid-item-3 ${activeMenuItem === "blog" ? "active d-block" : ""
+          return (
+            <li
+              key={item.key}
+              className={`with-megamenu has-menu-child-item position-static ${
+                isSelected ? "active" : ""
               }`}
-          >
-            <div className="wrapper">
-              <div className="row row--15">
-                <div className="col-lg-12 col-xl-4 col-xxl-4 single-mega-item">
-                  <h3 className="rbt-short-title">Blog Styles</h3>
-                  <ul className="mega-menu-item">
-                    {MenuData &&
-                      MenuData.menuData.map((data, index) => {
-                        if (data.menuType === "grid-item-5") {
-                          const elements = data.menuItems?.map(
-                            (value, innerIndex) =>
-                              value.id <= 7 && (
-                                <li key={innerIndex}>
-                                  <Link
-                                    className={
-                                      isActive(value.link) ? "active" : ""
-                                    }
-                                    href={
-                                      value.coming ? "/maintenance" : value.link
-                                    }
-                                  >
-                                    {value.title}
-                                    {value.coming ? (
-                                      <span className="rbt-badge-card ms-3">
-                                        {value.coming}
-                                      </span>
-                                    ) : value.subTitle ? (
-                                      <span className="rbt-badge-card">
-                                        {value.subTitle}
-                                      </span>
-                                    ) : (
-                                      ""
-                                    )}
-                                  </Link>
-                                </li>
-                              )
-                          );
-                          return elements;
-                        }
-                      })}
-                  </ul>
-                </div>
-                <div className="col-lg-12 col-xl-4 col-xxl-4 single-mega-item">
-                  <h3 className="rbt-short-title">Get Started</h3>
-                  <ul className="mega-menu-item">
-                    {MenuData &&
-                      MenuData.menuData.map((data, index) => {
-                        if (data.menuType === "grid-item-5") {
-                          const elements = data.menuItems?.map(
-                            (value, innerIndex) =>
-                              value.id > 7 &&
-                              value.id <= 14 && (
-                                <li key={innerIndex}>
-                                  <Link
-                                    className={
-                                      isActive(value.link) ? "active" : ""
-                                    }
-                                    href={
-                                      value.coming ? "/maintenance" : value.link
-                                    }
-                                  >
-                                    {value.title}
-                                    {value.coming ? (
-                                      <span className="rbt-badge-card ms-3">
-                                        {value.coming}
-                                      </span>
-                                    ) : value.subTitle ? (
-                                      <span className="rbt-badge-card">
-                                        {value.subTitle}
-                                      </span>
-                                    ) : (
-                                      ""
-                                    )}
-                                  </Link>
-                                </li>
-                              )
-                          );
-                          return elements;
-                        }
-                      })}
-                  </ul>
-                </div>
-                <div className="col-lg-12 col-xl-4 col-xxl-4 single-mega-item">
-                  <div className="rbt-ads-wrapper">
-                    <Link className="d-block" href="#">
-                      <Image src={addImage} alt="Education Images" />
-                    </Link>
-                  </div>
-                </div>
+            >
+              <Link
+                href={item.href}
+                onClick={() => handleNavClick(item)}
+                className={isSelected ? "active" : ""}
+                style={{
+                  position: "relative",
+                  color: isSelected ? "#9333ea" : undefined,
+                  fontWeight: isSelected ? "600" : "500",
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "6px",
+                  transition: "color 0.2s ease, font-weight 0.2s ease",
+                }}
+              >
+                <span>{item.label}</span>
 
+                {isLoading && (
+                  <span
+                    className="spinner-border spinner-border-sm"
+                    style={{
+                      width: "12px",
+                      height: "12px",
+                      borderWidth: "2px",
+                      color: "#9333ea",
+                    }}
+                    role="status"
+                    aria-hidden="true"
+                  />
+                )}
 
-              </div>
-            </div>
-          </div> */}
-        </li>
-
-        <li className="with-megamenu has-menu-child-item">
-          <Link
-            // className={`${activeMenuItem === "courses" ? "open" : ""}`}
-            href="/course-masonry"
-            // onClick={() => toggleMenuItem("courses")}
-          >
-            Courses
-            {/* <i className="feather-chevron-down"></i> */}
-          </Link>
-
-          {/* <div
-            className={`rbt-megamenu grid-item-2 ${activeMenuItem === "courses" ? "active d-block" : ""
-              }`}
-          >
-            <div className="wrapper">
-              {MenuData &&
-                MenuData.menuData.map((data, index) => {
-                  if (data.menuType === "grid-item-2") {
-                    const elements = data.submenuBanner?.map(
-                      (value, innerIndex) => (
-                        <div className="row" key={innerIndex}>
-                          <div className="col-lg-12">
-                            <div className="mega-top-banner">
-                              <div className="content">
-                                <h4 className="title">{value.title}</h4>
-                                <p className="description">
-                                  {value.description}
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      )
-                    );
-                    return elements;
-                  }
-                })}
-              <div className="row row--15">
-                <CourseLayout
-                  courseTitle="Course Layout"
-                  MenuData={MenuData}
-                  type="grid-item-2"
-                  courseType={true}
-                  num={10}
-                />
-                <CourseLayout
-                  courseTitle="Course Layout"
-                  MenuData={MenuData}
-                  type="grid-item-2"
-                  courseType={false}
-                  num={9}
-                />
-              </div>
-              <div className="row">
-                <div className="col-lg-12">
-                  <ul className="nav-quick-access">
-                    {MenuData &&
-                      MenuData.menuData.map((data, index) => {
-                        if (data.menuType === "grid-item-2") {
-                          const coursElements = data.menuFooterItems?.map(
-                            (value, innerIndex) => (
-                              <li key={innerIndex}>
-                                <Link href={value.link}>
-                                  <i className="feather-folder-minus"></i>
-                                  {value.title}
-                                </Link>
-                              </li>
-                            )
-                          );
-                          return coursElements;
-                        }
-                      })}
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div> */}
-        </li>
-
-        {/* <li className="has-dropdown has-menu-child-item">
-          <Link
-            className={`${activeMenuItem === "dashboard" ? "open" : ""}`}
-            href="#"
-            onClick={() => toggleMenuItem("dashboard")}
-          >
-            Dashboard
-            <i className="feather-chevron-down"></i>
-          </Link>
-          <ul
-            className={`submenu ${activeMenuItem === "dashboard" ? "active d-block" : ""
-              }`}
-          >
-            {MenuData &&
-              MenuData.menuData.map((data, index) => {
-                if (data.menuType === "default-dropdown") {
-                  const elements = data.menuItems?.map((value, innerIndex) => (
-                    <li className="has-dropdown" key={innerIndex}>
-                      <Link href="#">{value.title}</Link>
-                      <ul className="submenu">
-                        {value.submenuItems?.map(
-                          (submenuItem, submenuItemIndex) => (
-                            <li key={submenuItemIndex}>
-                              <Link
-                                className={
-                                  isActive(submenuItem.link) ? "active" : ""
-                                }
-                                href={submenuItem.link}
-                              >
-                                {submenuItem.title}
-                              </Link>
-                            </li>
-                          )
-                        )}
-                      </ul>
-                    </li>
-                  ));
-                  return elements;
-                }
-                return null;
-              })}
-          </ul>
-        </li> */}
-        {/* <li className="with-megamenu has-menu-child-item position-static">
-          <Link
-            href="#"
-            className={`${activeMenuItem === "pages" ? "open" : ""}`}
-            onClick={() => toggleMenuItem("pages")}
-          >
-            Pages
-            <i className="feather-chevron-down"></i>
-          </Link>
-          <div
-            className={`rbt-megamenu grid-item-4 ${activeMenuItem === "pages" ? "active d-block" : ""
-              }`}
-          >
-            <div className="wrapper">
-              <div className="row row--15">
-                <PageLayout
-                  title="Get Started"
-                  MenuData={MenuData}
-                  menuGrid="grid-item-4"
-                  gridNumber="1"
-                />
-                <PageLayout
-                  title="Get Started"
-                  MenuData={MenuData}
-                  menuGrid="grid-item-4"
-                  gridNumber="2"
-                />
-                <PageLayout
-                  title="Shop Pages"
-                  MenuData={MenuData}
-                  menuGrid="grid-item-4"
-                  gridNumber="3"
-                />
-                <div className="col-lg-12 col-xl-3 col-xxl-3 single-mega-item">
-                  <div className="mega-category-item">
-                    {MenuData &&
-                      MenuData.menuData.map((data, index) => {
-                        if (data.menuType === "grid-item-4") {
-                          const elements = data.gridMenuItems4?.map(
-                            (value, innerIndex) => (
-                              <div
-                                className="nav-category-item"
-                                key={innerIndex}
-                              >
-                                <div className="thumbnail">
-                                  <div className="image">
-                                    {value.image ? (
-                                      <Image
-                                        src={value.image}
-                                        width={454}
-                                        height={332}
-                                        alt={value.title}
-                                      />
-                                    ) : (
-                                      ""
-                                    )}
-                                  </div>
-                                  <Link href={value.link}>
-                                    <span>{value.title}</span>
-                                    <i className="feather-chevron-right"></i>
-                                  </Link>
-                                </div>
-                              </div>
-                            )
-                          );
-                          return elements;
-                        }
-                      })}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li> */}
-        {/* <li className="with-megamenu has-menu-child-item position-static">
-          <Link
-            href="#"
-            className={`${activeMenuItem === "elements" ? "open" : ""}`}
-            onClick={() => toggleMenuItem("elements")}
-          >
-            Elements
-            <i className="feather-chevron-down"></i>
-          </Link>
-          <div
-            className={`rbt-megamenu grid-item-3 ${activeMenuItem === "elements" ? "active d-block" : ""
-              }`}
-          >
-            <div className="wrapper">
-              <div className="row row--15 single-dropdown-menu-presentation">
-                <ElementsLayout
-                  MenuData={MenuData}
-                  menuGrid="grid-item-3"
-                  num1={0}
-                  num2={9}
-                />
-                <ElementsLayout
-                  MenuData={MenuData}
-                  menuGrid="grid-item-3"
-                  num1={10}
-                  num2={18}
-                />
-                <ElementsLayout
-                  MenuData={MenuData}
-                  menuGrid="grid-item-3"
-                  num1={19}
-                  num2={26}
-                />
-              </div>
-              <div className="row">
-                <div className="col-lg-12">
-                  <div className="btn-wrapper">
-                    <Link
-                      className="rbt-btn btn-gradient hover-icon-reverse square btn-xl w-100 text-center mt--30 hover-transform-none"
-                      href="#"
-                    >
-                      <span className="icon-reverse-wrapper">
-                        <span className="btn-text">Visit Histudy Template</span>
-                        <span className="btn-icon">
-                          <i className="feather-arrow-right"></i>
-                        </span>
-                        <span className="btn-icon">
-                          <i className="feather-arrow-right"></i>
-                        </span>
-                      </span>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li> */}
-
-        <li className="with-megamenu has-menu-child-item position-static">
-          <Link
-            href="/contact"
-            // className={`${activeMenuItem === "blog" ? "open" : ""}`}
-            // onClick={() => toggleMenuItem("blog")}
-          >
-            Contact
-            {/* <i className="feather-chevron-down"></i> */}
-          </Link>
-          {/* <div
-            className={`rbt-megamenu grid-item-3 ${activeMenuItem === "blog" ? "active d-block" : ""
-              }`}
-          >
-            <div className="wrapper">
-              <div className="row row--15">
-                <div className="col-lg-12 col-xl-4 col-xxl-4 single-mega-item">
-                  <h3 className="rbt-short-title">Blog Styles</h3>
-                  <ul className="mega-menu-item">
-                    {MenuData &&
-                      MenuData.menuData.map((data, index) => {
-                        if (data.menuType === "grid-item-5") {
-                          const elements = data.menuItems?.map(
-                            (value, innerIndex) =>
-                              value.id <= 7 && (
-                                <li key={innerIndex}>
-                                  <Link
-                                    className={
-                                      isActive(value.link) ? "active" : ""
-                                    }
-                                    href={
-                                      value.coming ? "/maintenance" : value.link
-                                    }
-                                  >
-                                    {value.title}
-                                    {value.coming ? (
-                                      <span className="rbt-badge-card ms-3">
-                                        {value.coming}
-                                      </span>
-                                    ) : value.subTitle ? (
-                                      <span className="rbt-badge-card">
-                                        {value.subTitle}
-                                      </span>
-                                    ) : (
-                                      ""
-                                    )}
-                                  </Link>
-                                </li>
-                              )
-                          );
-                          return elements;
-                        }
-                      })}
-                  </ul>
-                </div>
-                <div className="col-lg-12 col-xl-4 col-xxl-4 single-mega-item">
-                  <h3 className="rbt-short-title">Get Started</h3>
-                  <ul className="mega-menu-item">
-                    {MenuData &&
-                      MenuData.menuData.map((data, index) => {
-                        if (data.menuType === "grid-item-5") {
-                          const elements = data.menuItems?.map(
-                            (value, innerIndex) =>
-                              value.id > 7 &&
-                              value.id <= 14 && (
-                                <li key={innerIndex}>
-                                  <Link
-                                    className={
-                                      isActive(value.link) ? "active" : ""
-                                    }
-                                    href={
-                                      value.coming ? "/maintenance" : value.link
-                                    }
-                                  >
-                                    {value.title}
-                                    {value.coming ? (
-                                      <span className="rbt-badge-card ms-3">
-                                        {value.coming}
-                                      </span>
-                                    ) : value.subTitle ? (
-                                      <span className="rbt-badge-card">
-                                        {value.subTitle}
-                                      </span>
-                                    ) : (
-                                      ""
-                                    )}
-                                  </Link>
-                                </li>
-                              )
-                          );
-                          return elements;
-                        }
-                      })}
-                  </ul>
-                </div>
-                <div className="col-lg-12 col-xl-4 col-xxl-4 single-mega-item">
-                  <div className="rbt-ads-wrapper">
-                    <Link className="d-block" href="#">
-                      <Image src={addImage} alt="Education Images" />
-                    </Link>
-                  </div>
-                </div>
-
-
-              </div>
-            </div>
-          </div> */}
-        </li>
-        
+                {isSelected && (
+                  <span
+                    className="d-none d-xl-block"
+                    style={{
+                      position: "absolute",
+                      bottom: "22px",
+                      left: "17px",
+                      right: "17px",
+                      height: "3px",
+                      background: "linear-gradient(90deg, #6366f1, #9333ea)",
+                      borderRadius: "2px",
+                      boxShadow: "0 2px 8px rgba(147, 51, 234, 0.4)",
+                      transition: "all 0.2s ease",
+                    }}
+                  />
+                )}
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </nav>
   );
 };
+
 export default Nav;

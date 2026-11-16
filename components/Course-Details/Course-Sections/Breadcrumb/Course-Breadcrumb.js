@@ -19,26 +19,9 @@ const CourseBreadcrumb = ({ getMatchCourse }) => {
               {getMatchCourse.category}
             </li>
           </ul>
-          <h2 className="title">{getMatchCourse.courseTitle}</h2>
-          <p className="description">{getMatchCourse.desc}</p>
+          <h2 className="title mb--15">{getMatchCourse.courseTitle}</h2>
 
           <div className="d-flex align-items-center mb--20 flex-wrap rbt-course-details-feature">
-            <div className="feature-sin best-seller-badge">
-              <span className="rbt-badge-2">
-                <span className="image">
-                  {getMatchCourse.awardImg && (
-                    <Image
-                      src={getMatchCourse.awardImg}
-                      width={30}
-                      height={30}
-                      alt="Best Seller Icon"
-                    />
-                  )}
-                </span>
-                {getMatchCourse.sellsType}
-              </span>
-            </div>
-
             <div className="feature-sin rating">
               <Link href="#">{getMatchCourse.star}</Link>
               <Link href="#">
@@ -71,23 +54,23 @@ const CourseBreadcrumb = ({ getMatchCourse }) => {
 
           <div className="rbt-author-meta mb--20">
             <div className="rbt-avater">
-              <Link href={`/profile/${getMatchCourse.id}`}>
-                {getMatchCourse.userImg && (
-                  <Image
-                    width={40}
-                    height={40}
-                    src={getMatchCourse.userImg}
-                    alt={getMatchCourse.userName}
-                  />
-                )}
-              </Link>
+              {getMatchCourse.userImg && (
+                <Image
+                  width={40}
+                  height={40}
+                  src={getMatchCourse.userImg}
+                  alt={getMatchCourse.userName}
+                  unoptimized={true}
+                  style={{ borderRadius: "50%", objectFit: "cover" }}
+                />
+              )}
             </div>
             <div className="rbt-author-info">
               By
-              <Link className="px-1" href={`/profile/${getMatchCourse.id}`}>
+              <span className="px-1 fw-bold text-white">
                 {getMatchCourse.userName}
-              </Link>
-              In <Link href="#">{getMatchCourse.userCategory}</Link>
+              </span>
+              In <span className="text-white-50">{getMatchCourse.userCategory}</span>
             </div>
           </div>
 

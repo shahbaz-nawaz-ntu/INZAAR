@@ -4,7 +4,9 @@ import Context from "@/context/Context";
 import Store from "@/redux/store";
 import Link from "next/link";
 import { Provider } from "react-redux";
-import HeaderStyleTen from "../Header/HeaderStyle-Ten";
+import HeaderStyleThirteen from "../Header/HeaderStyle-Thirteen";
+import MobileMenu from "../Header/MobileMenu";
+import Cart from "../Header/Offcanvas/Cart";
 import Separator from "../Common/Separator";
 import FooterOne from "../Footer/Footer-One";
 
@@ -13,7 +15,9 @@ const NotFound = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          <MobileMenu />
+          <HeaderStyleThirteen headerSticky="rbt-sticky" headerType="" />
+          <Cart />
 
           <div className="rbt-error-area bg-gradient-11 rbt-section-gap">
             <div className="error-area">
@@ -36,7 +40,7 @@ const NotFound = () => {
           </div>
 
           <Separator />
-          <FooterOne />
+          <FooterOne islamic="footer-islamic" />
         </Context>
       </Provider>
     </>

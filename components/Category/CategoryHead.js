@@ -12,6 +12,8 @@ const CategoryHead = ({
   filterItem,
   courseFilter,
   setCourseFilter,
+  searchQuery,
+  onSearchChange,
 }) => {
   const pathname = usePathname();
   const { toggle, setToggle } = useAppContext();
@@ -19,9 +21,13 @@ const CategoryHead = ({
   const [activeTab, setActiveTab] = useState("All Course");
 
   const handleButtonClick = (courseType) => {
-    setCourseFilter(category);
     setActiveTab(courseType);
-    filterItem(courseType);
+    if (setCourseFilter && category) {
+      setCourseFilter(category);
+    }
+    if (filterItem) {
+      filterItem(courseType);
+    }
   };
 
   return (
@@ -88,16 +94,10 @@ const CategoryHead = ({
                     )}
                     {category && (
                       <div className="rbt-short-item">
-                        {category.id ? (
-                          <span className="course-index">
-                            Showing 1-{category.id} of {category.id} results
-                          </span>
-                        ) : (
-                          <span className="course-index">
-                            Showing 1-{category.length / 2} of {category.length}
-                            <span className="ms-1">results</span>
-                          </span>
-                        )}
+                        <span className="course-index">
+                          Showing 1-{courseFilter ? courseFilter.length : (Array.isArray(category) ? category.length : 0)} of {Array.isArray(category) ? category.length : (category?.id || 0)}
+                          <span className="ms-1">results</span>
+                        </span>
                       </div>
                     )}
                   </div>
@@ -108,10 +108,12 @@ const CategoryHead = ({
                       ""
                     ) : (
                       <div className="rbt-short-item">
-                        <form action="#" className="rbt-search-style me-0">
+                        <form action="#" onSubmit={(e) => e.preventDefault()} className="rbt-search-style me-0">
                           <input
                             type="text"
                             placeholder="Search Your Course.."
+                            value={searchQuery !== undefined ? searchQuery : ""}
+                            onChange={(e) => onSearchChange && onSearchChange(e.target.value)}
                           />
                           <button
                             type="submit"
@@ -187,35 +189,40 @@ const CategoryHead = ({
                         "LMS",
                         "Tafseer",
                         "Introspection",
-                      ].map((courseType, index) => (
-                        <li
-                          key={index}
-                          className="nav-item"
-                          role="presentation"
-                        >
-                          <button
-                            className={activeTab === courseType ? "active" : ""}
-                            type="button"
-                            onClick={() => handleButtonClick(courseType)}
+                      ].map((courseType, index) => {
+                        let count = 0;
+                        if (Array.isArray(category)) {
+                          if (courseType === "All Course") {
+                            count = category.length;
+                          } else if (courseType === "Latest") {
+                            count = category.filter((c) => c.isNewCourse || (c.activeBatch && (new Date(c.activeBatch.startDate) - new Date()) / (1000 * 60 * 60 * 24) <= 30)).length;
+                          } else {
+                            count = category.filter((c) => {
+                              const dept = (c.departmentId?.name || c.category || c.courseType || "").toLowerCase();
+                              const title = (c.title || c.courseTitle || "").toLowerCase();
+                              return dept.includes(courseType.toLowerCase()) || title.includes(courseType.toLowerCase());
+                            }).length;
+                          }
+                        }
+                        const formattedCount = count < 10 ? `0${count}` : `${count}`;
+
+                        return (
+                          <li
+                            key={index}
+                            className="nav-item"
+                            role="presentation"
                           >
-                            <span className="filter-text">{courseType}</span>
-                            {courseType === "All Course" ? (
-                              <span className="course-number">
-                                {category.filter((course) => course).length}
-                              </span>
-                            ) : (
-                              <span className="course-number">
-                                0
-                                {
-                                  category.filter(
-                                    (course) => course.courseType === courseType
-                                  ).length
-                                }
-                              </span>
-                            )}
-                          </button>
-                        </li>
-                      ))}
+                            <button
+                              className={activeTab === courseType ? "active" : ""}
+                              type="button"
+                              onClick={() => handleButtonClick(courseType)}
+                            >
+                              <span className="filter-text">{courseType}</span>
+                              <span className="course-number">{formattedCount}</span>
+                            </button>
+                          </li>
+                        );
+                      })}
                     </ul>
                   </div>
                 ) : (

@@ -3,6 +3,9 @@ import Link from "next/link";
 import React from "react";
 
 const RelatedCourse = ({ checkMatchCourses, colClass }) => {
+  if (!checkMatchCourses || !checkMatchCourses.body || checkMatchCourses.body.length === 0) {
+    return null;
+  }
   return (
     <>
       <div className="row g-5 align-items-end mb--40">
@@ -26,7 +29,7 @@ const RelatedCourse = ({ checkMatchCourses, colClass }) => {
         </div>
       </div>
       <div className="row g-5">
-        {checkMatchCourses.body.map((data, index) => (
+        {(checkMatchCourses.body || []).map((data, index) => (
           <div
             className={`${
               colClass === undefined
@@ -93,21 +96,34 @@ const RelatedCourse = ({ checkMatchCourses, colClass }) => {
                   </li>
                 </ul>
 
-                <p className="rbt-card-text">{data.desc}</p>
+                <p
+                  className="rbt-card-text"
+                  style={{
+                    display: "-webkit-box",
+                    WebkitLineClamp: 2,
+                    WebkitBoxOrient: "vertical",
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
+                    minHeight: "42px",
+                    lineHeight: "1.5",
+                  }}
+                >
+                  {data.desc}
+                </p>
                 <div className="rbt-author-meta mb--10">
                   <div className="rbt-avater">
-                    <Link href={`/profile/${data.id}`}>
-                      <Image
-                        src={data.avatar}
-                        width={33}
-                        height={33}
-                        alt="Sophia Jaymes"
-                      />
-                    </Link>
+                    <Image
+                      src={data.avatar || "/images/team/avatar.jpg"}
+                      width={33}
+                      height={33}
+                      alt={data.author || "Instructor"}
+                      unoptimized={true}
+                      style={{ borderRadius: "50%", objectFit: "cover" }}
+                    />
                   </div>
                   <div className="rbt-author-info">
-                    By <Link href={`/profile/${data.id}`}>{data.author}</Link>
-                    In <Link href="#">{data.post}</Link>
+                    By <span className="fw-bold">{data.author}</span>
+                    {data.post && <> In <span>{data.post}</span></>}
                   </div>
                 </div>
                 <div className="rbt-card-bottom">

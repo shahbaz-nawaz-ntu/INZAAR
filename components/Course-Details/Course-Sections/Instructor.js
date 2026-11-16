@@ -1,68 +1,78 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
 const Instructor = ({ checkMatchCourses }) => {
+  const teacherList =
+    checkMatchCourses?.body ||
+    (checkMatchCourses?.name ? [checkMatchCourses] : []);
+
   return (
     <>
       <div className="about-author border-0 pb--0 pt--0">
         <div className="section-title mb--30">
-          <h4 className="rbt-title-style-3">{checkMatchCourses.title}</h4>
+          <h4 className="rbt-title-style-3">
+            {checkMatchCourses?.title || "About The Instructor"}
+          </h4>
         </div>
-        {checkMatchCourses.body.map((teacher, innerIndex) => (
+        {teacherList.map((teacher, innerIndex) => (
           <div className="media align-items-center" key={innerIndex}>
-            <div className="thumbnail">
-              <Link href={`/profile/${teacher.id}`}>
-                <Image
-                  src={teacher.img}
-                  width={250}
-                  height={250}
-                  alt="Author Images"
-                />
-              </Link>
+            <div
+              className="thumbnail"
+              style={{
+                minWidth: "250px",
+                maxWidth: "250px",
+                height: "250px",
+                marginRight: "30px",
+                borderRadius: "50%",
+                overflow: "hidden",
+                flexShrink: 0,
+              }}
+            >
+              <Image
+                src={teacher.img || "/images/team/avatar.jpg"}
+                width={250}
+                height={250}
+                alt={teacher.name || "Instructor"}
+                unoptimized={true}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  minWidth: "250px",
+                  maxHeight: "250px",
+                  borderRadius: "50%",
+                  objectFit: "cover",
+                  display: "block",
+                }}
+              />
             </div>
             <div className="media-body">
               <div className="author-info">
-                <h5 className="title">
-                  <Link
-                    className="hover-flip-item-wrapper"
-                    href={`/profile/${teacher.id}`}
-                  >
-                    {teacher.name}
-                  </Link>
+                <h5
+                  className="title mb-1"
+                  style={{
+                    color: "#1e293b",
+                    fontWeight: "700",
+                    fontSize: "22px",
+                  }}
+                >
+                  {teacher.name}
                 </h5>
-                {/* <span className="b3 subtitle">{teacher.type}</span> */}
-                {/* <ul className="rbt-meta mb--20 mt--10">
-                  <li>
-                    <i className="fa fa-star color-warning"></i>
-                    {teacher.ratingNumber} Reviews
-                    <span className="rbt-badge-5 ml--5">
-                      {teacher.star} Rating
-                    </span>
-                  </li>
-                  <li>
-                    <i className="feather-users"></i> {teacher.studentNumber}
-                    Students
-                  </li>
-                  <li>
-                    <Link href="#">
-                      <i className="feather-video"></i> {teacher.course} Courses
-                    </Link>
-                  </li>
-                </ul> */}
+                {teacher.role && (
+                  <span
+                    className="b3 subtitle"
+                    style={{
+                      color: "#9333ea",
+                      fontWeight: "600",
+                      display: "block",
+                      marginTop: "4px",
+                    }}
+                  >
+                    {teacher.role}
+                  </span>
+                )}
               </div>
-              <div className="content">
-                <p className="description">{teacher.desc}</p>
-
-                <ul className="social-icon social-default icon-naked justify-content-start">
-                  {teacher.social.map((social, index) => (
-                    <li key={index}>
-                      <Link href={social.link}>
-                        <i className={`feather-${social.icon}`}></i>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
+              <div className="content mt-3">
+                <p className="description mb-0">{teacher.desc}</p>
               </div>
             </div>
           </div>
