@@ -28,6 +28,18 @@ const CourseActionBottom = ({ checkMatchCourses }) => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [path]);
+  const handleEnroll = (e) => {
+    e.preventDefault();
+    const courseId = checkMatchCourses._id || checkMatchCourses.id;
+    const token = typeof window !== "undefined" ? localStorage.getItem("token") : null;
+    const targetUrl = `/courses?tab=new&courseId=${courseId}`;
+    if (token) {
+      window.location.href = `/app${targetUrl}`;
+    } else {
+      window.location.href = `/app/login?redirect=/courses&tab=new&courseId=${courseId}`;
+    }
+  };
+
   return (
     <>
       <div
@@ -39,26 +51,25 @@ const CourseActionBottom = ({ checkMatchCourses }) => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
               <div className="section-title text-center text-md-start">
-                <h5 className="title mb--0">{checkMatchCourses.courseTitle}</h5>
+                <h5 className="title mb--0">{checkMatchCourses.courseTitle || checkMatchCourses.title}</h5>
               </div>
             </div>
             <div className="col-lg-6 col-md-6 mt_sm--15">
               <div className="course-action-bottom-right rbt-single-group">
                 <div className="rbt-single-list rbt-price large-size justify-content-center">
-                  <span className="current-price color-primary">
-                    ${checkMatchCourses.price}
-                  </span>
-                  <span className="off-price">
-                    ${checkMatchCourses.offPrice}
+                  <span className="current-price color-primary" style={{ fontWeight: "700" }}>
+                    Free
                   </span>
                 </div>
                 <div className="rbt-single-list action-btn">
-                  <Link
+                  <button
+                    type="button"
+                    onClick={handleEnroll}
                     className="rbt-btn btn-gradient hover-icon-reverse btn-md"
-                    href="#"
+                    style={{ border: "none", cursor: "pointer" }}
                   >
                     <span className="icon-reverse-wrapper">
-                      <span className="btn-text">Purchase Now</span>
+                      <span className="btn-text">Enroll Now</span>
                       <span className="btn-icon">
                         <i className="feather-arrow-right"></i>
                       </span>
@@ -66,7 +77,7 @@ const CourseActionBottom = ({ checkMatchCourses }) => {
                         <i className="feather-arrow-right"></i>
                       </span>
                     </span>
-                  </Link>
+                  </button>
                 </div>
               </div>
             </div>

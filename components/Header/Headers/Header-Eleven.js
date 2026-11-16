@@ -45,6 +45,7 @@ const HeaderEleven = ({
         className={`rbt-header-wrapper  ${gapSpaceBetween} ${transparent} ${
           !headerType && isSticky ? "rbt-sticky" : ""
         }`}
+        style={{ zIndex: 999 }}
       >
         <div className="w-100 shadow-lg">
 <div className="container">

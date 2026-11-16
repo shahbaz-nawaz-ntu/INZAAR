@@ -21,10 +21,10 @@ const Featured = ({ coursesFeatured }) => {
         } mt--30 has-show-more ${toggle ? "active" : ""}`}
       >
         <div className="section-title">
-          <h4 className="rbt-title-style-3">{coursesFeatured.title}</h4>
+          <h4 className="rbt-title-style-3">{coursesFeatured?.title || "Featured Reviews"}</h4>
         </div>
         <div className="has-show-more-inner-content rbt-featured-review-list-wrapper">
-          {coursesFeatured.body.map((user, innerIndex) => (
+          {(coursesFeatured?.body || []).map((user, innerIndex) => (
             <div className="rbt-course-review about-author" key={innerIndex}>
               <div className="media">
                 <div className="thumbnail">

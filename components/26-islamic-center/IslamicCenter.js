@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import axios from "axios";
 
 import BlogGrid from "../Blogs/BlogGrid";
 import TestimonialFour from "../Testimonials/Testimonial-Four";
@@ -32,6 +33,41 @@ import imgPati from "../../public/images/Pati.png"
 
 const IslamicCenter = ({ blogdata }) => {
   let getAllCourse = JSON.parse(JSON.stringify(CourseDetails.courseDetails));
+  const [featuredCourses, setFeaturedCourses] = useState([]);
+  const [loadingCourses, setLoadingCourses] = useState(true);
+
+  useEffect(() => {
+    let isMounted = true;
+    const fetchFeatured = async () => {
+      try {
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
+        const res = await axios.get(`${apiUrl}/courses/public?limit=3`);
+        if (isMounted && res.data?.success && Array.isArray(res.data.data) && res.data.data.length > 0) {
+          setFeaturedCourses(res.data.data);
+        }
+      } catch (err) {
+        console.warn("Could not fetch featured courses, using fallback:", err.message);
+      } finally {
+        if (isMounted) setLoadingCourses(false);
+      }
+    };
+    fetchFeatured();
+    return () => {
+      isMounted = false;
+    };
+  }, []);
+
+  const handleEnroll = (courseId) => {
+    const token = typeof window !== "undefined" ? localStorage.getItem("token") : null;
+    const targetUrl = `/courses?tab=new&courseId=${courseId}`;
+    if (token) {
+      window.location.href = `/app${targetUrl}`;
+    } else {
+      window.location.href = `/app/login?redirect=/courses&tab=new&courseId=${courseId}`;
+    }
+  };
+
+  const displayedCourses = featuredCourses.length > 0 ? featuredCourses : getAllCourse.slice(30, 33);
   return (
     <>
       <main className="rbt-main-wrapper">
@@ -213,48 +249,158 @@ const IslamicCenter = ({ blogdata }) => {
             </div>
 
             <div className="row g-5">
-              {getAllCourse.slice(30, 33).map((data, index) => (
-                <div className={`col-lg-4 col-md-6 col-12`} key={index}>
-                  <div className="rbt-card variation-04 rbt-hover">
-                    <div className="rbt-card-img">
-                      <Link href={`/course-details/${data.id}`}>
-                        <Image
-                          src={data.courseImg}
-                          width={355}
-                          height={244}
-                          alt="Card image"
-                        />
-                      </Link>
-                    </div>
-                    <div className="rbt-card-body">
-                      <ul className="rbt-meta">
-                        <li>
-                          <i className="feather-book"></i>
-                          {data.lesson} Lessons
-                        </li>
-                        <li>
-                          <i className="feather-users"></i>
-                          {data.student} Students
-                        </li>
-                      </ul>
-                      <h4 className="rbt-card-title">
-                        <Link href={`/course-details/${data.id}`}>
-                          {data.courseTitle}
-                        </Link>
-                      </h4>
-                      <div className="width-fix">
-                        <p className="rbt-card-text">{data.desc}</p>
-                      </div>
-                      <div className=" gradient-Registration" style={{ display: 'flex', justifyContent: 'flex-end' }}>
-                        <Link className="rbt-btn-link gradient-Registration" href={`/course-details/${data.id}`}>
-                          Enroll Course <i className="feather-arrow-right gradient-Registration"></i>
-                        </Link>
-                      </div>
+              {displayedCourses.map((data, index) => {
+                const courseId = data._id || data.id;
+                const image = data.thumbnail || data.courseImg || "/images/course/default-course.png";
+                const title = data.title || data.courseTitle;
+                const lectureCount = data.totalLectures || data.lesson || 0;
+                const timeSpent = data.totalTime || data.duration || (data.days ? `${data.days} hours total` : "");
+                const desc = data.description || data.desc || "Learn Islam from the comfort of your home with our comprehensive online courses.";
 
+                return (
+                  <div className={`col-lg-4 col-md-6 col-12 d-flex`} key={courseId || index}>
+                    <div
+                      className="rbt-card variation-04 rbt-hover w-100"
+                      style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        height: "100%",
+                        borderRadius: "14px",
+                        overflow: "hidden",
+                        background: "#ffffff",
+                        boxShadow: "0 4px 20px rgba(0,0,0,0.06)",
+                      }}
+                    >
+                      <div className="rbt-card-img" style={{ height: "244px", overflow: "hidden" }}>
+                        <Link href={`/course-details/${courseId}`} style={{ display: "block", width: "100%", height: "100%" }}>
+                          <img
+                            src={image}
+                            alt={title}
+                            style={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform 0.4s ease" }}
+                            onError={(e) => {
+                              e.target.onerror = null;
+                              e.target.src = "/images/course/default-course.png";
+                            }}
+                          />
+                        </Link>
+                      </div>
+                      <div
+                        className="rbt-card-body"
+                        style={{
+                          display: "flex",
+                          flexDirection: "column",
+                          flexGrow: 1,
+                          padding: "22px 24px",
+                        }}
+                      >
+                        <ul
+                          className="rbt-meta"
+                          style={{
+                            display: "flex",
+                            alignItems: "center",
+                            gap: "16px",
+                            marginBottom: "12px",
+                            padding: 0,
+                            listStyle: "none",
+                            fontSize: "13.5px",
+                            color: "#64748b",
+                            fontWeight: "500",
+                          }}
+                        >
+                          <li style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                            <i className="feather-book" style={{ color: "#9333ea", fontSize: "14px" }}></i>
+                            {lectureCount} {lectureCount === 1 ? "Lesson" : "Lessons"}
+                          </li>
+                          {timeSpent && (
+                            <li style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                              <i className="feather-clock" style={{ color: "#9333ea", fontSize: "14px" }}></i>
+                              {timeSpent}
+                            </li>
+                          )}
+                        </ul>
+
+                        <h4
+                          className="rbt-card-title"
+                          style={{
+                            fontSize: "19px",
+                            fontWeight: "700",
+                            lineHeight: "1.4",
+                            minHeight: "52px",
+                            marginBottom: "12px",
+                          }}
+                        >
+                          <Link
+                            href={`/course-details/${courseId}`}
+                            style={{
+                              color: "#1e293b",
+                              textDecoration: "none",
+                              display: "-webkit-box",
+                              WebkitLineClamp: 2,
+                              WebkitBoxOrient: "vertical",
+                              overflow: "hidden",
+                              transition: "color 0.2s ease",
+                            }}
+                          >
+                            {title}
+                          </Link>
+                        </h4>
+
+                        <div className="width-fix" style={{ flexGrow: 1 }}>
+                          <p
+                            className="rbt-card-text"
+                            style={{
+                              fontSize: "14px",
+                              lineHeight: "1.6",
+                              color: "#64748b",
+                              display: "-webkit-box",
+                              WebkitLineClamp: 2,
+                              WebkitBoxOrient: "vertical",
+                              overflow: "hidden",
+                              textOverflow: "ellipsis",
+                              minHeight: "45px",
+                              marginBottom: "18px",
+                            }}
+                          >
+                            {desc}
+                          </p>
+                        </div>
+
+                        <div
+                          style={{
+                            display: "flex",
+                            justifyContent: "flex-end",
+                            alignItems: "center",
+                            marginTop: "auto",
+                            paddingTop: "14px",
+                            borderTop: "1px solid #f1f5f9",
+                          }}
+                        >
+                          <button
+                            type="button"
+                            onClick={() => handleEnroll(courseId)}
+                            className="rbt-btn-link"
+                            style={{
+                              border: "none",
+                              background: "transparent",
+                              cursor: "pointer",
+                              fontWeight: "600",
+                              fontSize: "14.5px",
+                              color: "#9333ea",
+                              display: "inline-flex",
+                              alignItems: "center",
+                              gap: "6px",
+                              transition: "all 0.2s ease",
+                            }}
+                          >
+                            <span>Enroll Course</span>
+                            <i className="feather-arrow-right"></i>
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
 
             <div className="row mt--55 mt_sm--50">

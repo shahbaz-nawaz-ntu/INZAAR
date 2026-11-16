@@ -22,6 +22,7 @@ import "swiper/css/thumbs";
 import "../public/scss/styles.scss";
 
 import { Toaster } from 'react-hot-toast';
+import NavigationProgressBar from "@/components/Common/NavigationProgressBar";
 
 export default function RootLayout({ children }) {
   useEffect(() => {
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" dir="ltr">
       <body className="" suppressHydrationWarning={true}>
+        <NavigationProgressBar />
         <Toaster />
         {children}
       </body>

@@ -16,7 +16,6 @@ const Viedo = ({ checkMatchCourses }) => {
   const pathname = usePathname();
   const { cartToggle, setCart } = useAppContext();
   const [toggle, setToggle] = useState(false);
-  const [hideOnScroll, setHideOnScroll] = useState(false);
 
   const disableVideo = [
     "/course-detail-2",
@@ -37,6 +36,18 @@ const Viedo = ({ checkMatchCourses }) => {
   const { cart } = useSelector((state) => state.CartReducer);
 
   const [amount, setAmount] = useState(1);
+
+  const handleEnroll = (e) => {
+    e.preventDefault();
+    const courseId = checkMatchCourses._id || checkMatchCourses.id;
+    const token = typeof window !== "undefined" ? localStorage.getItem("token") : null;
+    const targetUrl = `/courses?tab=new&courseId=${courseId}`;
+    if (token) {
+      window.location.href = `/app${targetUrl}`;
+    } else {
+      window.location.href = `/app/login?redirect=/courses&tab=new&courseId=${courseId}`;
+    }
+  };
 
   const addToCartFun = (id, amount, product) => {
     // dispatch(addToCartAction(id, amount, product));
@@ -65,104 +76,43 @@ const Viedo = ({ checkMatchCourses }) => {
         selector: ".popup-video",
       });
     });
-
-    const handleScroll = () => {
-      const currentScrollPos = window.pageYOffset;
-      const isHide = currentScrollPos > 200;
-
-      setHideOnScroll(isHide);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
   }, []);
 
   return (
     <>
-      {!disableVideo ? (
-        <Link
-          className={`video-popup-with-text video-popup-wrapper text-center popup-video sidebar-video-hidden mb--15 ${hideOnScroll ? "d-none" : ""
-            }`}
-          data-vbtype="video"
-          href="https://www.youtube.com/watch?v=nA1Aqp0sPQo"
-        >
-          <div className="video-content">
-            {checkMatchCourses.courseImg && (
-              <Image
-                className="w-100 rbt-radius"
-                src={checkMatchCourses.courseImg}
-                width={355}
-                height={255}
-                alt="Video Images"
-              />
-            )}
-            <div className="position-to-top">
-              <span className="rbt-btn rounded-player-2 with-animation">
-                <span className="play-icon"></span>
-              </span>
-            </div>
-            <span className="play-view-text d-block color-white">
-              <i className="feather-eye"></i> Preview this course
-            </span>
-          </div>
-        </Link>
-      ) : (
-        ""
-      )}
-      {isVideo ? (
-        <div
-          className={`radius-6 overflow-hidden sidebar-video-hidden mb--30 ${hideOnScroll ? "d-none" : ""
-            }`}
-        >
-          <div className="plyr__video-embed rbtplayer">
-            <iframe
-              className="radius-6 overflow-hidden"
-              src="https://www.youtube.com/embed/DR9lxZ8kPYQ?autoplay=0&controls=0&disablekb=1&playsinline=0&cc_load_policy=0&cc_lang_pref=auto&widget_referrer=http%3A%2F%2Flocalhost%3A3001%2Fcourse-details-3.html&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1&customControls=true&noCookie=false&enablejsapi=1&origin=http%3A%2F%2Flocalhost%3A3001&widgetid=1"
-              allowFullScreen
-              width={355}
-              height={200}
-              allow="autoplay"
-            ></iframe>
-          </div>
-        </div>
-      ) : (
-        ""
-      )}
-
       <div className="content-item-content">
         {checkMatchCourses.courseImg && (
-          <Image
-            className="w-100 rbt-radius"
-            src={checkMatchCourses.courseImg}
-            width={255}
-            height={155}
-            alt="Video Images"
-          />
+          <div style={{ borderRadius: "10px", overflow: "hidden", marginBottom: "15px" }}>
+            <Image
+              className="w-100 rbt-radius"
+              src={checkMatchCourses.courseImg}
+              width={355}
+              height={220}
+              style={{ objectFit: "cover", width: "100%", maxHeight: "240px" }}
+              alt={checkMatchCourses.courseTitle || "Course Image"}
+              unoptimized={true}
+            />
+          </div>
         )}
 
         <div className="add-to-card-button mt--15">
-          <Link
+          <button
+            type="button"
             className="rbt-btn btn-gradient icon-hover w-100 d-block text-center"
-            href="#"
-            onClick={(e) => {
-              e.preventDefault();
-              addToCartFun(checkMatchCourses.id, amount, checkMatchCourses);
-            }}
+            style={{ border: "none", cursor: "pointer" }}
+            onClick={handleEnroll}
           >
             <span className="btn-text">Enroll Now</span>
             <span className="btn-icon">
               <i className="feather-arrow-right"></i>
             </span>
-          </Link>
+          </button>
         </div>
 
-        <div className="buy-now-btn mt--15 ml--40">
-
-          <span className="btn-text">All courses are free of cost</span>
-
+        <div className="buy-now-btn mt--15 text-center">
+          <span className="btn-text" style={{ fontSize: "14px", fontWeight: "600", color: "#10b981" }}>
+            ✓ All courses are 100% free of cost
+          </span>
         </div>
 
         <div
@@ -171,7 +121,7 @@ const Viedo = ({ checkMatchCourses }) => {
         >
           <ul className="has-show-more-inner-content rbt-course-details-list-wrapper">
             {checkMatchCourses &&
-              checkMatchCourses.roadmap.map((item, innerIndex) => (
+              (checkMatchCourses.roadmap || []).map((item, innerIndex) => (
                 <li key={innerIndex}>
                   <span>{item.text}</span>
                   <span className="rbt-feature-value rbt-badge-5">
