@@ -23,28 +23,28 @@ const CourseBreadcrumb = ({ getMatchCourse }) => {
 
           <div className="d-flex align-items-center mb--20 flex-wrap rbt-course-details-feature">
             <div className="feature-sin rating">
-              <Link href="#">{getMatchCourse.star}</Link>
-              <Link href="#">
+              <a href="#review">{Number(getMatchCourse.star || 5.0).toFixed(1)}</a>
+              <a href="#review">
                 <i className="fa fa-star"></i>
-              </Link>
-              <Link href="#">
+              </a>
+              <a href="#review">
                 <i className="fa fa-star"></i>
-              </Link>
-              <Link href="#">
+              </a>
+              <a href="#review">
                 <i className="fa fa-star"></i>
-              </Link>
-              <Link href="#">
+              </a>
+              <a href="#review">
                 <i className="fa fa-star"></i>
-              </Link>
-              <Link href="#">
+              </a>
+              <a href="#review">
                 <i className="fa fa-star"></i>
-              </Link>
+              </a>
             </div>
 
             <div className="feature-sin total-rating">
-              <Link className="rbt-badge-4" href="#">
-                {getMatchCourse.ratingNumber} rating
-              </Link>
+              <a className="rbt-badge-4" href="#review">
+                {getMatchCourse.ratingNumber}
+              </a>
             </div>
 
             <div className="feature-sin total-student">

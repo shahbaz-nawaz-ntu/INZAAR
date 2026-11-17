@@ -43,7 +43,7 @@ const CourseDetailsOne = ({ checkMatchCourses }) => {
             className="rbt-review-wrapper rbt-shadow-box review-wrapper mt--30"
             id="review"
           >
-            <Review />
+            <Review courseId={checkMatchCourses?._id || checkMatchCourses?.id} />
           </div>
 
           {checkMatchCourses &&

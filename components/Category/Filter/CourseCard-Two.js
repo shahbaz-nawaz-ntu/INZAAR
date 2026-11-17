@@ -124,6 +124,9 @@ const CourseCardTwo = ({ course = [], loading = false }) => {
         const startDate = data.activeBatch?.startDate || data.releaseDate;
         const startDateFormatted = startDate ? new Date(startDate).toLocaleDateString("en-GB") : null;
         const desc = data.description || data.desc || "Learn Islam from the comfort of your home with our comprehensive online courses.";
+        const rawRating = Number(data.averageRating || data.rating || 5.0);
+        const displayRating = !isNaN(rawRating) && rawRating > 0 ? rawRating : 5.0;
+        const reviewCount = data.reviewCount !== undefined ? data.reviewCount : (data.reviewsCount || 0);
 
         return (
           <div
@@ -272,25 +275,28 @@ const CourseCardTwo = ({ course = [], loading = false }) => {
                   ) : (
                     <span />
                   )}
-                  <button
-                    type="button"
-                    onClick={(e) => handleEnroll(e, courseId)}
-                    className="rbt-btn-link gradient-Registration"
+                  <Link
+                    href={`/course-details/${courseId}#review`}
+                    className="d-inline-flex align-items-center gap-1 ms-auto"
                     style={{
-                      border: "none",
-                      background: "transparent",
-                      cursor: "pointer",
+                      fontSize: "12.5px",
                       fontWeight: "700",
-                      fontSize: "14px",
-                      display: "inline-flex",
-                      alignItems: "center",
-                      gap: "4px",
-                      marginLeft: "auto",
-                      padding: 0,
+                      color: "#1e293b",
+                      textDecoration: "none",
+                      padding: "3px 8px",
+                      borderRadius: "6px",
+                      backgroundColor: "#fffbeb",
+                      border: "1px solid #fde68a",
+                      transition: "all 0.2s ease",
                     }}
+                    title="View Course Reviews"
                   >
-                    Enroll now <i className="feather-arrow-right"></i>
-                  </button>
+                    <i className="fa fa-star" style={{ color: "#f59e0b", fontSize: "12px" }}></i>
+                    <span style={{ color: "#78350f", fontWeight: "700" }}>{displayRating.toFixed(1)}</span>
+                    <span style={{ fontSize: "11px", color: "#92400e", fontWeight: "600" }}>
+                      ({reviewCount})
+                    </span>
+                  </Link>
                 </div>
               </div>
             </div>
