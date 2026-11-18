@@ -28,8 +28,12 @@ const CourseActionBottom = ({ checkMatchCourses }) => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [path]);
+  const [isRedirecting, setIsRedirecting] = useState(false);
+
   const handleEnroll = (e) => {
     e.preventDefault();
+    if (isRedirecting) return;
+    setIsRedirecting(true);
     const courseId = checkMatchCourses._id || checkMatchCourses.id;
     const token = typeof window !== "undefined" ? localStorage.getItem("token") : null;
     const targetUrl = `/courses?tab=new&courseId=${courseId}`;
@@ -66,10 +70,11 @@ const CourseActionBottom = ({ checkMatchCourses }) => {
                     type="button"
                     onClick={handleEnroll}
                     className="rbt-btn btn-gradient hover-icon-reverse btn-md"
-                    style={{ border: "none", cursor: "pointer" }}
+                    style={{ border: "none", cursor: isRedirecting ? "not-allowed" : "pointer", opacity: isRedirecting ? 0.75 : 1 }}
+                    disabled={isRedirecting}
                   >
                     <span className="icon-reverse-wrapper">
-                      <span className="btn-text">Enroll Now</span>
+                      <span className="btn-text">{isRedirecting ? "Redirecting..." : "Enroll Now"}</span>
                       <span className="btn-icon">
                         <i className="feather-arrow-right"></i>
                       </span>
