@@ -32,8 +32,8 @@ export default function LanguageSelect() {
   return (
     <div
       ref={dropdownRef}
-      className="position-relative d-none d-xl-inline-flex align-items-center self-center"
-      style={{ position: "relative", display: "inline-flex", alignItems: "center", alignSelf: "center" }}
+      className="position-relative d-none d-lg-inline-flex align-items-center self-center"
+      style={{ position: "relative", alignItems: "center", alignSelf: "center" }}
     >
       {/* Trigger Button */}
       <button

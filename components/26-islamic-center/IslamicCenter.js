@@ -234,11 +234,11 @@ const IslamicCenter = ({ blogdata }) => {
           </div>
         </div>
 
-        <div className="rbt-course-area rbt-sec-cir-shadow-1 bg-color-extra2 rbt-section-gap">
+        <div className="rbt-course-area inzaar-learn-courses-section rbt-sec-cir-shadow-1 bg-color-extra2 rbt-section-gap">
           <div className="gradient-shape-top"></div>
           <div className="gradient-shape-bottom"></div>
           <div className="container">
-            <div className="row mb--50 mb_sm--45">
+            <div className="row mb--45 mb_sm--30">
               <div className="col-lg-12">
                 <div className="section-title text-center">
                   <h2 className="title w-600">
@@ -248,7 +248,7 @@ const IslamicCenter = ({ blogdata }) => {
               </div>
             </div>
 
-            <div className="row g-5">
+            <div className="row g-3 g-sm-4 g-xl-5 justify-content-center">
               {displayedCourses.map((data, index) => {
                 const courseId = data._id || data.id;
                 const image = data.thumbnail || data.courseImg || "/images/course/default-course.png";
@@ -258,25 +258,13 @@ const IslamicCenter = ({ blogdata }) => {
                 const desc = data.description || data.desc || "Learn Islam from the comfort of your home with our comprehensive online courses.";
 
                 return (
-                  <div className={`col-lg-4 col-md-6 col-12 d-flex`} key={courseId || index}>
-                    <div
-                      className="rbt-card variation-04 rbt-hover w-100"
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        height: "100%",
-                        borderRadius: "14px",
-                        overflow: "hidden",
-                        background: "#ffffff",
-                        boxShadow: "0 4px 20px rgba(0,0,0,0.06)",
-                      }}
-                    >
-                      <div className="rbt-card-img" style={{ height: "244px", overflow: "hidden" }}>
-                        <Link href={`/course-details/${courseId}`} style={{ display: "block", width: "100%", height: "100%" }}>
+                  <div className="col-lg-4 col-md-6 col-12 d-flex" key={courseId || index}>
+                    <div className="rbt-card variation-04 rbt-hover w-100 inzaar-course-card">
+                      <div className="rbt-card-img inzaar-course-card-img">
+                        <Link href={`/course-details/${courseId}`}>
                           <img
                             src={image}
                             alt={title}
-                            style={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform 0.4s ease" }}
                             onError={(e) => {
                               e.target.onerror = null;
                               e.target.src = "/images/course/default-course.png";
@@ -284,113 +272,37 @@ const IslamicCenter = ({ blogdata }) => {
                           />
                         </Link>
                       </div>
-                      <div
-                        className="rbt-card-body"
-                        style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          flexGrow: 1,
-                          padding: "22px 24px",
-                        }}
-                      >
-                        <ul
-                          className="rbt-meta"
-                          style={{
-                            display: "flex",
-                            alignItems: "center",
-                            gap: "16px",
-                            marginBottom: "12px",
-                            padding: 0,
-                            listStyle: "none",
-                            fontSize: "13.5px",
-                            color: "#64748b",
-                            fontWeight: "500",
-                          }}
-                        >
-                          <li style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
-                            <i className="feather-book" style={{ color: "#9333ea", fontSize: "14px" }}></i>
-                            {lectureCount} {lectureCount === 1 ? "Lesson" : "Lessons"}
+                      <div className="rbt-card-body inzaar-course-card-body">
+                        <ul className="rbt-meta inzaar-course-meta">
+                          <li>
+                            <i className="feather-book"></i>
+                            <span>{lectureCount} {lectureCount === 1 ? "Lesson" : "Lessons"}</span>
                           </li>
                           {timeSpent && (
-                            <li style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
-                              <i className="feather-clock" style={{ color: "#9333ea", fontSize: "14px" }}></i>
-                              {timeSpent}
+                            <li>
+                              <i className="feather-clock"></i>
+                              <span>{timeSpent}</span>
                             </li>
                           )}
                         </ul>
 
-                        <h4
-                          className="rbt-card-title"
-                          style={{
-                            fontSize: "19px",
-                            fontWeight: "700",
-                            lineHeight: "1.4",
-                            minHeight: "52px",
-                            marginBottom: "12px",
-                          }}
-                        >
-                          <Link
-                            href={`/course-details/${courseId}`}
-                            style={{
-                              color: "#1e293b",
-                              textDecoration: "none",
-                              display: "-webkit-box",
-                              WebkitLineClamp: 2,
-                              WebkitBoxOrient: "vertical",
-                              overflow: "hidden",
-                              transition: "color 0.2s ease",
-                            }}
-                          >
+                        <h4 className="rbt-card-title inzaar-course-title">
+                          <Link href={`/course-details/${courseId}`}>
                             {title}
                           </Link>
                         </h4>
 
-                        <div className="width-fix" style={{ flexGrow: 1 }}>
-                          <p
-                            className="rbt-card-text"
-                            style={{
-                              fontSize: "14px",
-                              lineHeight: "1.6",
-                              color: "#64748b",
-                              display: "-webkit-box",
-                              WebkitLineClamp: 2,
-                              WebkitBoxOrient: "vertical",
-                              overflow: "hidden",
-                              textOverflow: "ellipsis",
-                              minHeight: "45px",
-                              marginBottom: "18px",
-                            }}
-                          >
+                        <div className="width-fix flex-grow-1">
+                          <p className="rbt-card-text inzaar-course-desc">
                             {desc}
                           </p>
                         </div>
 
-                        <div
-                          style={{
-                            display: "flex",
-                            justifyContent: "flex-end",
-                            alignItems: "center",
-                            marginTop: "auto",
-                            paddingTop: "14px",
-                            borderTop: "1px solid #f1f5f9",
-                          }}
-                        >
+                        <div className="inzaar-course-footer">
                           <button
                             type="button"
                             onClick={() => handleEnroll(courseId)}
-                            className="rbt-btn-link"
-                            style={{
-                              border: "none",
-                              background: "transparent",
-                              cursor: "pointer",
-                              fontWeight: "600",
-                              fontSize: "14.5px",
-                              color: "#9333ea",
-                              display: "inline-flex",
-                              alignItems: "center",
-                              gap: "6px",
-                              transition: "all 0.2s ease",
-                            }}
+                            className="rbt-btn-link inzaar-enroll-btn"
                           >
                             <span>Enroll Course</span>
                             <i className="feather-arrow-right"></i>
@@ -403,7 +315,7 @@ const IslamicCenter = ({ blogdata }) => {
               })}
             </div>
 
-            <div className="row mt--55 mt_sm--50">
+            <div className="row inzaar-courses-cta">
               <div className="col-lg-12">
                 <div className="load-more-btn text-center">
                   <Link

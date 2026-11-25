@@ -44,7 +44,7 @@ const HeaderRightThree = ({ btnClass, btnText }) => {
         </li> */}
       </ul>
 
-      <div className="rbt-btn-wrapper d-none d-xl-flex align-items-center m-0">
+      <div className="rbt-btn-wrapper d-none d-lg-flex align-items-center m-0">
         <Link className={`rbt-btn ${btnClass}`} href="/app/signup">
           {/* <span data-text={`${btnText}`}>{btnText}</span> */}
           Signup for Free
@@ -54,7 +54,7 @@ const HeaderRightThree = ({ btnClass, btnText }) => {
       <LanguageSelect />
 
 
-      <div className="mobile-menu-bar d-block d-xl-none">
+      <div className="mobile-menu-bar d-block d-lg-none">
         <div className="hamberger">
           <button
             className="hamberger-button rbt-round-btn"

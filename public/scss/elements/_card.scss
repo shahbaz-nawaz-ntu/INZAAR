@@ -913,3 +913,235 @@
     }
 
 }
+
+.inzaar-learn-courses-section {
+    @media #{$lg-layout} {
+        padding: 90px 0;
+    }
+
+    @media #{$md-layout} {
+        padding: 72px 0;
+    }
+
+    @media #{$sm-layout} {
+        padding: 52px 0;
+    }
+
+    @media #{$small-mobile} {
+        padding: 40px 0;
+    }
+
+    .rbt-card.inzaar-course-card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        min-width: 0;
+        border-radius: 14px;
+        overflow: hidden;
+        padding: 22px;
+
+        @media #{$lg-layout}, #{$md-layout} {
+            padding: 16px;
+        }
+
+        @media #{$sm-layout} {
+            padding: 14px;
+            border-radius: 12px;
+        }
+
+        @media #{$small-mobile} {
+            padding: 12px;
+        }
+
+        .rbt-card-img {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            overflow: hidden;
+            border-radius: 10px;
+            flex-shrink: 0;
+
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+                    border-radius: 10px;
+                    transition: transform 0.4s ease;
+                }
+            }
+        }
+
+        .rbt-card-body {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            min-width: 0;
+            padding: 18px 0 0;
+
+            @media #{$lg-layout}, #{$md-layout} {
+                padding: 15px 0 0;
+            }
+
+            @media #{$sm-layout} {
+                padding: 14px 0 0;
+            }
+
+            .rbt-meta {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                gap: 6px 14px;
+                margin: 0 0 10px;
+                padding: 0;
+                list-style: none;
+                font-size: 13.5px;
+                font-weight: 500;
+
+                @media #{$lg-layout}, #{$sm-layout} {
+                    font-size: 12.5px;
+                    gap: 4px 12px;
+                    margin-bottom: 8px;
+                }
+
+                li {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 6px;
+                    margin: 0;
+
+                    i {
+                        color: #9333ea;
+                        font-size: 14px;
+                        flex-shrink: 0;
+                        margin-right: 0;
+
+                        @media #{$sm-layout} {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+
+            .rbt-card-title {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 1.4;
+                min-height: 50px;
+                margin-bottom: 10px;
+
+                @media #{$lg-layout}, #{$md-layout} {
+                    font-size: 17px;
+                    min-height: 48px;
+                    margin-bottom: 8px;
+                }
+
+                @media #{$sm-layout} {
+                    font-size: 16px;
+                    min-height: 0;
+                    margin-bottom: 8px;
+                }
+
+                @media #{$small-mobile} {
+                    font-size: 15.5px;
+                }
+
+                a {
+                    text-decoration: none;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    transition: color 0.2s ease;
+                }
+            }
+
+            .rbt-card-text {
+                font-size: 14px;
+                line-height: 1.55;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: normal;
+                word-break: break-word;
+                overflow-wrap: anywhere;
+                min-height: 44px;
+                margin-bottom: 16px;
+
+                @media #{$lg-layout}, #{$md-layout} {
+                    font-size: 13.5px;
+                    min-height: 42px;
+                    margin-bottom: 14px;
+                }
+
+                @media #{$sm-layout} {
+                    font-size: 13.5px;
+                    min-height: 0;
+                    margin-bottom: 12px;
+                    white-space: normal;
+                }
+            }
+        }
+    }
+
+    .inzaar-course-meta {
+        color: #64748b;
+    }
+
+    .inzaar-course-title a {
+        color: #1e293b;
+
+        &:hover {
+            color: #9333ea;
+        }
+    }
+
+    .inzaar-course-desc {
+        color: #64748b;
+    }
+
+    .inzaar-course-footer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: auto;
+        padding-top: 12px;
+        border-top: 1px solid rgba(148, 163, 184, 0.2);
+    }
+
+    .inzaar-enroll-btn {
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 14.5px;
+        color: #9333ea;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 0;
+        transition: all 0.2s ease;
+
+        @media #{$sm-layout} {
+            font-size: 13.5px;
+        }
+    }
+
+    .inzaar-courses-cta {
+        margin-top: 48px;
+
+        @media #{$lg-layout}, #{$md-layout} {
+            margin-top: 36px;
+        }
+
+        @media #{$sm-layout} {
+            margin-top: 28px;
+        }
+    }
+}

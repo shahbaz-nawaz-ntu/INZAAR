@@ -42,7 +42,7 @@ const HeaderEleven = ({
   return (
     <>
       <div
-        className={`rbt-header-wrapper  ${gapSpaceBetween} ${transparent} ${
+        className={`rbt-header-wrapper inzaar-header-eleven ${gapSpaceBetween} ${transparent} ${
           !headerType && isSticky ? "rbt-sticky" : ""
         }`}
         style={{ zIndex: 999 }}
@@ -71,14 +71,14 @@ const HeaderEleven = ({
                         alt="Education Logo Images"
                       />
                     )}
-                    <div className="gradient-text fs-1 fw-semibold">Inzaar.org</div>
+                    <div className="gradient-text fs-1 fw-semibold inzaar-logo-text">Inzaar.org</div>
                   </Link>
                   {/* <div className="gradient-text fs-1 fw-semibold">Inzaar.org</div> */}
                 </div>
               </div>
             </div>
 
-            <div className="rbt-main-navigation d-none d-xl-block">
+            <div className="rbt-main-navigation d-none d-lg-block">
               <Nav />
             </div>
             <HeaderRightThree

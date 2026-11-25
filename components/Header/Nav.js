@@ -112,12 +112,12 @@ const Nav = () => {
 
                 {isSelected && (
                   <span
-                    className="d-none d-xl-block"
+                    className="d-none d-lg-block"
                     style={{
                       position: "absolute",
                       bottom: "22px",
-                      left: "17px",
-                      right: "17px",
+                      left: "12px",
+                      right: "12px",
                       height: "3px",
                       background: "linear-gradient(90deg, #6366f1, #9333ea)",
                       borderRadius: "2px",
